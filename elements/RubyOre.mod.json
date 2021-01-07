@@ -25,7 +25,9 @@
     "My": 1.0,
     "Mz": 1.0,
     "name": "Ruby Ore",
-    "specialInfo": [],
+    "specialInfo": [
+      "The final ore in the Silent Dimension."
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -93,26 +95,16 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface"
+      "CUSTOM:SilentDimension"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "plains"
-      },
-      {
-        "value": "desert"
-      },
-      {
-        "value": "mountains"
-      }
-    ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 3,
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 1,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }

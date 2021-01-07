@@ -32,7 +32,7 @@ public class SapphireaSwordItem extends TripwiredModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 7f;
 			}
 
 			public int getHarvestLevel() {

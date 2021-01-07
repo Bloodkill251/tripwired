@@ -1,0 +1,27 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "tripwired:ruby"
+    },
+    "1": {
+      "item": "tripwired:ruby"
+    },
+    "3": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "tripwired:sapphire_block"
+    }
+  },
+  "result": {
+    "item": "tripwired:a_ruby_hoe",
+    "count": 1
+  }
+}

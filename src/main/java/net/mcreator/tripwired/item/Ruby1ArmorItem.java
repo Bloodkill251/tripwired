@@ -40,7 +40,7 @@ public class Ruby1ArmorItem extends TripwiredModElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{3, 6, 5, 3}[slot.getIndex()];
+				return new int[]{3, 6, 8, 3}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
@@ -61,7 +61,7 @@ public class Ruby1ArmorItem extends TripwiredModElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 5f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

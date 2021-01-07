@@ -1562,6 +1562,174 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ruby_1_armor_boots_recipe"
+    },
+    {
+      "name": "InfiniteRegeneration",
+      "type": "enchantment",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infinite_regeneration"
+    },
+    {
+      "name": "IfPlayerChestplateHasEnchantmentInfiniteRegeneration",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "if_player_chestplate_has_enchantment_infinite_regeneration",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InstaBreak",
+      "type": "enchantment",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "insta_break"
+    },
+    {
+      "name": "IfItemHasCustomEnchantmentInstaBreakAndTakesDamage",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "if_item_has_custom_enchantment_insta_break_and_takes_damage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ARubyPickaxe",
+      "type": "tool",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_ruby_pickaxe"
+    },
+    {
+      "name": "ARubyAxe",
+      "type": "tool",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_ruby_axe"
+    },
+    {
+      "name": "ARubySword",
+      "type": "tool",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_ruby_sword"
+    },
+    {
+      "name": "ARubyShovel",
+      "type": "tool",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_ruby_shovel"
+    },
+    {
+      "name": "ARubyHoe",
+      "type": "tool",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_ruby_hoe"
+    },
+    {
+      "name": "ARubyPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_ruby_pickaxe_recipe"
+    },
+    {
+      "name": "ARubyAxeRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_ruby_axe_recipe"
+    },
+    {
+      "name": "ARubySwordRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_ruby_sword_recipe"
+    },
+    {
+      "name": "ARubyShovelRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_ruby_shovel_recipe"
+    },
+    {
+      "name": "ARubyHoeRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_ruby_hoe_recipe"
+    },
+    {
+      "name": "SapphireApple",
+      "type": "food",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_apple"
+    },
+    {
+      "name": "SapphireAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1571,7 +1739,9 @@
       "item.tripwired.emerald_apple": "Emerald Apple",
       "item.tripwired.emerald_armor_helmet": "Emerald Helmet",
       "item.tripwired.acid_bucket_2": "Acid Bucket",
+      "item.tripwired.a_ruby_hoe": "ARuby Hoe",
       "item.tripwired.diamond_apple": "Diamond Apple",
+      "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
       "block.tripwired.dead_grass": "Dead Grass",
       "item.minecraft.splash_potion.effect.acid_immunity": "Splash Acid Immunity",
       "subtitles.nyan_cat": "Meow",
@@ -1593,6 +1763,7 @@
       "block.tripwired.sapphire_block": "Sapphire Block",
       "item.minecraft.lingering_potion.effect.milk": "Lingering Milk",
       "item.tripwired.silent_dimension": "Flint and Iron",
+      "item.tripwired.a_ruby_sword": "ARuby Sword",
       "item.tripwired.netherite_pickaxe": "Netherite Pickaxe",
       "item.tripwired.netherite_boots": "Netherite Boots",
       "item.minecraft.lingering_potion.effect.acid_immunity": "Lingering Acid Immunity",
@@ -1624,6 +1795,7 @@
       "item.tripwired.steel_ingot": "Steel Ingot",
       "biome.tripwired.voided": "Voided",
       "item.tripwired.netherite_chestplate": "Netherite Chestplate",
+      "item.tripwired.a_ruby_axe": "Ruby Axe",
       "item.tripwired.ruby_1_armor_helmet": "Ruby Helmet",
       "block.tripwired.death_leave": "Death Leave",
       "item.tripwired.sapphirea_sword": "Sapphirea Sword",
@@ -1632,6 +1804,7 @@
       "item.tripwired.sapphire_armor_armor_chestplate": "Sapphire Chestplate",
       "item.tripwired.emerald_armor_leggings": "Emerald Leggings",
       "item.tripwired.sapphirea_hoe": "Sapphirea Hoe",
+      "item.tripwired.a_ruby_shovel": "ARuby Shovel",
       "item.tripwired.netherite_helmet": "Netherite Helmet",
       "item.tripwired.emerald_armor_chestplate": "Emerald Chestplate",
       "item.tripwired.netherite_axe": "Netherite Pickaxe",
@@ -1639,13 +1812,16 @@
       "effect.allowed_explosive": "Allowed Explosive",
       "item.tripwired.iron_bowa": "Iron Bow",
       "block.tripwired.sapphire_ore": "Sapphire Ore",
+      "item.tripwired.a_ruby_pickaxe": "Ruby Pickaxe",
       "fluid.malk": "Malk",
+      "enchantment.tripwired.insta_break": "Insta Break",
       "item.minecraft.potion.effect.acid_immunity": "Acid Immunity",
       "item.tripwired.malk_bucket": "Malk Bucket",
       "item.minecraft.tipped_arrow.effect.allowed_explosive": "Arrow of Allowed Explosive",
       "item.tripwired.ruby": "Ruby",
       "item.tripwired.void_liquid_bucket": "VoidLiquid Bucket",
       "block.tripwired.ancient_debris": "Ancient Debris",
+      "item.tripwired.sapphire_apple": "Sapphire Apple",
       "item.minecraft.potion.effect.allowed_explosive": "Allowed Explosive",
       "item.tripwired.nether_star_apple": "Nether Star Apple",
       "item.tripwired.iron_apple": "Iron Apple"
