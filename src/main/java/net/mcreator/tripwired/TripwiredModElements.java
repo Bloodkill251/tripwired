@@ -47,6 +47,8 @@ public class TripwiredModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public TripwiredModElements() {
+		sounds.put(new ResourceLocation("tripwired", "firebloodentitysound"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("tripwired", "firebloodentitysound")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("tripwired").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

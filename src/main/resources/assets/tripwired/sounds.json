@@ -1,1 +1,12 @@
-{}
+{
+  "firebloodentitysound": {
+    "category": "master",
+    "subtitle": "subtitles.firebloodentitysound",
+    "sounds": [
+      {
+        "name": "tripwired:entity_-_copy",
+        "stream": false
+      }
+    ]
+  }
+}

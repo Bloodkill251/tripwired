@@ -1918,10 +1918,37 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "void_flint_recipe"
+    },
+    {
+      "name": "WoodenDaggerRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_dagger_recipe"
+    },
+    {
+      "name": "FireBlood",
+      "type": "mob",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_blood"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "firebloodentitysound",
+      "files": [
+        "entity_-_copy"
+      ],
+      "category": "master",
+      "subtitle": "Oh guh guh"
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.tripwired.emerald_apple": "Emerald Apple",
@@ -1935,16 +1962,16 @@
       "item.tripwired.sapphirea_axe": "Sapphire Axe",
       "item.tripwired.pitchfork": "Pitchfork",
       "block.tripwired.steel_ore": "Steel Ore",
-      "effect.milk": "Milk",
       "item.tripwired.sapphire": "Sapphire",
+      "effect.milk": "Milk",
       "item.tripwired.sapphire_armor_armor_boots": "Sapphire Boots",
       "item.minecraft.potion.effect.milk": "Milk",
       "item.tripwired.void_dimension": "Void Igniter",
       "item.tripwired.ruby_dagger": "Ruby Dagger",
       "effect.acid_immunity": "Acid Immunity",
-      "item.tripwired.iron_stick": "Iron Stick",
-      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
       "block.tripwired.sapphire_block": "Sapphire Block",
+      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
+      "item.tripwired.iron_stick": "Iron Stick",
       "item.minecraft.lingering_potion.effect.milk": "Lingering Milk",
       "item.tripwired.silent_dimension": "Flint and Iron",
       "item.tripwired.a_ruby_sword": "ARuby Sword",
@@ -1958,15 +1985,15 @@
       "item.tripwired.lapis_apple": "Lapis Apple",
       "block.tripwired.death_log": "Death Log",
       "item.minecraft.tipped_arrow.effect.milk": "Arrow of Milk",
-      "item.tripwired.sapphire_armor_armor_leggings": "Sapphire Leggings",
       "item.tripwired.ruby_1_armor_boots": "Ruby Boots",
+      "item.tripwired.sapphire_armor_armor_leggings": "Sapphire Leggings",
       "item.tripwired.netherite_apple": "Netherite Apple",
       "item.tripwired.netherite_ingot": "Netherite Ingot",
       "key.mcreator.upgrade_keybind": "Upgrade",
       "biome.tripwired.voided": "Voided",
       "item.tripwired.a_ruby_axe": "Ruby Axe",
-      "block.tripwired.death_leave": "Death Leave",
       "item.tripwired.iron_dagger": "Iron Dagger",
+      "block.tripwired.death_leave": "Death Leave",
       "subtitles.death_tone_1": "Sound Of A Deadly Entity",
       "item.tripwired.sapphire_armor_armor_chestplate": "Sapphire Chestplate",
       "item.tripwired.emerald_armor_leggings": "Emerald Leggings",
@@ -1985,8 +2012,10 @@
       "item.tripwired.nether_star_apple": "Nether Star Apple",
       "item.tripwired.iron_apple": "Iron Apple",
       "item.tripwired.emerald_armor_helmet": "Emerald Helmet",
+      "subtitles.firebloodentitysound": "Oh guh guh",
       "item.tripwired.sapphire_dagger": "Sapphire Dagger",
       "item.minecraft.lingering_potion.effect.allowed_explosive": "Lingering Allowed Explosive",
+      "entity.tripwired.fire_blood": "Fire Blood",
       "item.tripwired.stone_dagger": "Stone Dagger",
       "item.tripwired.ruby_1_armor_chestplate": "Ruby Chestplate",
       "item.minecraft.splash_potion.effect.milk": "Splash Milk",
@@ -1998,6 +2027,7 @@
       "item.tripwired.netherite_leggings": "Netherite Leggings",
       "block.tripwired.void_block": "Void Block",
       "item.tripwired.redstone_apple": "Redstone Apple",
+      "item.tripwired.fire_blood_spawn_egg": "Fire Blood Spawn Egg",
       "block.tripwired.death_plank": "Death Plank",
       "item.tripwired.sapphirea_shovel": "Sapphirea Shovel",
       "item.tripwired.netherite_scrap": "Netherite Scrap",

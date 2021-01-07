@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "tripwired:items/wooden_throwing_knife"
+    "layer0": "tripwired:items/wooden_dagger"
   }
 }
