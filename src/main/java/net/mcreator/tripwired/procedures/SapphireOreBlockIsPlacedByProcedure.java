@@ -1,11 +1,18 @@
 package net.mcreator.tripwired.procedures;
 
+import net.minecraft.world.IWorld;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.block.Blocks;
+
+import net.mcreator.tripwired.block.AcidBlock;
+import net.mcreator.tripwired.TripwiredModElements;
+
+import java.util.Map;
+
 @TripwiredModElements.ModElement.Tag
 public class SapphireOreBlockIsPlacedByProcedure extends TripwiredModElements.ModElement {
-
 	public SapphireOreBlockIsPlacedByProcedure(TripwiredModElements instance) {
 		super(instance, 135);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -29,17 +36,13 @@ public class SapphireOreBlockIsPlacedByProcedure extends TripwiredModElements.Mo
 				System.err.println("Failed to load dependency world for procedure SapphireOreBlockIsPlacedBy!");
 			return;
 		}
-
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		if ((AcidBlock.block.getDefaultState()
-				.getBlock() == /*@BlockState*/(world.getFluidState(new BlockPos((int) x, (int) (y + 1), (int) z)).getBlockState()).getBlock())) {
+				.getBlock() == /* @BlockState */(world.getFluidState(new BlockPos((int) x, (int) (y + 1), (int) z)).getBlockState()).getBlock())) {
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.DIAMOND_ORE.getDefaultState(), 3);
 		}
-
 	}
-
 }
