@@ -3,14 +3,14 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "wooden_throwing_knife",
+    "texture": "sapphire_dagger",
     "customModelName": "Normal",
-    "name": "Dagger",
+    "name": "Sapphire Dagger",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "TOOLS"
     },
-    "toolType": "Sword",
+    "toolType": "Pickaxe",
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,

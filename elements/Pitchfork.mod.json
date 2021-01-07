@@ -3,24 +3,24 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "wooden_throwing_knife",
+    "texture": "pitchfork",
     "customModelName": "Normal",
-    "name": "Dagger",
+    "name": "Pitchfork",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "FOOD"
     },
-    "toolType": "Sword",
-    "harvestLevel": 1,
-    "efficiency": 4.0,
-    "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 4.0,
+    "toolType": "Hoe",
+    "harvestLevel": 2,
+    "efficiency": 5.0,
+    "attackSpeed": 2.0,
+    "enchantability": 3,
+    "damageVsEntity": 3.0,
     "usageCount": 100,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
-    "stayInGridWhenCrafting": false,
+    "stayInGridWhenCrafting": true,
     "damageOnCrafting": false
   }
 }

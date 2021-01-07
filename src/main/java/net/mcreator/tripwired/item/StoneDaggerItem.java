@@ -12,11 +12,11 @@ import net.minecraft.item.IItemTier;
 import net.mcreator.tripwired.TripwiredModElements;
 
 @TripwiredModElements.ModElement.Tag
-public class DaggerItem extends TripwiredModElements.ModElement {
-	@ObjectHolder("tripwired:dagger")
+public class StoneDaggerItem extends TripwiredModElements.ModElement {
+	@ObjectHolder("tripwired:stone_dagger")
 	public static final Item block = null;
-	public DaggerItem(TripwiredModElements instance) {
-		super(instance, 135);
+	public StoneDaggerItem(TripwiredModElements instance) {
+		super(instance, 137);
 	}
 
 	@Override
@@ -46,6 +46,6 @@ public class DaggerItem extends TripwiredModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
-		}.setRegistryName("dagger"));
+		}.setRegistryName("stone_dagger"));
 	}
 }
