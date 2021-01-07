@@ -1813,7 +1813,7 @@
       "name": "Dagger",
       "type": "tool",
       "sortid": 135,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "dagger"
@@ -1822,7 +1822,7 @@
       "name": "SapphireOreBlockIsPlacedBy",
       "type": "procedure",
       "sortid": 135,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "sapphire_ore_block_is_placed_by",
