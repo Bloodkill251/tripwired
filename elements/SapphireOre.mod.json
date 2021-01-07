@@ -16,7 +16,7 @@
     "itemTexture": "",
     "particleTexture": "",
     "hasTransparency": false,
-    "connectedSides": false,
+    "connectedSides": true,
     "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
@@ -94,6 +94,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onBlockPlayedBy": {
+      "name": "SapphireOreBlockIsPlacedBy"
+    },
     "spawnWorldTypes": [
       "CUSTOM:SilentDimension"
     ],
