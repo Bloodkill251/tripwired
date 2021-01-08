@@ -61,6 +61,7 @@ public class PitchforkItem extends TripwiredModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
+					$_dependencies.put("itemstack", itemstack);
 					$_dependencies.put("world", world);
 					PitchforkRightClickedOnBlockProcedure.executeProcedure($_dependencies);
 				}
@@ -70,7 +71,7 @@ public class PitchforkItem extends TripwiredModElements.ModElement {
 	}
 	private static class ItemToolCustom extends Item {
 		protected ItemToolCustom() {
-			super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(75));
+			super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(20));
 		}
 
 		@Override

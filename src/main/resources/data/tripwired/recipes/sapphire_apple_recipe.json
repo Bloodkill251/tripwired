@@ -1,0 +1,25 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tripwired:sapphire_block"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "tripwired:sapphire"
+    },
+    {
+      "item": "tripwired:sapphire"
+    },
+    {
+      "item": "tripwired:sapphire"
+    }
+  ],
+  "result": {
+    "item": "tripwired:sapphire_apple",
+    "count": 1
+  }
+}

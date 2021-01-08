@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "pitchfork",
+    "texture": "stone_pitchfork",
     "customModelName": "Normal",
     "name": "Pitchfork",
     "specialInfo": [],
@@ -16,7 +16,7 @@
     "attackSpeed": 2.0,
     "enchantability": 3,
     "damageVsEntity": 3.0,
-    "usageCount": 20,
+    "usageCount": 50,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],

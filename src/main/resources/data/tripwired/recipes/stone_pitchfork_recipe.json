@@ -1,0 +1,36 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cobblestone"
+    },
+    "1": {
+      "item": "minecraft:cobblestone"
+    },
+    "2": {
+      "item": "minecraft:cobblestone"
+    },
+    "3": {
+      "item": "minecraft:cobblestone"
+    },
+    "4": {
+      "item": "minecraft:cobblestone"
+    },
+    "5": {
+      "item": "minecraft:cobblestone"
+    },
+    "7": {
+      "item": "tripwired:pitchfork"
+    }
+  },
+  "result": {
+    "item": "tripwired:stone_pitchfork",
+    "count": 1
+  }
+}

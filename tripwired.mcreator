@@ -2042,11 +2042,51 @@
             "type": "entity"
           },
           {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
             "name": "world",
             "type": "world"
           }
         ]
       }
+    },
+    {
+      "name": "WoodenPitchfortRecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_pitchfort_recipe"
+    },
+    {
+      "name": "StonePitchfork",
+      "type": "tool",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_pitchfork"
+    },
+    {
+      "name": "StonePitchforkRecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_pitchfork_recipe"
+    },
+    {
+      "name": "SapphireAppleRecipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_apple_recipe"
     }
   ],
   "variable_elements": [],
@@ -2068,6 +2108,7 @@
       "item.tripwired.diamond_apple": "Diamond Apple",
       "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
       "block.tripwired.dead_grass": "Dead Grass",
+      "item.tripwired.stone_pitchfork": "Pitchfork",
       "block.tripwired.mini_sapphire_block": "Mini Sapphire Block",
       "item.minecraft.splash_potion.effect.acid_immunity": "Splash Acid Immunity",
       "subtitles.nyan_cat": "Meow",
