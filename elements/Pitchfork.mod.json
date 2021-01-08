@@ -8,19 +8,22 @@
     "name": "Pitchfork",
     "specialInfo": [],
     "creativeTab": {
-      "value": "FOOD"
+      "value": "TOOLS"
     },
-    "toolType": "Hoe",
+    "toolType": "Special",
     "harvestLevel": 2,
     "efficiency": 5.0,
     "attackSpeed": 2.0,
     "enchantability": 3,
     "damageVsEntity": 3.0,
-    "usageCount": 100,
+    "usageCount": 75,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
     "stayInGridWhenCrafting": true,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "PitchforkRightClickedOnBlock"
+    }
   }
 }

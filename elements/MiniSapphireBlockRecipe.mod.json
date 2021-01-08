@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SapphireBlock"
+      "value": "CUSTOM:MiniSapphireBlock"
     },
     "name": "mini_sapphire_block_recipe",
     "namespace": "mod"

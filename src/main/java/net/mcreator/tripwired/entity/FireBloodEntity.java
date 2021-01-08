@@ -25,13 +25,14 @@ import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.PotionEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
+import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
+import net.minecraft.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
-import net.minecraft.entity.ai.goal.Goal;
 import net.minecraft.entity.ai.controller.FlyingMovementController;
 import net.minecraft.entity.SharedMonsterAttributes;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
@@ -45,7 +46,6 @@ import net.minecraft.block.BlockState;
 import net.mcreator.tripwired.TripwiredModElements;
 
 import java.util.Random;
-import java.util.EnumSet;
 
 @TripwiredModElements.ModElement.Tag
 public class FireBloodEntity extends TripwiredModElements.ModElement {
@@ -68,6 +68,11 @@ public class FireBloodEntity extends TripwiredModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
+			boolean biomeCriteria = false;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("tripwired:silent")))
+				biomeCriteria = true;
+			if (!biomeCriteria)
+				continue;
 			biome.getSpawns(EntityClassification.MONSTER).add(new Biome.SpawnListEntry(entity, 20, 4, 4));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
@@ -109,46 +114,9 @@ public class FireBloodEntity extends TripwiredModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1, new Goal() {
-				{
-					this.setMutexFlags(EnumSet.of(Goal.Flag.MOVE));
-				}
-				public boolean shouldExecute() {
-					if (CustomEntity.this.getAttackTarget() != null && !CustomEntity.this.getMoveHelper().isUpdating()) {
-						return true;
-					} else {
-						return false;
-					}
-				}
-
-				@Override
-				public boolean shouldContinueExecuting() {
-					return CustomEntity.this.getMoveHelper().isUpdating() && CustomEntity.this.getAttackTarget() != null
-							&& CustomEntity.this.getAttackTarget().isAlive();
-				}
-
-				@Override
-				public void startExecuting() {
-					LivingEntity livingentity = CustomEntity.this.getAttackTarget();
-					Vec3d vec3d = livingentity.getEyePosition(1);
-					CustomEntity.this.moveController.setMoveTo(vec3d.x, vec3d.y, vec3d.z, 1.85);
-				}
-
-				@Override
-				public void tick() {
-					LivingEntity livingentity = CustomEntity.this.getAttackTarget();
-					if (CustomEntity.this.getBoundingBox().intersects(livingentity.getBoundingBox())) {
-						CustomEntity.this.attackEntityAsMob(livingentity);
-					} else {
-						double d0 = CustomEntity.this.getDistanceSq(livingentity);
-						if (d0 < 16) {
-							Vec3d vec3d = livingentity.getEyePosition(1);
-							CustomEntity.this.moveController.setMoveTo(vec3d.x, vec3d.y, vec3d.z, 1.85);
-						}
-					}
-				}
-			});
-			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 0.8, 20) {
+			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, false));
+			this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.2, true));
+			this.goalSelector.addGoal(3, new RandomWalkingGoal(this, 3, 20) {
 				@Override
 				protected Vec3d getPosition() {
 					Random random = CustomEntity.this.getRNG();
@@ -158,7 +126,7 @@ public class FireBloodEntity extends TripwiredModElements.ModElement {
 					return new Vec3d(dir_x, dir_y, dir_z);
 				}
 			});
-			this.goalSelector.addGoal(3, new LookRandomlyGoal(this));
+			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
 		}
 
 		@Override
@@ -207,7 +175,7 @@ public class FireBloodEntity extends TripwiredModElements.ModElement {
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
 				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(50);
 			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
-				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
+				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(8);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
 			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(17);
