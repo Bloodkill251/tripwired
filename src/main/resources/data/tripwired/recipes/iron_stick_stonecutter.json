@@ -1,0 +1,9 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": "tripwired:iron_stick"
+}

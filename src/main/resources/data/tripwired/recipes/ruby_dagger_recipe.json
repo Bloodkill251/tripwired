@@ -1,0 +1,26 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "tripwired:ruby"
+    },
+    "3": {
+      "item": "minecraft:diamond"
+    },
+    "4": {
+      "item": "tripwired:iron_stick"
+    },
+    "5": {
+      "item": "tripwired:sapphire"
+    }
+  },
+  "result": {
+    "item": "tripwired:ruby_dagger",
+    "count": 1
+  }
+}

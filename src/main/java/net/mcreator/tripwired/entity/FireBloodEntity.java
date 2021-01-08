@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.gen.Heightmap;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
+import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
@@ -25,13 +26,12 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.monster.MonsterEntity;
-import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
-import net.minecraft.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
-import net.minecraft.entity.ai.goal.HurtByTargetGoal;
+import net.minecraft.entity.ai.goal.Goal;
 import net.minecraft.entity.ai.controller.FlyingMovementController;
 import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
@@ -43,6 +43,9 @@ import net.minecraft.client.renderer.entity.BipedRenderer;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.tripwired.TripwiredModElements;
+
+import java.util.Random;
+import java.util.EnumSet;
 
 @TripwiredModElements.ModElement.Tag
 public class FireBloodEntity extends TripwiredModElements.ModElement {
@@ -59,7 +62,7 @@ public class FireBloodEntity extends TripwiredModElements.ModElement {
 						.build("fire_blood").setRegistryName("fire_blood");
 		elements.entities.add(() -> entity);
 		elements.items.add(
-				() -> new SpawnEggItem(entity, -65281, -256, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("fire_blood_spawn_egg"));
+				() -> new SpawnEggItem(entity, -256, -65281, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("fire_blood_spawn_egg"));
 	}
 
 	@Override
@@ -106,11 +109,56 @@ public class FireBloodEntity extends TripwiredModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false));
-			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 1));
-			this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
-			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(5, new SwimGoal(this));
+			this.goalSelector.addGoal(1, new Goal() {
+				{
+					this.setMutexFlags(EnumSet.of(Goal.Flag.MOVE));
+				}
+				public boolean shouldExecute() {
+					if (CustomEntity.this.getAttackTarget() != null && !CustomEntity.this.getMoveHelper().isUpdating()) {
+						return true;
+					} else {
+						return false;
+					}
+				}
+
+				@Override
+				public boolean shouldContinueExecuting() {
+					return CustomEntity.this.getMoveHelper().isUpdating() && CustomEntity.this.getAttackTarget() != null
+							&& CustomEntity.this.getAttackTarget().isAlive();
+				}
+
+				@Override
+				public void startExecuting() {
+					LivingEntity livingentity = CustomEntity.this.getAttackTarget();
+					Vec3d vec3d = livingentity.getEyePosition(1);
+					CustomEntity.this.moveController.setMoveTo(vec3d.x, vec3d.y, vec3d.z, 1.85);
+				}
+
+				@Override
+				public void tick() {
+					LivingEntity livingentity = CustomEntity.this.getAttackTarget();
+					if (CustomEntity.this.getBoundingBox().intersects(livingentity.getBoundingBox())) {
+						CustomEntity.this.attackEntityAsMob(livingentity);
+					} else {
+						double d0 = CustomEntity.this.getDistanceSq(livingentity);
+						if (d0 < 16) {
+							Vec3d vec3d = livingentity.getEyePosition(1);
+							CustomEntity.this.moveController.setMoveTo(vec3d.x, vec3d.y, vec3d.z, 1.85);
+						}
+					}
+				}
+			});
+			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 0.8, 20) {
+				@Override
+				protected Vec3d getPosition() {
+					Random random = CustomEntity.this.getRNG();
+					double dir_x = CustomEntity.this.getPosX() + ((random.nextFloat() * 2 - 1) * 16);
+					double dir_y = CustomEntity.this.getPosY() + ((random.nextFloat() * 2 - 1) * 16);
+					double dir_z = CustomEntity.this.getPosZ() + ((random.nextFloat() * 2 - 1) * 16);
+					return new Vec3d(dir_x, dir_y, dir_z);
+				}
+			});
+			this.goalSelector.addGoal(3, new LookRandomlyGoal(this));
 		}
 
 		@Override

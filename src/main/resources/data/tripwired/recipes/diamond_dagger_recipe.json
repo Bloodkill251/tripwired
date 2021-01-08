@@ -1,0 +1,20 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tripwired:diamond_dagger",
+    "count": 1
+  }
+}
