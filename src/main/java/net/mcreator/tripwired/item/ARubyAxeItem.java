@@ -17,7 +17,7 @@ public class ARubyAxeItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:a_ruby_axe")
 	public static final Item block = null;
 	public ARubyAxeItem(TripwiredModElements instance) {
-		super(instance, 121);
+		super(instance, 36);
 	}
 
 	@Override

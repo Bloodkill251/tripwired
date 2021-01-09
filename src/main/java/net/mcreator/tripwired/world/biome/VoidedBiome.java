@@ -18,7 +18,7 @@ public class VoidedBiome extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:voided")
 	public static final CustomBiome biome = null;
 	public VoidedBiome(TripwiredModElements instance) {
-		super(instance, 109);
+		super(instance, 157);
 	}
 
 	@Override

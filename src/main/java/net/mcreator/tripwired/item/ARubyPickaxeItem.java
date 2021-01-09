@@ -17,7 +17,7 @@ public class ARubyPickaxeItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:a_ruby_pickaxe")
 	public static final Item block = null;
 	public ARubyPickaxeItem(TripwiredModElements instance) {
-		super(instance, 120);
+		super(instance, 35);
 	}
 
 	@Override

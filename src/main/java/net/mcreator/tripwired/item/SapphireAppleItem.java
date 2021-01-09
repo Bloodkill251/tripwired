@@ -23,7 +23,7 @@ public class SapphireAppleItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:sapphire_apple")
 	public static final Item block = null;
 	public SapphireAppleItem(TripwiredModElements instance) {
-		super(instance, 130);
+		super(instance, 11);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ public class NetheritePickaxeItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:netherite_pickaxe")
 	public static final Item block = null;
 	public NetheritePickaxeItem(TripwiredModElements instance) {
-		super(instance, 11);
+		super(instance, 27);
 	}
 
 	@Override

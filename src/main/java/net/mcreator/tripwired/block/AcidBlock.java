@@ -56,7 +56,7 @@ public class AcidBlock extends TripwiredModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public AcidBlock(TripwiredModElements instance) {
-		super(instance, 19);
+		super(instance, 54);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

@@ -16,7 +16,7 @@ public class NetheriteScrapItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:netherite_scrap")
 	public static final Item block = null;
 	public NetheriteScrapItem(TripwiredModElements instance) {
-		super(instance, 8);
+		super(instance, 25);
 	}
 
 	@Override

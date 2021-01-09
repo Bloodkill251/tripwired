@@ -12,7 +12,7 @@ import java.util.Map;
 @TripwiredModElements.ModElement.Tag
 public class RedstoneAppleFoodEatenProcedure extends TripwiredModElements.ModElement {
 	public RedstoneAppleFoodEatenProcedure(TripwiredModElements instance) {
-		super(instance, 14);
+		super(instance, 76);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

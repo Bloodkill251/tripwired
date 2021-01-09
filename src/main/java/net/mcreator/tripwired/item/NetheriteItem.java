@@ -29,7 +29,7 @@ public class NetheriteItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:netherite_boots")
 	public static final Item boots = null;
 	public NetheriteItem(TripwiredModElements instance) {
-		super(instance, 18);
+		super(instance, 45);
 	}
 
 	@Override

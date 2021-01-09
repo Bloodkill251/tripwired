@@ -18,7 +18,7 @@ public class AllowedExplosivePotion extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:allowed_explosive")
 	public static final Effect potion = null;
 	public AllowedExplosivePotion(TripwiredModElements instance) {
-		super(instance, 34);
+		super(instance, 99);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

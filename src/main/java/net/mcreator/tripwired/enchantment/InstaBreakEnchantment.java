@@ -14,7 +14,7 @@ public class InstaBreakEnchantment extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:insta_break")
 	public static final Enchantment enchantment = null;
 	public InstaBreakEnchantment(TripwiredModElements instance) {
-		super(instance, 118);
+		super(instance, 164);
 	}
 
 	@Override

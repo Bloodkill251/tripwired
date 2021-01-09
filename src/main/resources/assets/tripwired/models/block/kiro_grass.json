@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tripwired:blocks/kiro_grass_texture",
+    "up": "tripwired:blocks/kiro_grass_texture",
+    "north": "tripwired:blocks/kiro_grass_texture",
+    "east": "tripwired:blocks/kiro_grass_texture",
+    "south": "tripwired:blocks/kiro_grass_texture",
+    "west": "tripwired:blocks/kiro_grass_texture",
+    "particle": "tripwired:blocks/kiro_grass_texture"
+  }
+}

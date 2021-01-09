@@ -21,7 +21,7 @@ import java.util.HashMap;
 @TripwiredModElements.ModElement.Tag
 public class IfItemHasCustomEnchantmentInstaBreakAndTakesDamageProcedure extends TripwiredModElements.ModElement {
 	public IfItemHasCustomEnchantmentInstaBreakAndTakesDamageProcedure(TripwiredModElements instance) {
-		super(instance, 119);
+		super(instance, 165);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

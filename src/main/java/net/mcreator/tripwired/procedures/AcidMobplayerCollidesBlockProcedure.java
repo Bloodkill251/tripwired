@@ -15,7 +15,7 @@ import java.util.Collection;
 @TripwiredModElements.ModElement.Tag
 public class AcidMobplayerCollidesBlockProcedure extends TripwiredModElements.ModElement {
 	public AcidMobplayerCollidesBlockProcedure(TripwiredModElements instance) {
-		super(instance, 19);
+		super(instance, 80);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

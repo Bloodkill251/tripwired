@@ -9,7 +9,7 @@ import java.util.Map;
 @TripwiredModElements.ModElement.Tag
 public class EclearCommandExecutedProcedure extends TripwiredModElements.ModElement {
 	public EclearCommandExecutedProcedure(TripwiredModElements instance) {
-		super(instance, 27);
+		super(instance, 91);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

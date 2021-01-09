@@ -14,7 +14,7 @@ public class InfiniteRegenerationEnchantment extends TripwiredModElements.ModEle
 	@ObjectHolder("tripwired:infinite_regeneration")
 	public static final Enchantment enchantment = null;
 	public InfiniteRegenerationEnchantment(TripwiredModElements instance) {
-		super(instance, 116);
+		super(instance, 162);
 	}
 
 	@Override

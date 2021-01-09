@@ -23,7 +23,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 @TripwiredModElements.ModElement.Tag
 public class RegenCommand extends TripwiredModElements.ModElement {
 	public RegenCommand(TripwiredModElements instance) {
-		super(instance, 53);
+		super(instance, 119);
 	}
 
 	@Override

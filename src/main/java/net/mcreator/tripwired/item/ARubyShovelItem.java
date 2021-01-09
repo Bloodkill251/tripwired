@@ -17,7 +17,7 @@ public class ARubyShovelItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:a_ruby_shovel")
 	public static final Item block = null;
 	public ARubyShovelItem(TripwiredModElements instance) {
-		super(instance, 123);
+		super(instance, 37);
 	}
 
 	@Override

@@ -18,7 +18,7 @@ public class VoidBlockBlock extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:void_block")
 	public static final Block block = null;
 	public VoidBlockBlock(TripwiredModElements instance) {
-		super(instance, 109);
+		super(instance, 22);
 	}
 
 	@Override

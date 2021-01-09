@@ -46,7 +46,7 @@ public class SilentBiome extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:silent")
 	public static final CustomBiome biome = null;
 	public SilentBiome(TripwiredModElements instance) {
-		super(instance, 49);
+		super(instance, 113);
 	}
 
 	@Override

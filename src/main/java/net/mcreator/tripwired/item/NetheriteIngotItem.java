@@ -16,7 +16,7 @@ public class NetheriteIngotItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:netherite_ingot")
 	public static final Item block = null;
 	public NetheriteIngotItem(TripwiredModElements instance) {
-		super(instance, 9);
+		super(instance, 26);
 	}
 
 	@Override

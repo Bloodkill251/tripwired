@@ -23,7 +23,7 @@ public class RedstoneAppleItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:redstone_apple")
 	public static final Item block = null;
 	public RedstoneAppleItem(TripwiredModElements instance) {
-		super(instance, 14);
+		super(instance, 4);
 	}
 
 	@Override

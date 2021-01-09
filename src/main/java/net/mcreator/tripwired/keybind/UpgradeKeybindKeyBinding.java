@@ -31,7 +31,7 @@ public class UpgradeKeybindKeyBinding extends TripwiredModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	private KeyBinding keys;
 	public UpgradeKeybindKeyBinding(TripwiredModElements instance) {
-		super(instance, 16);
+		super(instance, 79);
 		elements.addNetworkMessage(KeyBindingPressedMessage.class, KeyBindingPressedMessage::buffer, KeyBindingPressedMessage::new,
 				KeyBindingPressedMessage::handler);
 	}

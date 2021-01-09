@@ -41,7 +41,7 @@ public class NetherGoldOreBlock extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:nether_gold_ore")
 	public static final Block block = null;
 	public NetherGoldOreBlock(TripwiredModElements instance) {
-		super(instance, 5);
+		super(instance, 12);
 	}
 
 	@Override

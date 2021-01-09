@@ -16,7 +16,7 @@ public class RubyItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:ruby")
 	public static final Item block = null;
 	public RubyItem(TripwiredModElements instance) {
-		super(instance, 41);
+		super(instance, 55);
 	}
 
 	@Override

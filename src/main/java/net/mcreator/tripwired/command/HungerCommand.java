@@ -23,7 +23,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 @TripwiredModElements.ModElement.Tag
 public class HungerCommand extends TripwiredModElements.ModElement {
 	public HungerCommand(TripwiredModElements instance) {
-		super(instance, 51);
+		super(instance, 115);
 	}
 
 	@Override

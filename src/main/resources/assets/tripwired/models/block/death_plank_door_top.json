@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "tripwired:blocks/death_planks",
+    "top": "tripwired:blocks/death_planks"
+  }
+}

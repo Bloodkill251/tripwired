@@ -23,7 +23,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 @TripwiredModElements.ModElement.Tag
 public class GotosilentCommand extends TripwiredModElements.ModElement {
 	public GotosilentCommand(TripwiredModElements instance) {
-		super(instance, 132);
+		super(instance, 173);
 	}
 
 	@Override

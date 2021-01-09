@@ -16,7 +16,7 @@ public class AcidBucket2Item extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:acid_bucket_2")
 	public static final Item block = null;
 	public AcidBucket2Item(TripwiredModElements instance) {
-		super(instance, 82);
+		super(instance, 59);
 	}
 
 	@Override

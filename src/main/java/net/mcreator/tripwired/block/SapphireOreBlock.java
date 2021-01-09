@@ -49,7 +49,7 @@ public class SapphireOreBlock extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:sapphire_ore")
 	public static final Block block = null;
 	public SapphireOreBlock(TripwiredModElements instance) {
-		super(instance, 89);
+		super(instance, 21);
 	}
 
 	@Override

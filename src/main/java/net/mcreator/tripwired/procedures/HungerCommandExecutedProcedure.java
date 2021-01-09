@@ -12,7 +12,7 @@ import java.util.Map;
 @TripwiredModElements.ModElement.Tag
 public class HungerCommandExecutedProcedure extends TripwiredModElements.ModElement {
 	public HungerCommandExecutedProcedure(TripwiredModElements instance) {
-		super(instance, 51);
+		super(instance, 114);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

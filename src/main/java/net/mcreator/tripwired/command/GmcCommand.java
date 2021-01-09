@@ -23,7 +23,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 @TripwiredModElements.ModElement.Tag
 public class GmcCommand extends TripwiredModElements.ModElement {
 	public GmcCommand(TripwiredModElements instance) {
-		super(instance, 22);
+		super(instance, 86);
 	}
 
 	@Override

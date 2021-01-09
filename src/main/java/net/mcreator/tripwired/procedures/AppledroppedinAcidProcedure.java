@@ -26,7 +26,7 @@ import java.util.HashMap;
 @TripwiredModElements.ModElement.Tag
 public class AppledroppedinAcidProcedure extends TripwiredModElements.ModElement {
 	public AppledroppedinAcidProcedure(TripwiredModElements instance) {
-		super(instance, 26);
+		super(instance, 90);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

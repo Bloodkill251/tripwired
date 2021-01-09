@@ -17,7 +17,7 @@ public class SapphireaShovelItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:sapphirea_shovel")
 	public static final Item block = null;
 	public SapphireaShovelItem(TripwiredModElements instance) {
-		super(instance, 100);
+		super(instance, 32);
 	}
 
 	@Override

@@ -37,7 +37,7 @@ public class AncientDebrisBlock extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:ancient_debris")
 	public static final Block block = null;
 	public AncientDebrisBlock(TripwiredModElements instance) {
-		super(instance, 7);
+		super(instance, 13);
 	}
 
 	@Override

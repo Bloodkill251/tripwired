@@ -16,7 +16,7 @@ public class IronStickItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:iron_stick")
 	public static final Item block = null;
 	public IronStickItem(TripwiredModElements instance) {
-		super(instance, 47);
+		super(instance, 57);
 	}
 
 	@Override

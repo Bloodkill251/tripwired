@@ -23,7 +23,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 @TripwiredModElements.ModElement.Tag
 public class EclearCommand extends TripwiredModElements.ModElement {
 	public EclearCommand(TripwiredModElements instance) {
-		super(instance, 27);
+		super(instance, 92);
 	}
 
 	@Override

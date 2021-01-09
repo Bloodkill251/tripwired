@@ -23,7 +23,7 @@ public class NetherStarAppleItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:nether_star_apple")
 	public static final Item block = null;
 	public NetherStarAppleItem(TripwiredModElements instance) {
-		super(instance, 36);
+		super(instance, 10);
 	}
 
 	@Override

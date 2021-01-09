@@ -23,7 +23,7 @@ public class DiamondAppleItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:diamond_apple")
 	public static final Item block = null;
 	public DiamondAppleItem(TripwiredModElements instance) {
-		super(instance, 12);
+		super(instance, 3);
 	}
 
 	@Override

@@ -39,7 +39,7 @@ public class SteelOreBlock extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:steel_ore")
 	public static final Block block = null;
 	public SteelOreBlock(TripwiredModElements instance) {
-		super(instance, 62);
+		super(instance, 18);
 	}
 
 	@Override

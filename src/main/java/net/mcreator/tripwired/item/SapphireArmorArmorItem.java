@@ -29,7 +29,7 @@ public class SapphireArmorArmorItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:sapphire_armor_armor_boots")
 	public static final Item boots = null;
 	public SapphireArmorArmorItem(TripwiredModElements instance) {
-		super(instance, 90);
+		super(instance, 48);
 	}
 
 	@Override

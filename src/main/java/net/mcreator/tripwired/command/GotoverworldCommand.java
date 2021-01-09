@@ -23,7 +23,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 @TripwiredModElements.ModElement.Tag
 public class GotoverworldCommand extends TripwiredModElements.ModElement {
 	public GotoverworldCommand(TripwiredModElements instance) {
-		super(instance, 134);
+		super(instance, 177);
 	}
 
 	@Override

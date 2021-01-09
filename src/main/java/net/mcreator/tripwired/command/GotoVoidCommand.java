@@ -23,7 +23,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 @TripwiredModElements.ModElement.Tag
 public class GotoVoidCommand extends TripwiredModElements.ModElement {
 	public GotoVoidCommand(TripwiredModElements instance) {
-		super(instance, 133);
+		super(instance, 175);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ public class DeadGrassBlock extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:dead_grass")
 	public static final Block block = null;
 	public DeadGrassBlock(TripwiredModElements instance) {
-		super(instance, 49);
+		super(instance, 15);
 	}
 
 	@Override

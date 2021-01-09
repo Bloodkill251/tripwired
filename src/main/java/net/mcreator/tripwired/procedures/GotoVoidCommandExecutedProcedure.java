@@ -21,7 +21,7 @@ import java.util.Map;
 @TripwiredModElements.ModElement.Tag
 public class GotoVoidCommandExecutedProcedure extends TripwiredModElements.ModElement {
 	public GotoVoidCommandExecutedProcedure(TripwiredModElements instance) {
-		super(instance, 133);
+		super(instance, 174);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

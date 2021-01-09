@@ -23,7 +23,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 @TripwiredModElements.ModElement.Tag
 public class SteakCommand extends TripwiredModElements.ModElement {
 	public SteakCommand(TripwiredModElements instance) {
-		super(instance, 52);
+		super(instance, 117);
 	}
 
 	@Override

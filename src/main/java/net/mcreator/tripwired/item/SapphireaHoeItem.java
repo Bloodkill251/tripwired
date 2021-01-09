@@ -17,7 +17,7 @@ public class SapphireaHoeItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:sapphirea_hoe")
 	public static final Item block = null;
 	public SapphireaHoeItem(TripwiredModElements instance) {
-		super(instance, 101);
+		super(instance, 33);
 	}
 
 	@Override

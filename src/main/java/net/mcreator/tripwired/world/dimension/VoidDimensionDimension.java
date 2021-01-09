@@ -103,7 +103,7 @@ public class VoidDimensionDimension extends TripwiredModElements.ModElement {
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
 	public VoidDimensionDimension(TripwiredModElements instance) {
-		super(instance, 110);
+		super(instance, 34);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}

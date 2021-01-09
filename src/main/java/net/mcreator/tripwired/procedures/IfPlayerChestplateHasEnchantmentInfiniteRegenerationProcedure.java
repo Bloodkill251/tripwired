@@ -22,7 +22,7 @@ import java.util.HashMap;
 @TripwiredModElements.ModElement.Tag
 public class IfPlayerChestplateHasEnchantmentInfiniteRegenerationProcedure extends TripwiredModElements.ModElement {
 	public IfPlayerChestplateHasEnchantmentInfiniteRegenerationProcedure(TripwiredModElements instance) {
-		super(instance, 117);
+		super(instance, 163);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

@@ -18,7 +18,7 @@ public class AcidImmunityPotion extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:acid_immunity")
 	public static final Effect potion = null;
 	public AcidImmunityPotion(TripwiredModElements instance) {
-		super(instance, 23);
+		super(instance, 87);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

@@ -20,7 +20,7 @@ import java.util.Map;
 @TripwiredModElements.ModElement.Tag
 public class UpgradeGUIProcedure extends TripwiredModElements.ModElement {
 	public UpgradeGUIProcedure(TripwiredModElements instance) {
-		super(instance, 11);
+		super(instance, 72);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -9,7 +9,7 @@ import java.util.Map;
 @TripwiredModElements.ModElement.Tag
 public class SteakCommandExecutedProcedure extends TripwiredModElements.ModElement {
 	public SteakCommandExecutedProcedure(TripwiredModElements instance) {
-		super(instance, 52);
+		super(instance, 116);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

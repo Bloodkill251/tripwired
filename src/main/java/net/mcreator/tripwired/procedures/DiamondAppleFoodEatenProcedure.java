@@ -15,7 +15,7 @@ import java.util.Map;
 @TripwiredModElements.ModElement.Tag
 public class DiamondAppleFoodEatenProcedure extends TripwiredModElements.ModElement {
 	public DiamondAppleFoodEatenProcedure(TripwiredModElements instance) {
-		super(instance, 12);
+		super(instance, 74);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -13,7 +13,7 @@ import java.util.Map;
 @TripwiredModElements.ModElement.Tag
 public class MilkOnPotionActiveTickProcedure extends TripwiredModElements.ModElement {
 	public MilkOnPotionActiveTickProcedure(TripwiredModElements instance) {
-		super(instance, 43);
+		super(instance, 108);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

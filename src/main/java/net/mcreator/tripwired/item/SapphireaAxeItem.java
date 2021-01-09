@@ -17,7 +17,7 @@ public class SapphireaAxeItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:sapphirea_axe")
 	public static final Item block = null;
 	public SapphireaAxeItem(TripwiredModElements instance) {
-		super(instance, 98);
+		super(instance, 31);
 	}
 
 	@Override

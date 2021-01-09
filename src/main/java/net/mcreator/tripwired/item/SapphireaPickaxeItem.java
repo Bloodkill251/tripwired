@@ -17,7 +17,7 @@ public class SapphireaPickaxeItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:sapphirea_pickaxe")
 	public static final Item block = null;
 	public SapphireaPickaxeItem(TripwiredModElements instance) {
-		super(instance, 97);
+		super(instance, 30);
 	}
 
 	@Override

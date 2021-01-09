@@ -46,7 +46,7 @@ public class IronBowaItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:entitybulletiron_bowa")
 	public static final EntityType arrow = null;
 	public IronBowaItem(TripwiredModElements instance) {
-		super(instance, 48);
+		super(instance, 47);
 	}
 
 	@Override

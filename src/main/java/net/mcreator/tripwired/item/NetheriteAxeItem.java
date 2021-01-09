@@ -17,7 +17,7 @@ public class NetheriteAxeItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:netherite_axe")
 	public static final Item block = null;
 	public NetheriteAxeItem(TripwiredModElements instance) {
-		super(instance, 17);
+		super(instance, 28);
 	}
 
 	@Override

@@ -33,7 +33,7 @@ public class VoidLiquidBlock extends TripwiredModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public VoidLiquidBlock(TripwiredModElements instance) {
-		super(instance, 110);
+		super(instance, 61);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

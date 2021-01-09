@@ -16,7 +16,7 @@ public class SapphireItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:sapphire")
 	public static final Item block = null;
 	public SapphireItem(TripwiredModElements instance) {
-		super(instance, 87);
+		super(instance, 60);
 	}
 
 	@Override

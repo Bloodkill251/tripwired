@@ -56,7 +56,7 @@ public class MalkBlock extends TripwiredModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public MalkBlock(TripwiredModElements instance) {
-		super(instance, 44);
+		super(instance, 56);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

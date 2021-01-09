@@ -20,7 +20,7 @@ import java.util.Map;
 @TripwiredModElements.ModElement.Tag
 public class GotoverworldCommandExecutedProcedure extends TripwiredModElements.ModElement {
 	public GotoverworldCommandExecutedProcedure(TripwiredModElements instance) {
-		super(instance, 134);
+		super(instance, 176);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

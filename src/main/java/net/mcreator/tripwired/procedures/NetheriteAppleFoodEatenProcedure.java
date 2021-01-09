@@ -17,7 +17,7 @@ import java.util.Map;
 @TripwiredModElements.ModElement.Tag
 public class NetheriteAppleFoodEatenProcedure extends TripwiredModElements.ModElement {
 	public NetheriteAppleFoodEatenProcedure(TripwiredModElements instance) {
-		super(instance, 32);
+		super(instance, 97);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

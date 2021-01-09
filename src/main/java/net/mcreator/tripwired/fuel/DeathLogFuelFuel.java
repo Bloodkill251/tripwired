@@ -13,7 +13,7 @@ import net.mcreator.tripwired.TripwiredModElements;
 @TripwiredModElements.ModElement.Tag
 public class DeathLogFuelFuel extends TripwiredModElements.ModElement {
 	public DeathLogFuelFuel(TripwiredModElements instance) {
-		super(instance, 80);
+		super(instance, 141);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

@@ -51,7 +51,7 @@ import java.util.Random;
 public class FireBloodEntity extends TripwiredModElements.ModElement {
 	public static EntityType entity = null;
 	public FireBloodEntity(TripwiredModElements instance) {
-		super(instance, 145);
+		super(instance, 63);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

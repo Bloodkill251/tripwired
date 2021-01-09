@@ -24,7 +24,7 @@ public class SapphireBlockBlock extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:sapphire_block")
 	public static final Block block = null;
 	public SapphireBlockBlock(TripwiredModElements instance) {
-		super(instance, 88);
+		super(instance, 20);
 	}
 
 	@Override

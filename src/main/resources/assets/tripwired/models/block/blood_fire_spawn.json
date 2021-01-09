@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tripwired:blocks/magma",
+    "up": "tripwired:blocks/magma",
+    "north": "tripwired:blocks/magma",
+    "east": "tripwired:blocks/magma",
+    "south": "tripwired:blocks/magma",
+    "west": "tripwired:blocks/magma",
+    "particle": "tripwired:blocks/magma"
+  }
+}

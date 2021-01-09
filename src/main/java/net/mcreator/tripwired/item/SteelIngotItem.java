@@ -16,7 +16,7 @@ public class SteelIngotItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:steel_ingot")
 	public static final Item block = null;
 	public SteelIngotItem(TripwiredModElements instance) {
-		super(instance, 61);
+		super(instance, 58);
 	}
 
 	@Override

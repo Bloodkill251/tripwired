@@ -24,7 +24,7 @@ import io.netty.buffer.Unpooled;
 @TripwiredModElements.ModElement.Tag
 public class UpgradeKeybindOnKeyPressedProcedure extends TripwiredModElements.ModElement {
 	public UpgradeKeybindOnKeyPressedProcedure(TripwiredModElements instance) {
-		super(instance, 16);
+		super(instance, 78);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

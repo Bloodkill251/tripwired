@@ -27,7 +27,7 @@ public class AcidicAppleItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:acidic_apple")
 	public static final Item block = null;
 	public AcidicAppleItem(TripwiredModElements instance) {
-		super(instance, 24);
+		super(instance, 5);
 	}
 
 	@Override

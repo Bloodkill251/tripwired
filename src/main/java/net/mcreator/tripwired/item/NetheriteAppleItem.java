@@ -23,7 +23,7 @@ public class NetheriteAppleItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:netherite_apple")
 	public static final Item block = null;
 	public NetheriteAppleItem(TripwiredModElements instance) {
-		super(instance, 32);
+		super(instance, 8);
 	}
 
 	@Override

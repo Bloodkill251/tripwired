@@ -23,7 +23,7 @@ public class LapisAppleItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:lapis_apple")
 	public static final Item block = null;
 	public LapisAppleItem(TripwiredModElements instance) {
-		super(instance, 28);
+		super(instance, 6);
 	}
 
 	@Override

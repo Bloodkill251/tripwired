@@ -29,7 +29,7 @@ public class Ruby1ArmorItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:ruby_1_armor_boots")
 	public static final Item boots = null;
 	public Ruby1ArmorItem(TripwiredModElements instance) {
-		super(instance, 111);
+		super(instance, 50);
 	}
 
 	@Override

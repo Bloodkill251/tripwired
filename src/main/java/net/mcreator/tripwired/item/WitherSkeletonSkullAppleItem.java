@@ -23,7 +23,7 @@ public class WitherSkeletonSkullAppleItem extends TripwiredModElements.ModElemen
 	@ObjectHolder("tripwired:wither_skeleton_skull_apple")
 	public static final Item block = null;
 	public WitherSkeletonSkullAppleItem(TripwiredModElements instance) {
-		super(instance, 34);
+		super(instance, 9);
 	}
 
 	@Override

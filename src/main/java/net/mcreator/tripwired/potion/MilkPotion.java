@@ -27,7 +27,7 @@ public class MilkPotion extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:milk")
 	public static final Potion potionType = null;
 	public MilkPotion(TripwiredModElements instance) {
-		super(instance, 43);
+		super(instance, 109);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

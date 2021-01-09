@@ -25,7 +25,7 @@ public class DeathLeaveBlock extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:death_leave")
 	public static final Block block = null;
 	public DeathLeaveBlock(TripwiredModElements instance) {
-		super(instance, 54);
+		super(instance, 16);
 	}
 
 	@Override

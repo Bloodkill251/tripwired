@@ -31,7 +31,7 @@ public class ExplosiveKeyBinding extends TripwiredModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	private KeyBinding keys;
 	public ExplosiveKeyBinding(TripwiredModElements instance) {
-		super(instance, 34);
+		super(instance, 102);
 		elements.addNetworkMessage(KeyBindingPressedMessage.class, KeyBindingPressedMessage::buffer, KeyBindingPressedMessage::new,
 				KeyBindingPressedMessage::handler);
 	}

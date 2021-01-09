@@ -13,7 +13,7 @@ import java.util.Map;
 @TripwiredModElements.ModElement.Tag
 public class WitherSkeletonSkullAppleFoodEatenProcedure extends TripwiredModElements.ModElement {
 	public WitherSkeletonSkullAppleFoodEatenProcedure(TripwiredModElements instance) {
-		super(instance, 35);
+		super(instance, 101);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -12,7 +12,7 @@ import java.util.Map;
 @TripwiredModElements.ModElement.Tag
 public class RegenCommandExecutedProcedure extends TripwiredModElements.ModElement {
 	public RegenCommandExecutedProcedure(TripwiredModElements instance) {
-		super(instance, 53);
+		super(instance, 118);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -103,7 +103,7 @@ public class SilentDimensionDimension extends TripwiredModElements.ModElement {
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
 	public SilentDimensionDimension(TripwiredModElements instance) {
-		super(instance, 60);
+		super(instance, 29);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}

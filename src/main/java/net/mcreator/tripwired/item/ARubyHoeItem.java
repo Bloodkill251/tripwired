@@ -17,7 +17,7 @@ public class ARubyHoeItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:a_ruby_hoe")
 	public static final Item block = null;
 	public ARubyHoeItem(TripwiredModElements instance) {
-		super(instance, 124);
+		super(instance, 38);
 	}
 
 	@Override

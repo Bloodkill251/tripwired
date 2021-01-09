@@ -12,7 +12,7 @@ import java.util.Map;
 @TripwiredModElements.ModElement.Tag
 public class MalkMobplayerCollidesBlockProcedure extends TripwiredModElements.ModElement {
 	public MalkMobplayerCollidesBlockProcedure(TripwiredModElements instance) {
-		super(instance, 45);
+		super(instance, 110);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

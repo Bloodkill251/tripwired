@@ -17,7 +17,7 @@ import java.util.Collection;
 @TripwiredModElements.ModElement.Tag
 public class ExplosiveOnKeyPressedProcedure extends TripwiredModElements.ModElement {
 	public ExplosiveOnKeyPressedProcedure(TripwiredModElements instance) {
-		super(instance, 34);
+		super(instance, 100);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

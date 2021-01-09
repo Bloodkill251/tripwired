@@ -11,7 +11,7 @@ import java.util.Map;
 @TripwiredModElements.ModElement.Tag
 public class GmspCommandExecutedProcedure extends TripwiredModElements.ModElement {
 	public GmspCommandExecutedProcedure(TripwiredModElements instance) {
-		super(instance, 20);
+		super(instance, 81);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
