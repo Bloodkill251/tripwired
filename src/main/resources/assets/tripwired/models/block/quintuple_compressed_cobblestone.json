@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tripwired:blocks/tier5compressedcobblestone",
+    "up": "tripwired:blocks/tier5compressedcobblestone",
+    "north": "tripwired:blocks/tier5compressedcobblestone",
+    "east": "tripwired:blocks/tier5compressedcobblestone",
+    "south": "tripwired:blocks/tier5compressedcobblestone",
+    "west": "tripwired:blocks/tier5compressedcobblestone",
+    "particle": "tripwired:blocks/tier5compressedcobblestone"
+  }
+}

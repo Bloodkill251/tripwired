@@ -144,32 +144,6 @@
       "registry_name": "netherite_pickaxe"
     },
     {
-      "name": "UpgradeGUI",
-      "type": "procedure",
-      "sortid": 72,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "upgrade_gui",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "DiamondToNetheriteUpgradeGUI",
-      "type": "gui",
-      "sortid": 73,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "diamond_to_netherite_upgrade_gui"
-    },
-    {
       "name": "DiamondAppleFoodEaten",
       "type": "procedure",
       "sortid": 74,
@@ -254,48 +228,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "redstone_apple_recipe"
-    },
-    {
-      "name": "UpgradeKeybindOnKeyPressed",
-      "type": "procedure",
-      "sortid": 78,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "upgrade_keybind_on_key_pressed",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "UpgradeKeybind",
-      "type": "keybind",
-      "sortid": 79,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "upgrade_keybind"
     },
     {
       "name": "NetheriteAxe",
@@ -2170,6 +2102,87 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "kiro"
+    },
+    {
+      "name": "FireBloodDust",
+      "type": "item",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_blood_dust"
+    },
+    {
+      "name": "SingleCompressedCobblestone",
+      "type": "block",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "single_compressed_cobblestone"
+    },
+    {
+      "name": "DoubleCompressedCobblestone",
+      "type": "block",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "double_compressed_cobblestone"
+    },
+    {
+      "name": "TripleCompressedCobblestone",
+      "type": "block",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "triple_compressed_cobblestone"
+    },
+    {
+      "name": "QuadrupleCompressedCobblestone",
+      "type": "block",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quadruple_compressed_cobblestone"
+    },
+    {
+      "name": "QuintupleCompressedCobblestone",
+      "type": "block",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quintuple_compressed_cobblestone"
+    },
+    {
+      "name": "SextupleCompressedCobblestone",
+      "type": "block",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sextuple_compressed_cobblestone"
+    },
+    {
+      "name": "SingleCompressedCobblestoneRecipe",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "single_compressed_cobblestone_recipe"
+    },
+    {
+      "name": "DoubleCompressedCobblestoneRecipe",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "double_compressed_cobblestone_recipe"
     }
   ],
   "variable_elements": [],
@@ -2186,8 +2199,8 @@
   "language_map": {
     "en_us": {
       "item.tripwired.emerald_apple": "Emerald Apple",
-      "item.tripwired.a_ruby_hoe": "ARuby Hoe",
       "item.tripwired.acid_bucket_2": "Acid Bucket",
+      "item.tripwired.a_ruby_hoe": "ARuby Hoe",
       "item.tripwired.diamond_apple": "Diamond Apple",
       "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
       "block.tripwired.dead_grass": "Dead Grass",
@@ -2198,16 +2211,16 @@
       "item.tripwired.sapphirea_axe": "Sapphire Axe",
       "item.tripwired.pitchfork": "Pitchfork",
       "block.tripwired.steel_ore": "Steel Ore",
-      "item.tripwired.sapphire": "Sapphire",
       "effect.milk": "Milk",
+      "item.tripwired.sapphire": "Sapphire",
       "item.tripwired.sapphire_armor_armor_boots": "Sapphire Boots",
-      "item.minecraft.potion.effect.milk": "Milk",
       "item.tripwired.void_dimension": "Void Igniter",
+      "item.minecraft.potion.effect.milk": "Milk",
       "item.tripwired.ruby_dagger": "Ruby Dagger",
       "effect.acid_immunity": "Acid Immunity",
-      "block.tripwired.sapphire_block": "Sapphire Block",
-      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
       "item.tripwired.iron_stick": "Iron Stick",
+      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
+      "block.tripwired.sapphire_block": "Sapphire Block",
       "item.minecraft.lingering_potion.effect.milk": "Lingering Milk",
       "item.tripwired.silent_dimension": "Flint and Iron",
       "item.tripwired.a_ruby_sword": "ARuby Sword",
@@ -2215,17 +2228,19 @@
       "item.tripwired.netherite_boots": "Netherite Boots",
       "item.minecraft.lingering_potion.effect.acid_immunity": "Lingering Acid Immunity",
       "item.tripwired.ruby_1_armor_leggings": "Ruby Leggings",
+      "block.tripwired.quintuple_compressed_cobblestone": "Quinruple Compressed Cobblestone",
       "item.tripwired.acidic_apple": "Acidic Apple",
       "item.tripwired.sapphirea_pickaxe": "Sapphire Pickaxe",
       "item.tripwired.wither_skeleton_skull_apple": "Wither Skeleton Skull Apple",
       "item.tripwired.lapis_apple": "Lapis Apple",
       "block.tripwired.death_log": "Death Log",
       "item.minecraft.tipped_arrow.effect.milk": "Arrow of Milk",
-      "item.tripwired.ruby_1_armor_boots": "Ruby Boots",
       "item.tripwired.sapphire_armor_armor_leggings": "Sapphire Leggings",
+      "item.tripwired.ruby_1_armor_boots": "Ruby Boots",
       "item.tripwired.netherite_apple": "Netherite Apple",
+      "block.tripwired.triple_compressed_cobblestone": "Triple Compressed Cobblestone",
       "item.tripwired.netherite_ingot": "Netherite Ingot",
-      "key.mcreator.upgrade_keybind": "Upgrade",
+      "block.tripwired.sextuple_compressed_cobblestone": "Sextuple Compressed Cobblestone",
       "biome.tripwired.voided": "Voided",
       "item.tripwired.a_ruby_axe": "Ruby Axe",
       "item.tripwired.iron_dagger": "Iron Dagger",
@@ -2240,6 +2255,7 @@
       "fluid.malk": "Malk",
       "enchantment.tripwired.insta_break": "Insta Break",
       "item.minecraft.potion.effect.acid_immunity": "Acid Immunity",
+      "block.tripwired.single_compressed_cobblestone": "Single Compressed Cobblestone",
       "item.tripwired.void_liquid_bucket": "VoidLiquid Bucket",
       "item.minecraft.tipped_arrow.effect.allowed_explosive": "Arrow of Allowed Explosive",
       "block.tripwired.ancient_debris": "Ancient Debris",
@@ -2250,6 +2266,7 @@
       "item.tripwired.emerald_armor_helmet": "Emerald Helmet",
       "subtitles.firebloodentitysound": "Oh guh guh",
       "block.tripwired.kiro_grass": "Kiro Grass",
+      "block.tripwired.quadruple_compressed_cobblestone": "Quadruple Compressed Cobblestone",
       "block.tripwired.blood_fire_spawn": "Blood Fire Spawn",
       "item.tripwired.sapphire_dagger": "Sapphire Dagger",
       "item.minecraft.lingering_potion.effect.allowed_explosive": "Lingering Allowed Explosive",
@@ -2282,6 +2299,7 @@
       "item.tripwired.netherite_chestplate": "Netherite Chestplate",
       "item.tripwired.ruby_1_armor_helmet": "Ruby Helmet",
       "item.tripwired.sapphirea_sword": "Sapphirea Sword",
+      "item.tripwired.fire_blood_dust": "FB Dust",
       "item.tripwired.sapphire_armor_armor_helmet": "Sapphire Helmet",
       "item.tripwired.diamond_dagger": "Diamond Dagger",
       "item.tripwired.sapphirea_hoe": "Sapphirea Hoe",
@@ -2292,6 +2310,7 @@
       "effect.allowed_explosive": "Allowed Explosive",
       "item.tripwired.a_ruby_pickaxe": "Ruby Pickaxe",
       "item.tripwired.malk_bucket": "Malk Bucket",
+      "block.tripwired.double_compressed_cobblestone": "Double Compressed Cobblestone",
       "item.tripwired.ruby": "Ruby"
     }
   },

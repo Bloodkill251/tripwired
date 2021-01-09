@@ -22,6 +22,7 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.pathfinding.FlyingPathNavigator;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.PotionEntity;
@@ -43,6 +44,7 @@ import net.minecraft.client.renderer.entity.layers.BipedArmorLayer;
 import net.minecraft.client.renderer.entity.BipedRenderer;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.tripwired.item.FireBloodDustItem;
 import net.mcreator.tripwired.TripwiredModElements;
 
 import java.util.Random;
@@ -132,6 +134,11 @@ public class FireBloodEntity extends TripwiredModElements.ModElement {
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.UNDEFINED;
+		}
+
+		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
+			super.dropSpecialItems(source, looting, recentlyHitIn);
+			this.entityDropItem(new ItemStack(FireBloodDustItem.block, (int) (1)));
 		}
 
 		@Override

@@ -9,6 +9,7 @@ import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.ILivingEntityData;
 import net.minecraft.entity.Entity;
+import net.minecraft.block.Blocks;
 
 import net.mcreator.tripwired.entity.FireBloodEntity;
 import net.mcreator.tripwired.entity.BloodFireEntity;
@@ -47,6 +48,7 @@ public class BloodFireSpawnUpdateTickProcedure extends TripwiredModElements.ModE
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+		world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 		if (world instanceof World && !world.getWorld().isRemote) {
 			world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 11, Explosion.Mode.BREAK);
 		}

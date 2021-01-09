@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "tripwired:blocks/magma",
-    "up": "tripwired:blocks/magma",
-    "north": "tripwired:blocks/magma",
-    "east": "tripwired:blocks/magma",
-    "south": "tripwired:blocks/magma",
-    "west": "tripwired:blocks/magma",
-    "particle": "tripwired:blocks/magma"
+    "down": "tripwired:blocks/bloodfirespawnblock",
+    "up": "tripwired:blocks/bloodfirespawnblock",
+    "north": "tripwired:blocks/bloodfirespawnblock",
+    "east": "tripwired:blocks/bloodfirespawnblock",
+    "south": "tripwired:blocks/bloodfirespawnblock",
+    "west": "tripwired:blocks/bloodfirespawnblock",
+    "particle": "tripwired:blocks/bloodfirespawnblock"
   }
 }

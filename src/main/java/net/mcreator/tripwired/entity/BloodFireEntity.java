@@ -158,7 +158,7 @@ public class BloodFireEntity extends TripwiredModElements.ModElement {
 		protected void registerAttributes() {
 			super.registerAttributes();
 			if (this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
-				this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.38);
+				this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.26);
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
 				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(1000);
 			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
@@ -168,7 +168,7 @@ public class BloodFireEntity extends TripwiredModElements.ModElement {
 			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(28);
 			if (this.getAttribute(SharedMonsterAttributes.FLYING_SPEED) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.FLYING_SPEED);
-			this.getAttribute(SharedMonsterAttributes.FLYING_SPEED).setBaseValue(0.38);
+			this.getAttribute(SharedMonsterAttributes.FLYING_SPEED).setBaseValue(0.26);
 		}
 
 		@Override

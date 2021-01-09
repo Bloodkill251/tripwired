@@ -81,7 +81,7 @@ public class AncientDebrisBlock extends TripwiredModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.MAGMA_BLOCK.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 2)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(2, 0, 0, 64))));
+			}), block.getDefaultState(), 3)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(1, 0, 0, 64))));
 		}
 	}
 }

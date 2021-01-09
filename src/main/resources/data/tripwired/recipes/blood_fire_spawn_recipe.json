@@ -2,13 +2,19 @@
   "group": "tripwired",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
+    "012",
     "345",
-    " 7 "
+    "678"
   ],
   "key": {
+    "0": {
+      "item": "tripwired:fire_blood_dust"
+    },
     "1": {
       "item": "minecraft:lava_bucket"
+    },
+    "2": {
+      "item": "tripwired:fire_blood_dust"
     },
     "3": {
       "item": "tripwired:steel_ingot"
@@ -19,8 +25,14 @@
     "5": {
       "item": "tripwired:sapphire_block"
     },
+    "6": {
+      "item": "tripwired:fire_blood_dust"
+    },
     "7": {
       "item": "tripwired:ruby"
+    },
+    "8": {
+      "item": "tripwired:fire_blood_dust"
     }
   },
   "result": {

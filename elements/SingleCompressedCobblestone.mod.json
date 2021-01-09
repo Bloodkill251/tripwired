@@ -2,12 +2,12 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "bloodfirespawnblock",
-    "textureTop": "bloodfirespawnblock",
-    "textureLeft": "bloodfirespawnblock",
-    "textureFront": "bloodfirespawnblock",
-    "textureRight": "bloodfirespawnblock",
-    "textureBack": "bloodfirespawnblock",
+    "texture": "tier1compressedcobblestone",
+    "textureTop": "tier1compressedcobblestone",
+    "textureLeft": "tier1compressedcobblestone",
+    "textureFront": "tier1compressedcobblestone",
+    "textureRight": "tier1compressedcobblestone",
+    "textureBack": "tier1compressedcobblestone",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -24,16 +24,16 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Blood Fire Spawn",
+    "name": "Single Compressed Cobblestone",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 8.0,
+    "resistance": 24.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -67,7 +67,7 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 4,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -92,9 +92,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "BloodFireSpawnUpdateTick"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

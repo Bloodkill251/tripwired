@@ -9,21 +9,21 @@
     "undergroundBlock": {
       "value": "Blocks.DIRT#0"
     },
-    "treeType": 0,
+    "treeType": 1,
     "vanillaTreeType": "Default",
     "minHeight": 7,
     "spawnVines": false,
     "treeVines": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "treeStem": {
-      "value": ""
+      "value": "CUSTOM:DeathLog"
     },
     "treeBranch": {
-      "value": ""
+      "value": "CUSTOM:DeathLeave"
     },
     "treeFruits": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "airColor": {
       "value": -8585216,

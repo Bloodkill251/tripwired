@@ -72,7 +72,7 @@
     "immuneToPotions": true,
     "immuneToPlayer": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:FireBloodDust"
     },
     "livingSound": {
       "value": "CUSTOM:firebloodentitysound"

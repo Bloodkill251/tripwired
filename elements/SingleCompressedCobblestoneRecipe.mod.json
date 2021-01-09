@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:FireBloodDust"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Items.LAVA_BUCKET"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "CUSTOM:FireBloodDust"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Blocks.MAGMA"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "CUSTOM:SapphireBlock"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "CUSTOM:FireBloodDust"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "CUSTOM:Ruby"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "CUSTOM:FireBloodDust"
+        "value": "Blocks.COBBLESTONE"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BloodFireSpawn"
+      "value": "CUSTOM:SingleCompressedCobblestone"
     },
-    "name": "blood_fire_spawn_recipe",
+    "name": "single_compressed_cobblestone_recipe",
     "namespace": "mod"
   }
 }
