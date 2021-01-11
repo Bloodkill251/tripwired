@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tripwired:blocks/true_clear_glass",
+    "up": "tripwired:blocks/true_clear_glass",
+    "north": "tripwired:blocks/true_clear_glass",
+    "east": "tripwired:blocks/true_clear_glass",
+    "south": "tripwired:blocks/true_clear_glass",
+    "west": "tripwired:blocks/true_clear_glass",
+    "particle": "tripwired:blocks/true_clear_glass"
+  }
+}

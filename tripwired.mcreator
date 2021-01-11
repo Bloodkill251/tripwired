@@ -2183,6 +2183,235 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "double_compressed_cobblestone_recipe"
+    },
+    {
+      "name": "TripleCompressedCobblestoneRecipe",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "triple_compressed_cobblestone_recipe"
+    },
+    {
+      "name": "Ignore",
+      "type": "item",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ignore"
+    },
+    {
+      "name": "IgnoreItemInHandTick",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ignore_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FuriesBowRecipe",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "furies_bow_recipe"
+    },
+    {
+      "name": "Ignore1ItemInHandTick",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ignore_1_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ignore1",
+      "type": "item",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ignore_1"
+    },
+    {
+      "name": "MinersDreamRecipe",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miners_dream_recipe"
+    },
+    {
+      "name": "QuadrupleCompressedCobblestoneRecipe",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quadruple_compressed_cobblestone_recipe"
+    },
+    {
+      "name": "QuintupleCompressedCobblestoneRecipe",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quintuple_compressed_cobblestone_recipe"
+    },
+    {
+      "name": "SextupleCompressedCobblestoneRecipe",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sextuple_compressed_cobblestone_recipe"
+    },
+    {
+      "name": "VoidBlockRecipe",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_block_recipe"
+    },
+    {
+      "name": "TrueClearGlass",
+      "type": "block",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "true_clear_glass"
+    },
+    {
+      "name": "TrueClearGlassLootTable",
+      "type": "loottable",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "true_clear_glass_loot_table"
+    },
+    {
+      "name": "TrueClearGlassRecipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "true_clear_glass_recipe"
+    },
+    {
+      "name": "KiroPlanks",
+      "type": "block",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kiro_planks"
+    },
+    {
+      "name": "KiroStairs",
+      "type": "block",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kiro_stairs"
+    },
+    {
+      "name": "KiroSlab",
+      "type": "block",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kiro_slab"
+    },
+    {
+      "name": "KiroTrapdoor",
+      "type": "block",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kiro_trapdoor"
+    },
+    {
+      "name": "SapphireOreOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_ore_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blood",
+      "type": "fluid",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood"
+    },
+    {
+      "name": "KiroDimension",
+      "type": "dimension",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kiro_dimension"
     }
   ],
   "variable_elements": [],
@@ -2199,8 +2428,8 @@
   "language_map": {
     "en_us": {
       "item.tripwired.emerald_apple": "Emerald Apple",
-      "item.tripwired.acid_bucket_2": "Acid Bucket",
       "item.tripwired.a_ruby_hoe": "ARuby Hoe",
+      "item.tripwired.acid_bucket_2": "Acid Bucket",
       "item.tripwired.diamond_apple": "Diamond Apple",
       "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
       "block.tripwired.dead_grass": "Dead Grass",
@@ -2211,16 +2440,17 @@
       "item.tripwired.sapphirea_axe": "Sapphire Axe",
       "item.tripwired.pitchfork": "Pitchfork",
       "block.tripwired.steel_ore": "Steel Ore",
-      "effect.milk": "Milk",
+      "fluid.blood": "Blood",
       "item.tripwired.sapphire": "Sapphire",
+      "effect.milk": "Milk",
       "item.tripwired.sapphire_armor_armor_boots": "Sapphire Boots",
-      "item.tripwired.void_dimension": "Void Igniter",
       "item.minecraft.potion.effect.milk": "Milk",
+      "item.tripwired.void_dimension": "Void Igniter",
       "item.tripwired.ruby_dagger": "Ruby Dagger",
       "effect.acid_immunity": "Acid Immunity",
-      "item.tripwired.iron_stick": "Iron Stick",
-      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
       "block.tripwired.sapphire_block": "Sapphire Block",
+      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
+      "item.tripwired.iron_stick": "Iron Stick",
       "item.minecraft.lingering_potion.effect.milk": "Lingering Milk",
       "item.tripwired.silent_dimension": "Flint and Iron",
       "item.tripwired.a_ruby_sword": "ARuby Sword",
@@ -2233,10 +2463,12 @@
       "item.tripwired.sapphirea_pickaxe": "Sapphire Pickaxe",
       "item.tripwired.wither_skeleton_skull_apple": "Wither Skeleton Skull Apple",
       "item.tripwired.lapis_apple": "Lapis Apple",
+      "item.tripwired.ignore": "Placeholder",
       "block.tripwired.death_log": "Death Log",
       "item.minecraft.tipped_arrow.effect.milk": "Arrow of Milk",
-      "item.tripwired.sapphire_armor_armor_leggings": "Sapphire Leggings",
+      "item.tripwired.ignore_1": "Placeholder",
       "item.tripwired.ruby_1_armor_boots": "Ruby Boots",
+      "item.tripwired.sapphire_armor_armor_leggings": "Sapphire Leggings",
       "item.tripwired.netherite_apple": "Netherite Apple",
       "block.tripwired.triple_compressed_cobblestone": "Triple Compressed Cobblestone",
       "item.tripwired.netherite_ingot": "Netherite Ingot",
@@ -2245,6 +2477,7 @@
       "item.tripwired.a_ruby_axe": "Ruby Axe",
       "item.tripwired.iron_dagger": "Iron Dagger",
       "block.tripwired.death_leave": "Death Leave",
+      "block.tripwired.kiro_planks": "Kiro Planks",
       "subtitles.death_tone_1": "Sound Of A Deadly Entity",
       "item.tripwired.sapphire_armor_armor_chestplate": "Sapphire Chestplate",
       "item.tripwired.emerald_armor_leggings": "Emerald Leggings",
@@ -2268,12 +2501,15 @@
       "block.tripwired.kiro_grass": "Kiro Grass",
       "block.tripwired.quadruple_compressed_cobblestone": "Quadruple Compressed Cobblestone",
       "block.tripwired.blood_fire_spawn": "Blood Fire Spawn",
+      "item.tripwired.blood_bucket": "Blood Bucket",
       "item.tripwired.sapphire_dagger": "Sapphire Dagger",
       "item.minecraft.lingering_potion.effect.allowed_explosive": "Lingering Allowed Explosive",
+      "block.tripwired.kiro_stairs": "Kiro Stairs",
       "entity.tripwired.fire_blood": "Fire Blood",
       "item.tripwired.stone_dagger": "Stone Dagger",
       "item.tripwired.ruby_1_armor_chestplate": "Ruby Chestplate",
       "item.minecraft.splash_potion.effect.milk": "Splash Milk",
+      "block.tripwired.true_clear_glass": "True Clear Glass",
       "biome.tripwired.silent": "Silent",
       "block.tripwired.nether_gold_ore": "Nether Gold Ore",
       "block.tripwired.death_plank_door": "Death Plank",
@@ -2287,10 +2523,13 @@
       "item.tripwired.fire_blood_spawn_egg": "Fire Blood Spawn Egg",
       "block.tripwired.death_plank": "Death Plank",
       "item.tripwired.sapphirea_shovel": "Sapphirea Shovel",
+      "item.tripwired.kiro_dimension": "Flint and Ruby",
       "item.tripwired.netherite_scrap": "Netherite Scrap",
       "item.tripwired.emerald_armor_boots": "Emerald Boots",
+      "block.tripwired.kiro_slab": "Kiro Slab",
       "item.tripwired.acid_bucket": "Acid Bucket",
       "block.tripwired.ruby_ore": "Ruby Ore",
+      "block.tripwired.kiro_trapdoor": "Kiro Trapdoor",
       "item.minecraft.tipped_arrow.effect.acid_immunity": "Arrow of Acid Immunity",
       "biome.tripwired.kiro": "Kiro",
       "key.mcreator.explosive": "Explosive",

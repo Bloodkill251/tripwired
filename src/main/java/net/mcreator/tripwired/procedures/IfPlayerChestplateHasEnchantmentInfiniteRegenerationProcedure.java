@@ -34,15 +34,15 @@ public class IfPlayerChestplateHasEnchantmentInfiniteRegenerationProcedure exten
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (((EnchantmentHelper.getEnchantmentLevel(InfiniteRegenerationEnchantment.enchantment,
-				((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 0) : ItemStack.EMPTY))) == 1)) {
+				((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 1) : ItemStack.EMPTY))) == 1)) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 5, (int) 0, (false), (false)));
 		} else if (((EnchantmentHelper.getEnchantmentLevel(InfiniteRegenerationEnchantment.enchantment,
-				((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 0) : ItemStack.EMPTY))) == 2)) {
+				((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 1) : ItemStack.EMPTY))) == 2)) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 5, (int) 1, (false), (false)));
 		} else if (((EnchantmentHelper.getEnchantmentLevel(InfiniteRegenerationEnchantment.enchantment,
-				((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 0) : ItemStack.EMPTY))) == 3)) {
+				((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 1) : ItemStack.EMPTY))) == 3)) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 5, (int) 2, (false), (false)));
 		}

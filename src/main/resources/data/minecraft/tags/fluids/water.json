@@ -6,6 +6,8 @@
     "tripwired:malk",
     "tripwired:malk_flowing",
     "tripwired:void_liquid",
-    "tripwired:void_liquid_flowing"
+    "tripwired:void_liquid_flowing",
+    "tripwired:blood",
+    "tripwired:blood_flowing"
   ]
 }

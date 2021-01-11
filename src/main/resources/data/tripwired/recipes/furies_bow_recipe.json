@@ -1,0 +1,33 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "3 5",
+    " 78"
+  ],
+  "key": {
+    "1": {
+      "item": "tripwired:triple_compressed_cobblestone"
+    },
+    "2": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "item": "minecraft:blaze_powder"
+    },
+    "5": {
+      "item": "tripwired:fire_blood_dust"
+    },
+    "7": {
+      "item": "tripwired:triple_compressed_cobblestone"
+    },
+    "8": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "tripwired:ignore",
+    "count": 1
+  }
+}

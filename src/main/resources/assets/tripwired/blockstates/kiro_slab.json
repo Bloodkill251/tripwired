@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tripwired:block/kiro_slab"
+    },
+    "type=top": {
+      "model": "tripwired:block/kiro_slab_top"
+    },
+    "type=double": {
+      "model": "tripwired:block/kiro_slab_full"
+    }
+  }
+}

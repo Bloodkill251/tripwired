@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "tripwired:blocks/kiro_planks",
+    "top": "tripwired:blocks/kiro_planks",
+    "side": "tripwired:blocks/kiro_planks"
+  }
+}

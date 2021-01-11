@@ -2,32 +2,30 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "sapphire_ore",
-    "textureTop": "sapphire_ore",
-    "textureLeft": "sapphire_ore",
-    "textureFront": "sapphire_ore",
-    "textureRight": "sapphire_ore",
-    "textureBack": "sapphire_ore",
+    "texture": "true_clear_glass",
+    "textureTop": "true_clear_glass",
+    "textureLeft": "true_clear_glass",
+    "textureFront": "true_clear_glass",
+    "textureRight": "true_clear_glass",
+    "textureBack": "true_clear_glass",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
-    "displayFluidOverlay": false,
+    "displayFluidOverlay": true,
     "itemTexture": "",
     "particleTexture": "",
-    "hasTransparency": false,
-    "connectedSides": true,
-    "transparencyType": "SOLID",
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "CUTOUT",
     "mx": 0.0,
     "my": 0.0,
     "mz": 0.0,
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Sapphire Ore",
-    "specialInfo": [
-      "Better then Diamond?"
-    ],
+    "name": "True Clear Glass",
+    "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -35,7 +33,7 @@
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -47,7 +45,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "GLASS"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -65,11 +63,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GLASS"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -94,21 +92,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "SapphireOreOnBlockRightClicked"
-    },
-    "spawnWorldTypes": [
-      "CUSTOM:SilentDimension"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 8,
-    "minGenerateHeight": 4,
-    "maxGenerateHeight": 16
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

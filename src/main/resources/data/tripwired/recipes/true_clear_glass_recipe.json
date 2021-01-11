@@ -1,0 +1,42 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glass"
+    },
+    "1": {
+      "item": "tripwired:sapphire"
+    },
+    "2": {
+      "item": "minecraft:glass"
+    },
+    "3": {
+      "item": "tripwired:sapphire"
+    },
+    "4": {
+      "item": "tripwired:triple_compressed_cobblestone"
+    },
+    "5": {
+      "item": "tripwired:sapphire"
+    },
+    "6": {
+      "item": "minecraft:glass"
+    },
+    "7": {
+      "item": "tripwired:ruby"
+    },
+    "8": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "tripwired:true_clear_glass",
+    "count": 5
+  }
+}

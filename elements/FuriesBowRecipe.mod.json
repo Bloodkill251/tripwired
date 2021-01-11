@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TripleCompressedCobblestone"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.BLAZE_POWDER"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FireBloodDust"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TripleCompressedCobblestone"
+      },
+      {
+        "value": "Items.STRING"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Ignore"
+    },
+    "name": "furies_bow_recipe",
+    "namespace": "mod"
+  }
+}
