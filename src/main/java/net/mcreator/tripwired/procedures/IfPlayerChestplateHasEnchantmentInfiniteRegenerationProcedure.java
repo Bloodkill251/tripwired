@@ -33,18 +33,23 @@ public class IfPlayerChestplateHasEnchantmentInfiniteRegenerationProcedure exten
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (((EnchantmentHelper.getEnchantmentLevel(InfiniteRegenerationEnchantment.enchantment,
-				((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 1) : ItemStack.EMPTY))) == 1)) {
-			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 5, (int) 0, (false), (false)));
-		} else if (((EnchantmentHelper.getEnchantmentLevel(InfiniteRegenerationEnchantment.enchantment,
-				((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 1) : ItemStack.EMPTY))) == 2)) {
-			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 5, (int) 1, (false), (false)));
-		} else if (((EnchantmentHelper.getEnchantmentLevel(InfiniteRegenerationEnchantment.enchantment,
-				((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 1) : ItemStack.EMPTY))) == 3)) {
-			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 5, (int) 2, (false), (false)));
+		double number = 0;
+		String dwd = "";
+		entity.getPersistentData().putDouble("counter1", ((entity.getPersistentData().getDouble("counter1")) + 1));
+		if ((((entity.getPersistentData().getDouble("counter1")) % 25) == 0)) {
+			if (((EnchantmentHelper.getEnchantmentLevel(InfiniteRegenerationEnchantment.enchantment,
+					((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 2) : ItemStack.EMPTY))) == 1)) {
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 30, (int) 0, (false), (false)));
+			} else if (((EnchantmentHelper.getEnchantmentLevel(InfiniteRegenerationEnchantment.enchantment,
+					((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 2) : ItemStack.EMPTY))) == 2)) {
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 30, (int) 1, (false), (false)));
+			} else if (((EnchantmentHelper.getEnchantmentLevel(InfiniteRegenerationEnchantment.enchantment,
+					((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 2) : ItemStack.EMPTY))) == 3)) {
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 30, (int) 2, (false), (false)));
+			}
 		}
 	}
 
