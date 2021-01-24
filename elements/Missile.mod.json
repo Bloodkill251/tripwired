@@ -93,6 +93,9 @@
     "particleSpawningShape": "Top",
     "particleSpawningRadious": 0.05,
     "particleAmount": 22,
+    "onMobTickUpdate": {
+      "name": "MissileOnEntityTickUpdate"
+    },
     "onInitialSpawn": {
       "name": "MissileOnInitialEntitySpawn"
     },

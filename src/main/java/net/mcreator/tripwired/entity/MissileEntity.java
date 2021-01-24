@@ -38,6 +38,7 @@ import net.minecraft.client.renderer.entity.layers.BipedArmorLayer;
 import net.minecraft.client.renderer.entity.BipedRenderer;
 
 import net.mcreator.tripwired.procedures.MissileOnInitialEntitySpawnProcedure;
+import net.mcreator.tripwired.procedures.MissileOnEntityTickUpdateProcedure;
 import net.mcreator.tripwired.TripwiredModElements;
 
 import java.util.Random;
@@ -138,12 +139,28 @@ public class MissileEntity extends TripwiredModElements.ModElement {
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
 				MissileOnInitialEntitySpawnProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
+		}
+
+		@Override
+		public void baseTick() {
+			super.baseTick();
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity entity = this;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				MissileOnEntityTickUpdateProcedure.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override
