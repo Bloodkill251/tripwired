@@ -2449,16 +2449,8 @@
             "type": "number"
           },
           {
-            "name": "y",
-            "type": "number"
-          },
-          {
             "name": "z",
             "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -2520,10 +2512,10 @@
   "language_map": {
     "en_us": {
       "item.tripwired.emerald_apple": "Emerald Apple",
-      "item.tripwired.a_ruby_hoe": "ARuby Hoe",
       "item.tripwired.acid_bucket_2": "Acid Bucket",
-      "item.tripwired.diamond_apple": "Diamond Apple",
+      "item.tripwired.a_ruby_hoe": "ARuby Hoe",
       "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
+      "item.tripwired.diamond_apple": "Diamond Apple",
       "block.tripwired.dead_grass": "Dead Grass",
       "item.tripwired.stone_pitchfork": "Pitchfork",
       "block.tripwired.mini_sapphire_block": "Mini Sapphire Block",
@@ -2536,13 +2528,13 @@
       "item.tripwired.sapphire": "Sapphire",
       "effect.milk": "Milk",
       "item.tripwired.sapphire_armor_armor_boots": "Sapphire Boots",
-      "item.minecraft.potion.effect.milk": "Milk",
       "item.tripwired.void_dimension": "Void Igniter",
+      "item.minecraft.potion.effect.milk": "Milk",
       "item.tripwired.ruby_dagger": "Ruby Dagger",
       "effect.acid_immunity": "Acid Immunity",
-      "block.tripwired.sapphire_block": "Sapphire Block",
-      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
       "item.tripwired.iron_stick": "Iron Stick",
+      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
+      "block.tripwired.sapphire_block": "Sapphire Block",
       "item.minecraft.lingering_potion.effect.milk": "Lingering Milk",
       "item.tripwired.silent_dimension": "Flint and Iron",
       "item.tripwired.a_ruby_sword": "ARuby Sword",
@@ -2556,8 +2548,8 @@
       "item.tripwired.sapphirea_pickaxe": "Sapphire Pickaxe",
       "item.tripwired.wither_skeleton_skull_apple": "Wither Skeleton Skull Apple",
       "item.tripwired.lapis_apple": "Lapis Apple",
-      "item.tripwired.ignore": "Placeholder",
       "block.tripwired.death_log": "Death Log",
+      "item.tripwired.ignore": "Placeholder",
       "item.minecraft.tipped_arrow.effect.milk": "Arrow of Milk",
       "item.tripwired.sapphire_armor_armor_leggings": "Sapphire Leggings",
       "item.tripwired.ruby_1_armor_boots": "Ruby Boots",

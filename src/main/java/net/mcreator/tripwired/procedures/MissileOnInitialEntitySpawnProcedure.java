@@ -5,7 +5,6 @@ import net.minecraftforge.fml.server.ServerLifecycleHooks;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.tripwired.TripwiredModElements;
@@ -46,8 +45,6 @@ public class MissileOnInitialEntitySpawnProcedure extends TripwiredModElements.M
 				((ServerPlayerEntity) _ent).connection.setPlayerLocation(x, 500, z, _ent.rotationYaw, _ent.rotationPitch, Collections.emptySet());
 			}
 		}
-		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).setHealth((float) 2147000000);
 		first = (double) (Math.random() * 9);
 		if (((first) == 0)) {
 			{
