@@ -2403,6 +2403,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "kiro_dimension"
+    },
+    {
+      "name": "BonusHealth",
+      "type": "enchantment",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bonus_health"
+    },
+    {
+      "name": "BonusHealthEnchantmentOnArmor",
+      "type": "procedure",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bonus_health_enchantment_on_armor",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2448,6 +2474,7 @@
       "item.tripwired.netherite_pickaxe": "Netherite Pickaxe",
       "item.tripwired.netherite_boots": "Netherite Boots",
       "item.minecraft.lingering_potion.effect.acid_immunity": "Lingering Acid Immunity",
+      "enchantment.tripwired.bonus_health": "Bonus Health",
       "item.tripwired.ruby_1_armor_leggings": "Ruby Leggings",
       "block.tripwired.quintuple_compressed_cobblestone": "Quinruple Compressed Cobblestone",
       "item.tripwired.acidic_apple": "Acidic Apple",
@@ -2500,7 +2527,7 @@
       "item.tripwired.stone_dagger": "Stone Dagger",
       "item.tripwired.ruby_1_armor_chestplate": "Ruby Chestplate",
       "item.minecraft.splash_potion.effect.milk": "Splash Milk",
-      "block.tripwired.true_clear_glass": "True Clear Glass",
+      "block.tripwired.true_clear_glass": "Clear Glass",
       "biome.tripwired.silent": "Silent",
       "block.tripwired.nether_gold_ore": "Nether Gold Ore",
       "fluid.void_liquid": "VoidLiquid",
