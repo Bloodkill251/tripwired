@@ -40,9 +40,9 @@ public class MissileOnInitialEntitySpawnProcedure extends TripwiredModElements.M
 		double first = 0;
 		{
 			Entity _ent = entity;
-			_ent.setPositionAndUpdate(x, 500, z);
+			_ent.setPositionAndUpdate(x, 150, z);
 			if (_ent instanceof ServerPlayerEntity) {
-				((ServerPlayerEntity) _ent).connection.setPlayerLocation(x, 500, z, _ent.rotationYaw, _ent.rotationPitch, Collections.emptySet());
+				((ServerPlayerEntity) _ent).connection.setPlayerLocation(x, 150, z, _ent.rotationYaw, _ent.rotationPitch, Collections.emptySet());
 			}
 		}
 		first = (double) (Math.random() * 9);
