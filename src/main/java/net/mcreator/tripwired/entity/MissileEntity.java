@@ -86,6 +86,7 @@ public class MissileEntity extends TripwiredModElements.ModElement {
 			super(type, world);
 			experienceValue = 0;
 			setNoAI(true);
+			enablePersistence();
 		}
 
 		@Override
@@ -96,6 +97,11 @@ public class MissileEntity extends TripwiredModElements.ModElement {
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.UNDEFINED;
+		}
+
+		@Override
+		public boolean canDespawn(double distanceToClosestPlayer) {
+			return false;
 		}
 
 		@Override
