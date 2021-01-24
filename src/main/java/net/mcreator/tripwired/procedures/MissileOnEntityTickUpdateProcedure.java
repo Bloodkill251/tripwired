@@ -51,7 +51,7 @@ public class MissileOnEntityTickUpdateProcedure extends TripwiredModElements.Mod
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		while ((65 > y)) {
+		if ((65 > y)) {
 			world.setBlockState(new BlockPos((int) x, (int) (y - 1), (int) z), Blocks.AIR.getDefaultState(), 3);
 			{
 				Entity _ent = entity;
@@ -61,11 +61,12 @@ public class MissileOnEntityTickUpdateProcedure extends TripwiredModElements.Mod
 							Collections.emptySet());
 				}
 			}
+		} else {
+			if (world instanceof World && !world.getWorld().isRemote) {
+				world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 400, Explosion.Mode.BREAK);
+			}
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).setHealth((float) (-1));
 		}
-		if (world instanceof World && !world.getWorld().isRemote) {
-			world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 400, Explosion.Mode.BREAK);
-		}
-		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).setHealth((float) (-1));
 	}
 }
