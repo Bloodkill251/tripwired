@@ -51,7 +51,8 @@ public class MissileOnEntityTickUpdateProcedure extends TripwiredModElements.Mod
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		while ((Blocks.AIR.getDefaultState().getBlock() == (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock())) {
+		while ((65 > y)) {
+			world.setBlockState(new BlockPos((int) x, (int) (y - 1), (int) z), Blocks.AIR.getDefaultState(), 3);
 			{
 				Entity _ent = entity;
 				_ent.setPositionAndUpdate(x, (y - 0.03), z);
