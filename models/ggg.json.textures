@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "waypointmaincol",
+        "2": "waypointdot1col",
+        "3": "waypointdot2col",
+        "4": "waypointdot3col",
+        "missing": "void_block_texture"
+      },
+      "name": "default"
+    }
+  }
+}
