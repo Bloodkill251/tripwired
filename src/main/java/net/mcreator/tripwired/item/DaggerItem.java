@@ -16,7 +16,7 @@ public class DaggerItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:dagger")
 	public static final Item block = null;
 	public DaggerItem(TripwiredModElements instance) {
-		super(instance, 135);
+		super(instance, 52);
 	}
 
 	@Override
@@ -45,7 +45,7 @@ public class DaggerItem extends TripwiredModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("dagger"));
 	}
 }

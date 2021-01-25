@@ -1,9 +1,12 @@
 {
-  "parent": "tripwired:custom/waypoint",
+  "parent": "tripwired:custom/ggg",
   "textures": {
     "all": "tripwired:blocks/void_block_texture",
     "particle": "tripwired:blocks/void_block_texture",
-    "0": "tripwired:blocks/",
-    "missing": "tripwired:blocks/"
+    "0": "tripwired:blocks/waypointmaincol",
+    "2": "tripwired:blocks/waypointdot1col",
+    "3": "tripwired:blocks/waypointdot2col",
+    "4": "tripwired:blocks/waypointdot3col",
+    "missing": "tripwired:blocks/void_block_texture"
   }
 }

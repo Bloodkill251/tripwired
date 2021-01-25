@@ -4,7 +4,7 @@ package net.mcreator.tripwired.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
@@ -16,12 +16,12 @@ public class DiamondDaggerItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:diamond_dagger")
 	public static final Item block = null;
 	public DiamondDaggerItem(TripwiredModElements instance) {
-		super(instance, 140);
+		super(instance, 42);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new PickaxeItem(new IItemTier() {
+		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
 				return 100;
 			}
@@ -45,7 +45,7 @@ public class DiamondDaggerItem extends TripwiredModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("diamond_dagger"));
 	}
 }

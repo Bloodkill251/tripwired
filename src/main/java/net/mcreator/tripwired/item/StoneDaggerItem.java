@@ -16,7 +16,7 @@ public class StoneDaggerItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:stone_dagger")
 	public static final Item block = null;
 	public StoneDaggerItem(TripwiredModElements instance) {
-		super(instance, 137);
+		super(instance, 53);
 	}
 
 	@Override
@@ -31,7 +31,7 @@ public class StoneDaggerItem extends TripwiredModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 0f;
 			}
 
 			public int getHarvestLevel() {
@@ -45,7 +45,7 @@ public class StoneDaggerItem extends TripwiredModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("stone_dagger"));
 	}
 }
