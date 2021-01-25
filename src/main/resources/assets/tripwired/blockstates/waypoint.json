@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tripwired:block/waypoint"
+    },
+    "facing=east": {
+      "model": "tripwired:block/waypoint",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tripwired:block/waypoint",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tripwired:block/waypoint",
+      "y": 270
+    }
+  }
+}

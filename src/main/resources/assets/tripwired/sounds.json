@@ -8,5 +8,15 @@
         "stream": false
       }
     ]
+  },
+  "guitarone": {
+    "category": "record",
+    "subtitle": "subtitles.guitarone",
+    "sounds": [
+      {
+        "name": "tripwired:untitled_song",
+        "stream": true
+      }
+    ]
   }
 }

@@ -55,9 +55,9 @@ public class MissileOnEntityTickUpdateProcedure extends TripwiredModElements.Mod
 			world.setBlockState(new BlockPos((int) x, (int) (y - 1), (int) z), Blocks.AIR.getDefaultState(), 3);
 			{
 				Entity _ent = entity;
-				_ent.setPositionAndUpdate(x, (y - 0.03), z);
+				_ent.setPositionAndUpdate(x, (y - 0.06), z);
 				if (_ent instanceof ServerPlayerEntity) {
-					((ServerPlayerEntity) _ent).connection.setPlayerLocation(x, (y - 0.03), z, _ent.rotationYaw, _ent.rotationPitch,
+					((ServerPlayerEntity) _ent).connection.setPlayerLocation(x, (y - 0.06), z, _ent.rotationYaw, _ent.rotationPitch,
 							Collections.emptySet());
 				}
 			}

@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "musicdisc1texture",
+    "name": "Music Disc",
+    "description": "Sayne - Guitar One (Vocalless, Solo)",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:guitarone"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

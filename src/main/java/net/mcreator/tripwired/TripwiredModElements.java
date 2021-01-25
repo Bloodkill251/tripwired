@@ -49,6 +49,7 @@ public class TripwiredModElements {
 	public TripwiredModElements() {
 		sounds.put(new ResourceLocation("tripwired", "firebloodentitysound"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("tripwired", "firebloodentitysound")));
+		sounds.put(new ResourceLocation("tripwired", "guitarone"), new net.minecraft.util.SoundEvent(new ResourceLocation("tripwired", "guitarone")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("tripwired").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

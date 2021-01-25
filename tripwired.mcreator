@@ -2496,6 +2496,24 @@
           }
         ]
       }
+    },
+    {
+      "name": "GuitarOne",
+      "type": "musicdisc",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guitar_one"
+    },
+    {
+      "name": "Waypoint",
+      "type": "block",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waypoint"
     }
   ],
   "variable_elements": [],
@@ -2507,15 +2525,23 @@
       ],
       "category": "master",
       "subtitle": "Oh guh guh"
+    },
+    {
+      "name": "guitarone",
+      "files": [
+        "untitled_song"
+      ],
+      "category": "record",
+      "subtitle": "A guitar song"
     }
   ],
   "language_map": {
     "en_us": {
       "item.tripwired.emerald_apple": "Emerald Apple",
-      "item.tripwired.a_ruby_hoe": "ARuby Hoe",
       "item.tripwired.acid_bucket_2": "Acid Bucket",
-      "item.tripwired.diamond_apple": "Diamond Apple",
+      "item.tripwired.a_ruby_hoe": "ARuby Hoe",
       "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
+      "item.tripwired.diamond_apple": "Diamond Apple",
       "block.tripwired.dead_grass": "Dead Grass",
       "item.tripwired.stone_pitchfork": "Pitchfork",
       "block.tripwired.mini_sapphire_block": "Mini Sapphire Block",
@@ -2528,13 +2554,13 @@
       "item.tripwired.sapphire": "Sapphire",
       "effect.milk": "Milk",
       "item.tripwired.sapphire_armor_armor_boots": "Sapphire Boots",
-      "item.minecraft.potion.effect.milk": "Milk",
       "item.tripwired.void_dimension": "Void Igniter",
+      "item.minecraft.potion.effect.milk": "Milk",
       "item.tripwired.ruby_dagger": "Ruby Dagger",
       "effect.acid_immunity": "Acid Immunity",
-      "block.tripwired.sapphire_block": "Sapphire Block",
-      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
       "item.tripwired.iron_stick": "Iron Stick",
+      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
+      "block.tripwired.sapphire_block": "Sapphire Block",
       "item.minecraft.lingering_potion.effect.milk": "Lingering Milk",
       "item.tripwired.silent_dimension": "Flint and Iron",
       "item.tripwired.a_ruby_sword": "ARuby Sword",
@@ -2546,10 +2572,11 @@
       "block.tripwired.quintuple_compressed_cobblestone": "Quinruple Compressed Cobblestone",
       "item.tripwired.acidic_apple": "Acidic Apple",
       "item.tripwired.sapphirea_pickaxe": "Sapphire Pickaxe",
+      "item.tripwired.guitar_one": "Music Disc",
       "item.tripwired.wither_skeleton_skull_apple": "Wither Skeleton Skull Apple",
       "item.tripwired.lapis_apple": "Lapis Apple",
-      "item.tripwired.ignore": "Placeholder",
       "block.tripwired.death_log": "Death Log",
+      "item.tripwired.ignore": "Placeholder",
       "item.minecraft.tipped_arrow.effect.milk": "Arrow of Milk",
       "item.tripwired.sapphire_armor_armor_leggings": "Sapphire Leggings",
       "item.tripwired.ruby_1_armor_boots": "Ruby Boots",
@@ -2588,6 +2615,7 @@
       "block.tripwired.quadruple_compressed_cobblestone": "Quadruple Compressed Cobblestone",
       "block.tripwired.blood_fire_spawn": "Blood Fire Spawn",
       "item.tripwired.blood_bucket": "Blood Bucket",
+      "block.tripwired.waypoint": "Waypoint",
       "item.tripwired.sapphire_dagger": "Sapphire Dagger",
       "item.minecraft.lingering_potion.effect.allowed_explosive": "Lingering Allowed Explosive",
       "block.tripwired.kiro_stairs": "Kiro Stairs",
@@ -2598,11 +2626,13 @@
       "block.tripwired.true_clear_glass": "Clear Glass",
       "biome.tripwired.silent": "Silent",
       "block.tripwired.nether_gold_ore": "Nether Gold Ore",
+      "item.tripwired.guitar_one.desc": "Sayne - Guitar One (Vocalless, Solo)",
       "fluid.void_liquid": "VoidLiquid",
       "item.tripwired.blood_fire_spawn_egg": "Fire Blood Spawn Egg",
       "item.tripwired.void_flint": "Void Flint",
       "fluid.acid": "Acid",
       "entity.tripwired.missile": "Missile",
+      "subtitles.guitarone": "A guitar song",
       "item.tripwired.netherite_leggings": "Netherite Leggings",
       "block.tripwired.void_block": "Void Block",
       "item.tripwired.redstone_apple": "Redstone Apple",

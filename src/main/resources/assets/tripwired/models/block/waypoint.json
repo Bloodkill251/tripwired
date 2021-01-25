@@ -1,0 +1,9 @@
+{
+  "parent": "tripwired:custom/waypoint",
+  "textures": {
+    "all": "tripwired:blocks/void_block_texture",
+    "particle": "tripwired:blocks/void_block_texture",
+    "0": "tripwired:blocks/",
+    "missing": "tripwired:blocks/"
+  }
+}
