@@ -93,7 +93,7 @@
       "name": "AncientDebris",
       "type": "block",
       "sortid": 13,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "ancient_debris"
@@ -756,7 +756,7 @@
       "name": "Malk",
       "type": "fluid",
       "sortid": 56,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "malk"
@@ -824,7 +824,7 @@
       "name": "DeadGrass",
       "type": "block",
       "sortid": 15,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "dead_grass"
@@ -938,7 +938,7 @@
       "name": "DeathLog",
       "type": "block",
       "sortid": 17,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "death_log"
@@ -1235,7 +1235,7 @@
       "name": "SapphireOre",
       "type": "block",
       "sortid": 21,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "sapphire_ore"
@@ -1900,7 +1900,7 @@
       "name": "MiniSapphireBlock",
       "type": "block",
       "sortid": 23,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "mini_sapphire_block"
@@ -2033,7 +2033,7 @@
       "name": "BloodFireSpawn",
       "type": "block",
       "sortid": 194,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "blood_fire_spawn"
@@ -2080,7 +2080,7 @@
       "name": "KiroGrass",
       "type": "block",
       "sortid": 197,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "kiro_grass"
@@ -2134,7 +2134,7 @@
       "name": "QuadrupleCompressedCobblestone",
       "type": "block",
       "sortid": 202,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "quadruple_compressed_cobblestone"
@@ -2330,7 +2330,7 @@
       "name": "KiroStairs",
       "type": "block",
       "sortid": 221,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "kiro_stairs"
@@ -2390,7 +2390,7 @@
       "name": "Blood",
       "type": "fluid",
       "sortid": 225,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "blood"
@@ -2582,10 +2582,10 @@
   "language_map": {
     "en_us": {
       "item.tripwired.emerald_apple": "Emerald Apple",
-      "item.tripwired.a_ruby_hoe": "ARuby Hoe",
       "item.tripwired.acid_bucket_2": "Acid Bucket",
-      "item.tripwired.diamond_apple": "Diamond Apple",
+      "item.tripwired.a_ruby_hoe": "ARuby Hoe",
       "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
+      "item.tripwired.diamond_apple": "Diamond Apple",
       "block.tripwired.dead_grass": "Dead Grass",
       "item.tripwired.stone_pitchfork": "Pitchfork",
       "block.tripwired.mini_sapphire_block": "Mini Sapphire Block",
@@ -2598,16 +2598,16 @@
       "item.tripwired.sapphire": "Sapphire",
       "effect.milk": "Milk",
       "item.tripwired.sapphire_armor_armor_boots": "Sapphire Boots",
-      "item.minecraft.potion.effect.milk": "Milk",
       "item.tripwired.void_dimension": "Void Igniter",
+      "item.minecraft.potion.effect.milk": "Milk",
       "item.tripwired.ruby_dagger": "Ruby Dagger",
       "effect.acid_immunity": "Acid Immunity",
-      "block.tripwired.sapphire_block": "Sapphire Block",
-      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
       "item.tripwired.iron_stick": "Iron Stick",
+      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
+      "block.tripwired.sapphire_block": "Sapphire Block",
       "item.minecraft.lingering_potion.effect.milk": "Lingering Milk",
-      "item.tripwired.a_ruby_sword": "ARuby Sword",
       "item.tripwired.silent_dimension": "Flint and Iron",
+      "item.tripwired.a_ruby_sword": "ARuby Sword",
       "item.tripwired.netherite_pickaxe": "Netherite Pickaxe",
       "item.tripwired.netherite_boots": "Netherite Boots",
       "item.minecraft.lingering_potion.effect.acid_immunity": "Lingering Acid Immunity",
