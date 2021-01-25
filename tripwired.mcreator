@@ -2514,6 +2514,50 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "waypoint"
+    },
+    {
+      "name": "Book1ItemInHandTick",
+      "type": "procedure",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "book_1_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Book1",
+      "type": "item",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "book_1"
+    },
+    {
+      "name": "CrystalChestLoot",
+      "type": "loottable",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_chest_loot"
+    },
+    {
+      "name": "Crystal",
+      "type": "block",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal"
     }
   ],
   "variable_elements": [],
@@ -2538,10 +2582,10 @@
   "language_map": {
     "en_us": {
       "item.tripwired.emerald_apple": "Emerald Apple",
-      "item.tripwired.acid_bucket_2": "Acid Bucket",
       "item.tripwired.a_ruby_hoe": "ARuby Hoe",
-      "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
+      "item.tripwired.acid_bucket_2": "Acid Bucket",
       "item.tripwired.diamond_apple": "Diamond Apple",
+      "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
       "block.tripwired.dead_grass": "Dead Grass",
       "item.tripwired.stone_pitchfork": "Pitchfork",
       "block.tripwired.mini_sapphire_block": "Mini Sapphire Block",
@@ -2554,25 +2598,26 @@
       "item.tripwired.sapphire": "Sapphire",
       "effect.milk": "Milk",
       "item.tripwired.sapphire_armor_armor_boots": "Sapphire Boots",
-      "item.tripwired.void_dimension": "Void Igniter",
       "item.minecraft.potion.effect.milk": "Milk",
+      "item.tripwired.void_dimension": "Void Igniter",
       "item.tripwired.ruby_dagger": "Ruby Dagger",
       "effect.acid_immunity": "Acid Immunity",
-      "item.tripwired.iron_stick": "Iron Stick",
-      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
       "block.tripwired.sapphire_block": "Sapphire Block",
+      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
+      "item.tripwired.iron_stick": "Iron Stick",
       "item.minecraft.lingering_potion.effect.milk": "Lingering Milk",
-      "item.tripwired.silent_dimension": "Flint and Iron",
       "item.tripwired.a_ruby_sword": "ARuby Sword",
+      "item.tripwired.silent_dimension": "Flint and Iron",
       "item.tripwired.netherite_pickaxe": "Netherite Pickaxe",
       "item.tripwired.netherite_boots": "Netherite Boots",
       "item.minecraft.lingering_potion.effect.acid_immunity": "Lingering Acid Immunity",
       "enchantment.tripwired.bonus_health": "Bonus Health",
       "item.tripwired.ruby_1_armor_leggings": "Ruby Leggings",
       "block.tripwired.quintuple_compressed_cobblestone": "Quinruple Compressed Cobblestone",
+      "item.tripwired.book_1": "Random Enchanted Book",
       "item.tripwired.acidic_apple": "Acidic Apple",
-      "item.tripwired.sapphirea_pickaxe": "Sapphire Pickaxe",
       "item.tripwired.guitar_one": "Music Disc",
+      "item.tripwired.sapphirea_pickaxe": "Sapphire Pickaxe",
       "item.tripwired.wither_skeleton_skull_apple": "Wither Skeleton Skull Apple",
       "item.tripwired.lapis_apple": "Lapis Apple",
       "block.tripwired.death_log": "Death Log",
@@ -2584,6 +2629,7 @@
       "item.tripwired.netherite_apple": "Netherite Apple",
       "block.tripwired.triple_compressed_cobblestone": "Triple Compressed Cobblestone",
       "item.tripwired.netherite_ingot": "Netherite Ingot",
+      "block.tripwired.crystal": "Crystal",
       "block.tripwired.sextuple_compressed_cobblestone": "Sextuple Compressed Cobblestone",
       "biome.tripwired.voided": "Voided",
       "item.tripwired.a_ruby_axe": "Ruby Axe",
