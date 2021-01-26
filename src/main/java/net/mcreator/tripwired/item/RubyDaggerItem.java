@@ -45,7 +45,7 @@ public class RubyDaggerItem extends TripwiredModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -0.6f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("ruby_dagger"));
 	}
 }

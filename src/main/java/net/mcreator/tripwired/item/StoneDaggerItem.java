@@ -31,7 +31,7 @@ public class StoneDaggerItem extends TripwiredModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return 1.2f;
 			}
 
 			public int getHarvestLevel() {

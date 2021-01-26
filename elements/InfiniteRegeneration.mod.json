@@ -4,7 +4,7 @@
   "definition": {
     "name": "Infinite Regeneration",
     "type": "ARMOR_CHEST",
-    "rarity": "RARE",
+    "rarity": "VERY_RARE",
     "minLevel": 1,
     "maxLevel": 3,
     "damageModifier": 0,

@@ -45,7 +45,7 @@ public class DiamondDaggerItem extends TripwiredModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -0.8f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("diamond_dagger"));
 	}
 }

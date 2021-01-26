@@ -2576,6 +2576,50 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crystal_container"
+    },
+    {
+      "name": "GotokiroCommandExecuted",
+      "type": "procedure",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gotokiro_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gotokiro",
+      "type": "command",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gotokiro"
+    },
+    {
+      "name": "KiroLeave",
+      "type": "block",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kiro_leave"
+    },
+    {
+      "name": "KiroLeaveLootTable",
+      "type": "loottable",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kiro_leave_loot_table"
     }
   ],
   "variable_elements": [],
@@ -2600,10 +2644,10 @@
   "language_map": {
     "en_us": {
       "item.tripwired.emerald_apple": "Emerald Apple",
-      "item.tripwired.a_ruby_hoe": "ARuby Hoe",
       "item.tripwired.acid_bucket_2": "Acid Bucket",
-      "item.tripwired.diamond_apple": "Diamond Apple",
+      "item.tripwired.a_ruby_hoe": "ARuby Hoe",
       "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
+      "item.tripwired.diamond_apple": "Diamond Apple",
       "block.tripwired.dead_grass": "Dead Grass",
       "item.tripwired.stone_pitchfork": "Pitchfork",
       "block.tripwired.mini_sapphire_block": "Mini Sapphire Block",
@@ -2616,16 +2660,16 @@
       "item.tripwired.sapphire": "Sapphire",
       "effect.milk": "Milk",
       "item.tripwired.sapphire_armor_armor_boots": "Sapphire Boots",
-      "item.minecraft.potion.effect.milk": "Milk",
       "item.tripwired.void_dimension": "Void Igniter",
+      "item.minecraft.potion.effect.milk": "Milk",
       "item.tripwired.ruby_dagger": "Ruby Dagger",
       "effect.acid_immunity": "Acid Immunity",
-      "block.tripwired.sapphire_block": "Sapphire Block",
-      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
       "item.tripwired.iron_stick": "Iron Stick",
+      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
+      "block.tripwired.sapphire_block": "Sapphire Block",
       "item.minecraft.lingering_potion.effect.milk": "Lingering Milk",
-      "item.tripwired.a_ruby_sword": "ARuby Sword",
       "item.tripwired.silent_dimension": "Flint and Iron",
+      "item.tripwired.a_ruby_sword": "ARuby Sword",
       "item.tripwired.netherite_pickaxe": "Netherite Pickaxe",
       "item.tripwired.netherite_boots": "Netherite Boots",
       "item.minecraft.lingering_potion.effect.acid_immunity": "Lingering Acid Immunity",
@@ -2649,6 +2693,7 @@
       "item.tripwired.netherite_ingot": "Netherite Ingot",
       "block.tripwired.crystal": "Crystal",
       "block.tripwired.sextuple_compressed_cobblestone": "Sextuple Compressed Cobblestone",
+      "block.tripwired.kiro_leave": "Death Leave",
       "biome.tripwired.voided": "Voided",
       "item.tripwired.a_ruby_axe": "Ruby Axe",
       "item.tripwired.iron_dagger": "Iron Dagger",

@@ -35,21 +35,14 @@ public class IfPlayerChestplateHasEnchantmentInfiniteRegenerationProcedure exten
 		Entity entity = (Entity) dependencies.get("entity");
 		double number = 0;
 		String dwd = "";
-		entity.getPersistentData().putDouble("counter1", ((entity.getPersistentData().getDouble("counter1")) + 1));
-		if ((((entity.getPersistentData().getDouble("counter1")) % 25) == 0)) {
-			if (((EnchantmentHelper.getEnchantmentLevel(InfiniteRegenerationEnchantment.enchantment,
-					((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 2) : ItemStack.EMPTY))) == 1)) {
-				if (entity instanceof LivingEntity)
-					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 30, (int) 0, (false), (false)));
-			} else if (((EnchantmentHelper.getEnchantmentLevel(InfiniteRegenerationEnchantment.enchantment,
-					((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 2) : ItemStack.EMPTY))) == 2)) {
-				if (entity instanceof LivingEntity)
-					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 30, (int) 1, (false), (false)));
-			} else if (((EnchantmentHelper.getEnchantmentLevel(InfiniteRegenerationEnchantment.enchantment,
-					((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 2) : ItemStack.EMPTY))) == 3)) {
-				if (entity instanceof LivingEntity)
-					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 30, (int) 2, (false), (false)));
-			}
+		entity.getPersistentData().putDouble("a", ((entity.getPersistentData().getDouble("a")) + 1));
+		if ((((entity.getPersistentData().getDouble("a")) % 100) == 0)) {
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 101,
+						(int) ((EnchantmentHelper.getEnchantmentLevel(InfiniteRegenerationEnchantment.enchantment,
+								((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 2) : ItemStack.EMPTY)))
+								- 1),
+						(true), (false)));
 		}
 	}
 

@@ -28,6 +28,8 @@ public class Book1ItemInHandTickProcedure extends TripwiredModElements.ModElemen
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		double tfhtft = 0;
+		double ttt = 0;
+		ttt = (double) 10;
 		tfhtft = (double) Math.round((Math.random() * 8));
 		if (entity instanceof LivingEntity) {
 			ItemStack _setstack = new ItemStack(Items.ENCHANTED_BOOK, (int) (1));
@@ -37,25 +39,49 @@ public class Book1ItemInHandTickProcedure extends TripwiredModElements.ModElemen
 				((ServerPlayerEntity) entity).inventory.markDirty();
 		}
 		if ((5 >= (tfhtft))) {
-			(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
-					.addEnchantment(BonusHealthEnchantment.enchantment, (int) (tfhtft));
+			if (((tfhtft) == 0)) {
+				(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+						.addEnchantment(BonusHealthEnchantment.enchantment, (int) 1);
+			} else {
+				(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+						.addEnchantment(BonusHealthEnchantment.enchantment, (int) (tfhtft));
+				ttt = (double) ((ttt) - (tfhtft));
+			}
 			tfhtft = (double) Math.round((Math.random() * 4));
 			if (((tfhtft) == 1)) {
 				tfhtft = (double) Math.round((Math.random() * 3));
-				(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
-						.addEnchantment(InfiniteRegenerationEnchantment.enchantment, (int) (tfhtft));
+				if (((tfhtft) == 0)) {
+					(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+							.addEnchantment(InfiniteRegenerationEnchantment.enchantment, (int) 1);
+				} else {
+					(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+							.addEnchantment(InfiniteRegenerationEnchantment.enchantment, (int) (tfhtft));
+					ttt = (double) ((ttt) - (tfhtft));
+				}
 			}
 		} else {
-			(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
-					.addEnchantment(InfiniteRegenerationEnchantment.enchantment, (int) ((tfhtft) - 5));
+			if ((((tfhtft) - 5) == 0)) {
+				(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+						.addEnchantment(InfiniteRegenerationEnchantment.enchantment, (int) 1);
+			} else {
+				(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+						.addEnchantment(InfiniteRegenerationEnchantment.enchantment, (int) ((tfhtft) - 5));
+				ttt = (double) ((ttt) - ((tfhtft) - 5));
+			}
 			tfhtft = (double) Math.round((Math.random() * 4));
 			if (((tfhtft) == 1)) {
 				tfhtft = (double) Math.round((Math.random() * 5));
-				(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
-						.addEnchantment(BonusHealthEnchantment.enchantment, (int) (tfhtft));
+				if (((tfhtft) == 0)) {
+					(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+							.addEnchantment(BonusHealthEnchantment.enchantment, (int) 1);
+				} else {
+					(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+							.addEnchantment(BonusHealthEnchantment.enchantment, (int) (tfhtft));
+					ttt = (double) ((ttt) - (tfhtft));
+				}
 			}
 		}
-		tfhtft = (double) Math.round((Math.random() * 3));
+		tfhtft = (double) Math.round((Math.random() * (ttt)));
 		if (((tfhtft) == 1)) {
 			(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
 					.addEnchantment(InstaBreakEnchantment.enchantment, (int) 1);

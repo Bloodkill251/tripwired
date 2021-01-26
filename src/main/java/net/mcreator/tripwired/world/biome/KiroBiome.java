@@ -28,9 +28,9 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.tripwired.block.KiroLeaveBlock;
 import net.mcreator.tripwired.block.KiroGrassBlock;
 import net.mcreator.tripwired.block.DeathLogBlock;
-import net.mcreator.tripwired.block.DeathLeaveBlock;
 import net.mcreator.tripwired.TripwiredModElements;
 
 import java.util.Set;
@@ -63,7 +63,7 @@ public class KiroBiome extends TripwiredModElements.ModElement {
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 					new CustomTreeFeature()
 							.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(DeathLogBlock.block.getDefaultState()),
-									new SimpleBlockStateProvider(DeathLeaveBlock.block.getDefaultState()))).baseHeight(7)
+									new SimpleBlockStateProvider(KiroLeaveBlock.block.getDefaultState()))).baseHeight(7)
 											.setSapling((net.minecraftforge.common.IPlantable) Blocks.JUNGLE_SAPLING).build())
 							.withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(1, 0.1F, 1))));
 		}
@@ -141,8 +141,8 @@ public class KiroBiome extends TripwiredModElements.ModElement {
 										state = world.getBlockState(blockpos);
 										if (state.getBlock().isAir(state, world, blockpos) || state.getMaterial().blocksMovement()
 												|| state.isIn(BlockTags.LEAVES) || state.getBlock() == Blocks.AIR.getDefaultState().getBlock()
-												|| state.getBlock() == DeathLeaveBlock.block.getDefaultState().getBlock()) {
-											setTreeBlockState(changedBlocks, world, blockpos, DeathLeaveBlock.block.getDefaultState(), bbox);
+												|| state.getBlock() == KiroLeaveBlock.block.getDefaultState().getBlock()) {
+											setTreeBlockState(changedBlocks, world, blockpos, KiroLeaveBlock.block.getDefaultState(), bbox);
 										}
 									}
 								}
@@ -154,7 +154,7 @@ public class KiroBiome extends TripwiredModElements.ModElement {
 							setTreeBlockState(changedBlocks, world, genhPos, DeathLogBlock.block.getDefaultState(), bbox);
 							if (state.getBlock().isAir(state, world, genhPos) || state.getMaterial().blocksMovement() || state.isIn(BlockTags.LEAVES)
 									|| state.getBlock() == Blocks.AIR.getDefaultState().getBlock()
-									|| state.getBlock() == DeathLeaveBlock.block.getDefaultState().getBlock()) {
+									|| state.getBlock() == KiroLeaveBlock.block.getDefaultState().getBlock()) {
 							}
 						}
 						if (rand.nextInt(4) == 0 && height > 5) {
@@ -189,7 +189,7 @@ public class KiroBiome extends TripwiredModElements.ModElement {
 
 		private boolean canGrowInto(Block blockType) {
 			return blockType.getDefaultState().getMaterial() == Material.AIR || blockType == DeathLogBlock.block.getDefaultState().getBlock()
-					|| blockType == DeathLeaveBlock.block.getDefaultState().getBlock()
+					|| blockType == KiroLeaveBlock.block.getDefaultState().getBlock()
 					|| blockType == KiroGrassBlock.block.getDefaultState().getBlock() || blockType == Blocks.DIRT.getDefaultState().getBlock();
 		}
 

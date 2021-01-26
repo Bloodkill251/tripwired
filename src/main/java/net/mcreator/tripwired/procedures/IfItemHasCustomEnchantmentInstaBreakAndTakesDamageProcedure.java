@@ -38,7 +38,7 @@ public class IfItemHasCustomEnchantmentInstaBreakAndTakesDamageProcedure extends
 			if ((!(((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
 					.getDamage()) == (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
 							.getMaxDamage()) - 1)))) {
-				if ((51 < (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getMaxDamage())
+				if ((50 < (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getMaxDamage())
 						- ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getDamage())))) {
 					{
 						ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
@@ -48,11 +48,36 @@ public class IfItemHasCustomEnchantmentInstaBreakAndTakesDamageProcedure extends
 						}
 					}
 				} else {
-					{
-						ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
-						if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
-							_ist.shrink(1);
-							_ist.setDamage(0);
+					if ((25 < (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getMaxDamage())
+							- ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+									.getDamage())))) {
+						{
+							ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+							if (_ist.attemptDamageItem((int) 25, new Random(), null)) {
+								_ist.shrink(1);
+								_ist.setDamage(0);
+							}
+						}
+					} else {
+						if ((5 < (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+								.getMaxDamage())
+								- ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+										.getDamage())))) {
+							{
+								ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+								if (_ist.attemptDamageItem((int) 5, new Random(), null)) {
+									_ist.shrink(1);
+									_ist.setDamage(0);
+								}
+							}
+						} else {
+							{
+								ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+								if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
+									_ist.shrink(1);
+									_ist.setDamage(0);
+								}
+							}
 						}
 					}
 				}
@@ -72,11 +97,36 @@ public class IfItemHasCustomEnchantmentInstaBreakAndTakesDamageProcedure extends
 						}
 					}
 				} else {
-					{
-						ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY);
-						if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
-							_ist.shrink(1);
-							_ist.setDamage(0);
+					if ((25 < (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getMaxDamage())
+							- ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+									.getDamage())))) {
+						{
+							ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+							if (_ist.attemptDamageItem((int) 25, new Random(), null)) {
+								_ist.shrink(1);
+								_ist.setDamage(0);
+							}
+						}
+					} else {
+						if ((5 < (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+								.getMaxDamage())
+								- ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+										.getDamage())))) {
+							{
+								ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+								if (_ist.attemptDamageItem((int) 5, new Random(), null)) {
+									_ist.shrink(1);
+									_ist.setDamage(0);
+								}
+							}
+						} else {
+							{
+								ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+								if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
+									_ist.shrink(1);
+									_ist.setDamage(0);
+								}
+							}
 						}
 					}
 				}
@@ -101,13 +151,36 @@ public class IfItemHasCustomEnchantmentInstaBreakAndTakesDamageProcedure extends
 						}
 					}
 				} else {
-					{
-						ItemStack _ist = ((entity instanceof PlayerEntity)
-								? ((PlayerEntity) entity).inventory.armorInventory.get((int) 0)
-								: ItemStack.EMPTY);
-						if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
-							_ist.shrink(1);
-							_ist.setDamage(0);
+					if ((25 < (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getMaxDamage())
+							- ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+									.getDamage())))) {
+						{
+							ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+							if (_ist.attemptDamageItem((int) 25, new Random(), null)) {
+								_ist.shrink(1);
+								_ist.setDamage(0);
+							}
+						}
+					} else {
+						if ((5 < (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+								.getMaxDamage())
+								- ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+										.getDamage())))) {
+							{
+								ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+								if (_ist.attemptDamageItem((int) 5, new Random(), null)) {
+									_ist.shrink(1);
+									_ist.setDamage(0);
+								}
+							}
+						} else {
+							{
+								ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+								if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
+									_ist.shrink(1);
+									_ist.setDamage(0);
+								}
+							}
 						}
 					}
 				}
@@ -132,13 +205,36 @@ public class IfItemHasCustomEnchantmentInstaBreakAndTakesDamageProcedure extends
 						}
 					}
 				} else {
-					{
-						ItemStack _ist = ((entity instanceof PlayerEntity)
-								? ((PlayerEntity) entity).inventory.armorInventory.get((int) 1)
-								: ItemStack.EMPTY);
-						if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
-							_ist.shrink(1);
-							_ist.setDamage(0);
+					if ((25 < (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getMaxDamage())
+							- ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+									.getDamage())))) {
+						{
+							ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+							if (_ist.attemptDamageItem((int) 25, new Random(), null)) {
+								_ist.shrink(1);
+								_ist.setDamage(0);
+							}
+						}
+					} else {
+						if ((5 < (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+								.getMaxDamage())
+								- ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+										.getDamage())))) {
+							{
+								ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+								if (_ist.attemptDamageItem((int) 5, new Random(), null)) {
+									_ist.shrink(1);
+									_ist.setDamage(0);
+								}
+							}
+						} else {
+							{
+								ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+								if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
+									_ist.shrink(1);
+									_ist.setDamage(0);
+								}
+							}
 						}
 					}
 				}
@@ -163,13 +259,36 @@ public class IfItemHasCustomEnchantmentInstaBreakAndTakesDamageProcedure extends
 						}
 					}
 				} else {
-					{
-						ItemStack _ist = ((entity instanceof PlayerEntity)
-								? ((PlayerEntity) entity).inventory.armorInventory.get((int) 2)
-								: ItemStack.EMPTY);
-						if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
-							_ist.shrink(1);
-							_ist.setDamage(0);
+					if ((25 < (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getMaxDamage())
+							- ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+									.getDamage())))) {
+						{
+							ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+							if (_ist.attemptDamageItem((int) 25, new Random(), null)) {
+								_ist.shrink(1);
+								_ist.setDamage(0);
+							}
+						}
+					} else {
+						if ((5 < (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+								.getMaxDamage())
+								- ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+										.getDamage())))) {
+							{
+								ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+								if (_ist.attemptDamageItem((int) 5, new Random(), null)) {
+									_ist.shrink(1);
+									_ist.setDamage(0);
+								}
+							}
+						} else {
+							{
+								ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+								if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
+									_ist.shrink(1);
+									_ist.setDamage(0);
+								}
+							}
 						}
 					}
 				}
@@ -194,13 +313,36 @@ public class IfItemHasCustomEnchantmentInstaBreakAndTakesDamageProcedure extends
 						}
 					}
 				} else {
-					{
-						ItemStack _ist = ((entity instanceof PlayerEntity)
-								? ((PlayerEntity) entity).inventory.armorInventory.get((int) 3)
-								: ItemStack.EMPTY);
-						if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
-							_ist.shrink(1);
-							_ist.setDamage(0);
+					if ((25 < (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getMaxDamage())
+							- ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+									.getDamage())))) {
+						{
+							ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+							if (_ist.attemptDamageItem((int) 25, new Random(), null)) {
+								_ist.shrink(1);
+								_ist.setDamage(0);
+							}
+						}
+					} else {
+						if ((5 < (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+								.getMaxDamage())
+								- ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
+										.getDamage())))) {
+							{
+								ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+								if (_ist.attemptDamageItem((int) 5, new Random(), null)) {
+									_ist.shrink(1);
+									_ist.setDamage(0);
+								}
+							}
+						} else {
+							{
+								ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+								if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
+									_ist.shrink(1);
+									_ist.setDamage(0);
+								}
+							}
 						}
 					}
 				}
