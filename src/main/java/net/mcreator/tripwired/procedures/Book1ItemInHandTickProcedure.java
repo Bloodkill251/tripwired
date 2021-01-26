@@ -30,13 +30,13 @@ public class Book1ItemInHandTickProcedure extends TripwiredModElements.ModElemen
 		double tfhtft = 0;
 		tfhtft = (double) Math.round((Math.random() * 8));
 		if (entity instanceof LivingEntity) {
-			ItemStack _setstack = new ItemStack(Items.BOOK, (int) (1));
+			ItemStack _setstack = new ItemStack(Items.ENCHANTED_BOOK, (int) (1));
 			_setstack.setCount((int) 1);
 			((LivingEntity) entity).setHeldItem(Hand.MAIN_HAND, _setstack);
 			if (entity instanceof ServerPlayerEntity)
 				((ServerPlayerEntity) entity).inventory.markDirty();
 		}
-		if (((tfhtft) >= 5)) {
+		if ((5 >= (tfhtft))) {
 			(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))
 					.addEnchantment(BonusHealthEnchantment.enchantment, (int) (tfhtft));
 			tfhtft = (double) Math.round((Math.random() * 4));

@@ -1,12 +1,8 @@
 {
-  "parent": "block/cube",
+  "parent": "tripwired:custom/crystal",
   "textures": {
-    "down": "tripwired:blocks/milktexture",
-    "up": "tripwired:blocks/milktexture",
-    "north": "tripwired:blocks/milktexture",
-    "east": "tripwired:blocks/milktexture",
-    "south": "tripwired:blocks/milktexture",
-    "west": "tripwired:blocks/milktexture",
-    "particle": "tripwired:blocks/milktexture"
+    "all": "tripwired:blocks/milktexture",
+    "particle": "tripwired:blocks/milktexture",
+    "0": "tripwired:blocks/milktexture"
   }
 }
