@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tripwired:block/tier_1_unranium_purifier"
+    },
+    "facing=east": {
+      "model": "tripwired:block/tier_1_unranium_purifier",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tripwired:block/tier_1_unranium_purifier",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tripwired:block/tier_1_unranium_purifier",
+      "y": 270
+    }
+  }
+}

@@ -70,6 +70,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.tripwired.item.KiroDimensionItem;
+import net.mcreator.tripwired.block.KiroStoneBlock;
 import net.mcreator.tripwired.block.BloodBlock;
 import net.mcreator.tripwired.TripwiredModElements;
 
@@ -740,7 +741,7 @@ public class KiroDimensionDimension extends TripwiredModElements.ModElement {
 				}
 
 				public BlockState getDefaultFluid() {
-					return Blocks.AIR.getDefaultState();
+					return KiroStoneBlock.block.getDefaultState();
 				}
 			});
 			this.randomSeed.skip(5349);

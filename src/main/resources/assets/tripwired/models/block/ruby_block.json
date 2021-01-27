@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tripwired:blocks/rubyblock",
+    "up": "tripwired:blocks/rubyblock",
+    "north": "tripwired:blocks/rubyblock",
+    "east": "tripwired:blocks/rubyblock",
+    "south": "tripwired:blocks/rubyblock",
+    "west": "tripwired:blocks/rubyblock",
+    "particle": "tripwired:blocks/rubyblock"
+  }
+}

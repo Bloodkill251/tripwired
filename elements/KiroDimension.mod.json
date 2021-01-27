@@ -29,7 +29,7 @@
       "value": "CUSTOM:Blood"
     },
     "fluidBlock": {
-      "value": "Blocks.AIR"
+      "value": "CUSTOM:KiroStone"
     },
     "airColor": {
       "value": -4138753,

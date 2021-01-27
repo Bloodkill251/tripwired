@@ -2620,6 +2620,329 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "kiro_leave_loot_table"
+    },
+    {
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore"
+    },
+    {
+      "name": "SilentCopperOre",
+      "type": "block",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silent_copper_ore"
+    },
+    {
+      "name": "KiroCopperOre",
+      "type": "block",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kiro_copper_ore"
+    },
+    {
+      "name": "KiroStone",
+      "type": "block",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kiro_stone"
+    },
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_block"
+    },
+    {
+      "name": "Tier1Frame",
+      "type": "block",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tier_1_frame"
+    },
+    {
+      "name": "CopperIngot",
+      "type": "item",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ingot"
+    },
+    {
+      "name": "CopperOreToCopperIngot",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore_to_copper_ingot"
+    },
+    {
+      "name": "T1FrameRecipe",
+      "type": "recipe",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "t_1_frame_recipe"
+    },
+    {
+      "name": "TenxttnBlockAdded",
+      "type": "procedure",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tenxttn_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tenxttn",
+      "type": "block",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tenxttn"
+    },
+    {
+      "name": "ExplosionPowerSet",
+      "type": "gui",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explosion_power_set"
+    },
+    {
+      "name": "Explode",
+      "type": "procedure",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CustomExplosive",
+      "type": "block",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "custom_explosive"
+    },
+    {
+      "name": "WeakUnusableUraniumOreUpdateTick",
+      "type": "procedure",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weak_unusable_uranium_ore_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WeakUnusableUraniumOre",
+      "type": "block",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weak_unusable_uranium_ore"
+    },
+    {
+      "name": "Tier1UnraniumPurifier",
+      "type": "block",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tier_1_unranium_purifier"
+    },
+    {
+      "name": "HealCommandExecuted",
+      "type": "procedure",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heal_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heal",
+      "type": "command",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heal"
+    },
+    {
+      "name": "UraniumPurifierProcedure",
+      "type": "procedure",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_purifier_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UraniumPurfificatorGUI",
+      "type": "gui",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_purfificator_gui"
+    },
+    {
+      "name": "NormalUnusableUraniumOre",
+      "type": "block",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "normal_unusable_uranium_ore"
+    },
+    {
+      "name": "NormalUnusableUraniumOreUpdateTick",
+      "type": "procedure",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "normal_unusable_uranium_ore_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2643,11 +2966,12 @@
   ],
   "language_map": {
     "en_us": {
+      "block.tripwired.ruby_block": "Ruby Block",
       "item.tripwired.emerald_apple": "Emerald Apple",
       "item.tripwired.acid_bucket_2": "Acid Bucket",
       "item.tripwired.a_ruby_hoe": "ARuby Hoe",
-      "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
       "item.tripwired.diamond_apple": "Diamond Apple",
+      "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
       "block.tripwired.dead_grass": "Dead Grass",
       "item.tripwired.stone_pitchfork": "Pitchfork",
       "block.tripwired.mini_sapphire_block": "Mini Sapphire Block",
@@ -2657,6 +2981,7 @@
       "item.tripwired.pitchfork": "Pitchfork",
       "block.tripwired.steel_ore": "Steel Ore",
       "fluid.blood": "Blood",
+      "block.tripwired.tenxttn": "Tenxttn",
       "item.tripwired.sapphire": "Sapphire",
       "effect.milk": "Milk",
       "item.tripwired.sapphire_armor_armor_boots": "Sapphire Boots",
@@ -2664,17 +2989,19 @@
       "item.minecraft.potion.effect.milk": "Milk",
       "item.tripwired.ruby_dagger": "Ruby Dagger",
       "effect.acid_immunity": "Acid Immunity",
-      "item.tripwired.iron_stick": "Iron Stick",
-      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
       "block.tripwired.sapphire_block": "Sapphire Block",
+      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
+      "item.tripwired.iron_stick": "Iron Stick",
       "item.minecraft.lingering_potion.effect.milk": "Lingering Milk",
-      "item.tripwired.silent_dimension": "Flint and Iron",
       "item.tripwired.a_ruby_sword": "ARuby Sword",
+      "item.tripwired.silent_dimension": "Flint and Iron",
+      "block.tripwired.tier_1_frame": "Tier 1 Frame",
       "item.tripwired.netherite_pickaxe": "Netherite Pickaxe",
       "item.tripwired.netherite_boots": "Netherite Boots",
       "item.minecraft.lingering_potion.effect.acid_immunity": "Lingering Acid Immunity",
       "enchantment.tripwired.bonus_health": "Bonus Health",
       "item.tripwired.ruby_1_armor_leggings": "Ruby Leggings",
+      "block.tripwired.custom_explosive": "Custom Explosive",
       "block.tripwired.quintuple_compressed_cobblestone": "Quinruple Compressed Cobblestone",
       "item.tripwired.book_1": "Random Enchanted Book",
       "item.tripwired.acidic_apple": "Acidic Apple",
@@ -2702,6 +3029,7 @@
       "subtitles.death_tone_1": "Sound Of A Deadly Entity",
       "item.tripwired.sapphire_armor_armor_chestplate": "Sapphire Chestplate",
       "item.tripwired.emerald_armor_leggings": "Emerald Leggings",
+      "item.tripwired.copper_ingot": "Copper Ingot",
       "item.tripwired.dagger": "Dagger",
       "item.tripwired.emerald_armor_chestplate": "Emerald Chestplate",
       "item.tripwired.coal_apple": "Coal Apple",
@@ -2713,6 +3041,7 @@
       "item.tripwired.missile_spawn_egg": "Missile Spawn Egg",
       "item.tripwired.void_liquid_bucket": "VoidLiquid Bucket",
       "item.minecraft.tipped_arrow.effect.allowed_explosive": "Arrow of Allowed Explosive",
+      "block.tripwired.copper_ore": "Copper Ore",
       "block.tripwired.ancient_debris": "Ancient Debris",
       "item.tripwired.sapphire_apple": "Sapphire Apple",
       "item.minecraft.potion.effect.allowed_explosive": "Allowed Explosive",
@@ -2722,11 +3051,13 @@
       "subtitles.firebloodentitysound": "Oh guh guh",
       "block.tripwired.kiro_grass": "Kiro Grass",
       "block.tripwired.quadruple_compressed_cobblestone": "Quadruple Compressed Cobblestone",
+      "block.tripwired.kiro_copper_ore": "Copper Ore",
       "block.tripwired.blood_fire_spawn": "Blood Fire Spawn",
       "item.tripwired.blood_bucket": "Blood Bucket",
       "block.tripwired.waypoint": "Waypoint",
       "item.tripwired.sapphire_dagger": "Sapphire Dagger",
       "item.minecraft.lingering_potion.effect.allowed_explosive": "Lingering Allowed Explosive",
+      "block.tripwired.kiro_stone": "Kiro Stone",
       "block.tripwired.kiro_stairs": "Kiro Stairs",
       "entity.tripwired.fire_blood": "Fire Blood",
       "item.tripwired.stone_dagger": "Stone Dagger",
@@ -2736,6 +3067,7 @@
       "biome.tripwired.silent": "Silent",
       "block.tripwired.nether_gold_ore": "Nether Gold Ore",
       "item.tripwired.guitar_one.desc": "Sayne - Guitar One (Vocalless, Solo)",
+      "block.tripwired.silent_copper_ore": "Copper Ore",
       "fluid.void_liquid": "VoidLiquid",
       "item.tripwired.blood_fire_spawn_egg": "Fire Blood Spawn Egg",
       "item.tripwired.void_flint": "Void Flint",
@@ -2748,6 +3080,7 @@
       "item.tripwired.fire_blood_spawn_egg": "Fire Blood Spawn Egg",
       "block.tripwired.death_plank": "Death Plank",
       "item.tripwired.sapphirea_shovel": "Sapphirea Shovel",
+      "block.tripwired.tier_1_unranium_purifier": "Tier 1 Unranium Purifier",
       "item.tripwired.kiro_dimension": "Flint and Ruby",
       "item.tripwired.netherite_scrap": "Netherite Scrap",
       "item.tripwired.emerald_armor_boots": "Emerald Boots",
@@ -2759,6 +3092,7 @@
       "biome.tripwired.kiro": "Kiro",
       "key.mcreator.explosive": "Explosive",
       "item.tripwired.steel_ingot": "Steel Ingot",
+      "block.tripwired.normal_unusable_uranium_ore": "Normal Unusable Uranium Ore",
       "entity.tripwired.blood_fire": "Fire Blood",
       "item.tripwired.netherite_chestplate": "Netherite Chestplate",
       "item.tripwired.ruby_1_armor_helmet": "Ruby Helmet",
@@ -2769,6 +3103,7 @@
       "item.tripwired.sapphirea_hoe": "Sapphirea Hoe",
       "item.tripwired.a_ruby_shovel": "ARuby Shovel",
       "item.tripwired.netherite_helmet": "Netherite Helmet",
+      "block.tripwired.weak_unusable_uranium_ore": "Weak Unusable Uranium Ore",
       "item.tripwired.netherite_axe": "Netherite Pickaxe",
       "item.tripwired.iron_bowa": "Iron Bow",
       "effect.allowed_explosive": "Allowed Explosive",

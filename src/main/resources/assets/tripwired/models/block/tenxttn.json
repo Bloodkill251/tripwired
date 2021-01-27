@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tripwired:blocks/tnt_bottom",
+    "up": "tripwired:blocks/tnt_top",
+    "north": "tripwired:blocks/tnt_side",
+    "east": "tripwired:blocks/tnt_side",
+    "south": "tripwired:blocks/tnt_side",
+    "west": "tripwired:blocks/tnt_side",
+    "particle": "tripwired:blocks/tnt_bottom"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tripwired:blocks/tier1compressedcobblestone",
+    "up": "tripwired:blocks/urananiumpurifiertier1top",
+    "north": "tripwired:blocks/tier1unraniumpurifierfront",
+    "east": "tripwired:blocks/tier1uraniumpurifierside",
+    "south": "tripwired:blocks/tier1uraniumpurifierside",
+    "west": "tripwired:blocks/tier1uraniumpurifierside",
+    "particle": "tripwired:blocks/tier1compressedcobblestone"
+  }
+}

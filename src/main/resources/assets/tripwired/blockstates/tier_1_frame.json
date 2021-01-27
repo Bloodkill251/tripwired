@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tripwired:block/tier_1_frame"
+    }
+  }
+}

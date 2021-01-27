@@ -1,0 +1,77 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "1",
+          "width": 120,
+          "height": 20,
+          "name": "PowerOfExplosion",
+          "x": 152,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Explosion Power",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Explosion Power",
+          "x": 176,
+          "y": 46
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "0",
+          "width": 120,
+          "height": 20,
+          "name": "Delay1",
+          "x": 152,
+          "y": 140
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Delay",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Delay",
+          "x": 201,
+          "y": 117
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Explode",
+          "onClick": {
+            "name": "Explode"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "Explode",
+          "x": 175,
+          "y": 172
+        }
+      }
+    ]
+  }
+}

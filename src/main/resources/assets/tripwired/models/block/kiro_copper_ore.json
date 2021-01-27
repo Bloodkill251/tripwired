@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tripwired:blocks/kirocopperore",
+    "up": "tripwired:blocks/kirocopperore",
+    "north": "tripwired:blocks/kirocopperore",
+    "east": "tripwired:blocks/kirocopperore",
+    "south": "tripwired:blocks/kirocopperore",
+    "west": "tripwired:blocks/kirocopperore",
+    "particle": "tripwired:blocks/kirocopperore"
+  }
+}
