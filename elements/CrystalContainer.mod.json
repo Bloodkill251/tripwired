@@ -3,7 +3,7 @@
   "_type": "structure",
   "definition": {
     "structure": "tst",
-    "randomlyRotateStructure": true,
+    "randomlyRotateStructure": false,
     "surfaceDetectionType": "First block",
     "spawnProbability": 1000,
     "minCountPerChunk": 1,

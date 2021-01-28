@@ -2943,6 +2943,44 @@
           }
         ]
       }
+    },
+    {
+      "name": "StrongUnusableUraniumOre",
+      "type": "block",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strong_unusable_uranium_ore"
+    },
+    {
+      "name": "StrongUnusableUraniumOreUpdateTick",
+      "type": "procedure",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strong_unusable_uranium_ore_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2968,8 +3006,8 @@
     "en_us": {
       "block.tripwired.ruby_block": "Ruby Block",
       "item.tripwired.emerald_apple": "Emerald Apple",
-      "item.tripwired.acid_bucket_2": "Acid Bucket",
       "item.tripwired.a_ruby_hoe": "ARuby Hoe",
+      "item.tripwired.acid_bucket_2": "Acid Bucket",
       "item.tripwired.diamond_apple": "Diamond Apple",
       "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
       "block.tripwired.dead_grass": "Dead Grass",
@@ -2985,8 +3023,8 @@
       "item.tripwired.sapphire": "Sapphire",
       "effect.milk": "Milk",
       "item.tripwired.sapphire_armor_armor_boots": "Sapphire Boots",
-      "item.tripwired.void_dimension": "Void Igniter",
       "item.minecraft.potion.effect.milk": "Milk",
+      "item.tripwired.void_dimension": "Void Igniter",
       "item.tripwired.ruby_dagger": "Ruby Dagger",
       "effect.acid_immunity": "Acid Immunity",
       "block.tripwired.sapphire_block": "Sapphire Block",
@@ -3101,6 +3139,7 @@
       "item.tripwired.sapphire_armor_armor_helmet": "Sapphire Helmet",
       "item.tripwired.diamond_dagger": "Diamond Dagger",
       "item.tripwired.sapphirea_hoe": "Sapphirea Hoe",
+      "block.tripwired.strong_unusable_uranium_ore": "Strong Unusable Uranium Ore",
       "item.tripwired.a_ruby_shovel": "ARuby Shovel",
       "item.tripwired.netherite_helmet": "Netherite Helmet",
       "block.tripwired.weak_unusable_uranium_ore": "Weak Unusable Uranium Ore",

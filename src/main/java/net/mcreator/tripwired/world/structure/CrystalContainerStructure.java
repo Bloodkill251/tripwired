@@ -55,8 +55,8 @@ public class CrystalContainerStructure extends TripwiredModElements.ModElement {
 						int k = ck + random.nextInt(16);
 						int j = world.getHeight(Heightmap.Type.WORLD_SURFACE_WG, i, k);
 						j -= 1;
-						Rotation rotation = Rotation.values()[random.nextInt(3)];
-						Mirror mirror = Mirror.values()[random.nextInt(2)];
+						Rotation rotation = Rotation.NONE;
+						Mirror mirror = Mirror.NONE;
 						BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
 						int x = spawnTo.getX();
 						int y = spawnTo.getY();

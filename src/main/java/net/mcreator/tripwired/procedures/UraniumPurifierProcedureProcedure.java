@@ -15,6 +15,7 @@ import net.minecraft.block.Block;
 import net.mcreator.tripwired.item.AcidBucket2Item;
 import net.mcreator.tripwired.block.WeakUnusableUraniumOreBlock;
 import net.mcreator.tripwired.block.Tier1UnraniumPurifierBlock;
+import net.mcreator.tripwired.block.StrongUnusableUraniumOreBlock;
 import net.mcreator.tripwired.block.NormalUnusableUraniumOreBlock;
 import net.mcreator.tripwired.TripwiredModElements;
 
@@ -82,6 +83,22 @@ public class UraniumPurifierProcedureProcedure extends TripwiredModElements.ModE
 			}
 		}.getItemStack((int) (0))).getItem())) {
 			two = (double) 100;
+		} else if ((new ItemStack(NormalUnusableUraniumOreBlock.block, (int) (1)).getItem() == (new Object() {
+			public ItemStack getItemStack(int sltid) {
+				Entity _ent = entity;
+				if (_ent instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) _ent).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							return ((Slot) ((Map) invobj).get(sltid)).getStack();
+						}
+					}
+				}
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack((int) (0))).getItem())) {
+			two = (double) 80;
 		}
 		if ((new ItemStack(AcidBucket2Item.block, (int) (1)).getItem() == (new Object() {
 			public ItemStack getItemStack(int sltid) {
@@ -141,6 +158,47 @@ public class UraniumPurifierProcedureProcedure extends TripwiredModElements.ModE
 							}
 						}
 					}
+					if ((Math.random() <= ((((one) + ((two) + (three))) / 3) / 100))) {
+						if (entity instanceof PlayerEntity) {
+							Container _current = ((PlayerEntity) entity).openContainer;
+							if (_current instanceof Supplier) {
+								Object invobj = ((Supplier) _current).get();
+								if (invobj instanceof Map) {
+									ItemStack _setstack = new ItemStack(NormalUnusableUraniumOreBlock.block, (int) (1));
+									_setstack.setCount((int) 1);
+									((Slot) ((Map) invobj).get((int) (4))).putStack(_setstack);
+									_current.detectAndSendChanges();
+								}
+							}
+						}
+					}
+				}
+			} else if ((new ItemStack(NormalUnusableUraniumOreBlock.block, (int) (1)).getItem() == (new Object() {
+				public ItemStack getItemStack(int sltid) {
+					Entity _ent = entity;
+					if (_ent instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) _ent).openContainer;
+						if (_current instanceof Supplier) {
+							Object invobj = ((Supplier) _current).get();
+							if (invobj instanceof Map) {
+								return ((Slot) ((Map) invobj).get(sltid)).getStack();
+							}
+						}
+					}
+					return ItemStack.EMPTY;
+				}
+			}.getItemStack((int) (0))).getItem())) {
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							ItemStack _setstack = new ItemStack(StrongUnusableUraniumOreBlock.block, (int) (1));
+							_setstack.setCount((int) 1);
+							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
+							_current.detectAndSendChanges();
+						}
+					}
 				}
 				if ((Math.random() <= ((((one) + ((two) + (three))) / 3) / 100))) {
 					if (entity instanceof PlayerEntity) {
@@ -148,10 +206,24 @@ public class UraniumPurifierProcedureProcedure extends TripwiredModElements.ModE
 						if (_current instanceof Supplier) {
 							Object invobj = ((Supplier) _current).get();
 							if (invobj instanceof Map) {
-								ItemStack _setstack = new ItemStack(NormalUnusableUraniumOreBlock.block, (int) (1));
+								ItemStack _setstack = new ItemStack(StrongUnusableUraniumOreBlock.block, (int) (1));
 								_setstack.setCount((int) 1);
-								((Slot) ((Map) invobj).get((int) (4))).putStack(_setstack);
+								((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
 								_current.detectAndSendChanges();
+							}
+						}
+					}
+					if ((Math.random() <= ((((one) + ((two) + (three))) / 3) / 100))) {
+						if (entity instanceof PlayerEntity) {
+							Container _current = ((PlayerEntity) entity).openContainer;
+							if (_current instanceof Supplier) {
+								Object invobj = ((Supplier) _current).get();
+								if (invobj instanceof Map) {
+									ItemStack _setstack = new ItemStack(StrongUnusableUraniumOreBlock.block, (int) (1));
+									_setstack.setCount((int) 1);
+									((Slot) ((Map) invobj).get((int) (4))).putStack(_setstack);
+									_current.detectAndSendChanges();
+								}
 							}
 						}
 					}
@@ -185,7 +257,7 @@ public class UraniumPurifierProcedureProcedure extends TripwiredModElements.ModE
 			}
 		} else {
 			four = (double) Math.random();
-			if (true) {
+			if ((Math.random() <= 0.5)) {
 				{
 					Entity _ent = entity;
 					if (_ent instanceof ServerPlayerEntity) {
@@ -212,11 +284,11 @@ public class UraniumPurifierProcedureProcedure extends TripwiredModElements.ModE
 						}
 					}
 				}
-			} else if (true) {
+			} else if ((Math.random() <= 0.6)) {
 				if (world instanceof World && !world.getWorld().isRemote) {
 					world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 4, Explosion.Mode.BREAK);
 				}
-			} else if (true) {
+			} else if ((Math.random() <= 0.65)) {
 				if (world instanceof World && !world.getWorld().isRemote) {
 					world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 12, Explosion.Mode.BREAK);
 				}
