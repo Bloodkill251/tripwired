@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "tripwired:silent_dimension"
+    },
+    "title": {
+      "translate": "advancements.welcome_to_the_silence.title"
+    },
+    "description": {
+      "translate": "advancements.welcome_to_the_silence.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "welcome_to_the_silence": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "tripwired:silent_dimension"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "tripwired:advancement_1"
+}
