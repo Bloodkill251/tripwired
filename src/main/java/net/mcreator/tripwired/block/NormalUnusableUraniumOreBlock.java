@@ -47,7 +47,7 @@ public class NormalUnusableUraniumOreBlock extends TripwiredModElements.ModEleme
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(37f, 200f).lightValue(0).harvestLevel(4)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(37f, 200f).lightValue(0).harvestLevel(4)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("normal_unusable_uranium_ore");
 		}

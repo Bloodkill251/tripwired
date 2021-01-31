@@ -1,6 +1,6 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
+    "background": "tripwired:textures/noise1.png",
     "icon": {
       "item": "tripwired:steel_ore"
     },
