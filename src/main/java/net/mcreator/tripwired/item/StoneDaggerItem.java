@@ -31,7 +31,7 @@ public class StoneDaggerItem extends TripwiredModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 1.2f;
+				return -2f;
 			}
 
 			public int getHarvestLevel() {
@@ -45,7 +45,7 @@ public class StoneDaggerItem extends TripwiredModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -0.8f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("stone_dagger"));
 	}
 }

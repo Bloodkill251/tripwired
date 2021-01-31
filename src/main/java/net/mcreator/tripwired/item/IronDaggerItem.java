@@ -31,7 +31,7 @@ public class IronDaggerItem extends TripwiredModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 1f;
+				return -1f;
 			}
 
 			public int getHarvestLevel() {

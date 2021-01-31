@@ -31,7 +31,7 @@ public class DiamondDaggerItem extends TripwiredModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return -0.5f;
 			}
 
 			public int getHarvestLevel() {
