@@ -12,7 +12,9 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.item.Items;
 import net.minecraft.item.Item;
+import net.minecraft.item.BucketItem;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.FlowingFluid;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -21,6 +23,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.FlowingFluidBlock;
 import net.minecraft.block.Block;
 
+import net.mcreator.tripwired.itemgroup.DimensionalItemsItemGroup;
 import net.mcreator.tripwired.TripwiredModElements;
 
 @TripwiredModElements.ModElement.Tag
@@ -54,10 +57,13 @@ public class VoidLiquidBlock extends TripwiredModElements.ModElement {
 	public void initElements() {
 		fluidproperties = new ForgeFlowingFluid.Properties(() -> still, () -> flowing, FluidAttributes
 				.builder(new ResourceLocation("tripwired:blocks/void_block_texture"), new ResourceLocation("tripwired:blocks/void_block_texture"))
-				.luminosity(0).density(1000).viscosity(5)).block(() -> block);
+				.luminosity(0).density(1000).viscosity(5)).bucket(() -> bucket).block(() -> block);
 		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("void_liquid");
 		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("void_liquid_flowing");
 		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.WATER)) {
 		}.setRegistryName("void_liquid"));
+		elements.items.add(
+				() -> new BucketItem(still, new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(DimensionalItemsItemGroup.tab))
+						.setRegistryName("void_liquid_bucket"));
 	}
 }

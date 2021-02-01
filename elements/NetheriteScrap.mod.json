@@ -8,7 +8,7 @@
     "name": "Netherite Scrap",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:A116To115"
     },
     "stackSize": 64,
     "enchantability": 0,

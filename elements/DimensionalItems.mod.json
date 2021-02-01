@@ -1,0 +1,11 @@
+{
+  "_fv": 13,
+  "_type": "tab",
+  "definition": {
+    "name": "Dimensional Items",
+    "icon": {
+      "value": "CUSTOM:KiroPlanks"
+    },
+    "showSearch": false
+  }
+}

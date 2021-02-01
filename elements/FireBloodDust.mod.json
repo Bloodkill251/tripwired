@@ -8,7 +8,7 @@
     "name": "FB Dust",
     "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:DimensionalItems"
     },
     "stackSize": 64,
     "enchantability": 0,

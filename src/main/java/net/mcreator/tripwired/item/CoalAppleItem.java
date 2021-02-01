@@ -8,13 +8,13 @@ import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.tripwired.procedures.CoalAppleFoodEatenProcedure;
+import net.mcreator.tripwired.itemgroup.ModdedApplesItemGroup;
 import net.mcreator.tripwired.TripwiredModElements;
 
 import java.util.Map;
@@ -34,7 +34,7 @@ public class CoalAppleItem extends TripwiredModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON)
+			super(new Item.Properties().group(ModdedApplesItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
 					.food((new Food.Builder()).hunger(4).saturation(9.6f).setAlwaysEdible().build()));
 			setRegistryName("coal_apple");
 		}

@@ -7,12 +7,12 @@ import net.minecraft.world.World;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.tripwired.procedures.NetherStarAppleFoodEatenProcedure;
+import net.mcreator.tripwired.itemgroup.ModdedApplesItemGroup;
 import net.mcreator.tripwired.TripwiredModElements;
 
 import java.util.Map;
@@ -32,7 +32,7 @@ public class NetherStarAppleItem extends TripwiredModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.UNCOMMON)
+			super(new Item.Properties().group(ModdedApplesItemGroup.tab).maxStackSize(64).rarity(Rarity.UNCOMMON)
 					.food((new Food.Builder()).hunger(4).saturation(9.6f).setAlwaysEdible().build()));
 			setRegistryName("nether_star_apple");
 		}

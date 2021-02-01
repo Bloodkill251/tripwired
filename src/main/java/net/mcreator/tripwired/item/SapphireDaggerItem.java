@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.tripwired.itemgroup.ModdedArmorAndToolsItemGroup;
 import net.mcreator.tripwired.TripwiredModElements;
 
 @TripwiredModElements.ModElement.Tag
@@ -45,7 +45,7 @@ public class SapphireDaggerItem extends TripwiredModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -0.8f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -0.8f, new Item.Properties().group(ModdedArmorAndToolsItemGroup.tab)) {
 		}.setRegistryName("sapphire_dagger"));
 	}
 }

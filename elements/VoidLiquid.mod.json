@@ -10,9 +10,9 @@
     "viscosity": 5,
     "isGas": false,
     "type": "WATER",
-    "generateBucket": false,
+    "generateBucket": true,
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:DimensionalItems"
     },
     "frequencyOnChunks": 5,
     "spawnWorldTypes": [],

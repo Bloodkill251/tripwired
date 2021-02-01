@@ -8,7 +8,7 @@
     "name": "Ruby Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:ModdedArmorAndTools"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 5,

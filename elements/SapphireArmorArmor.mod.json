@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "sapphirearmor_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:ModdedArmorAndTools"
     },
     "armorTextureFile": "sapphirearmor",
     "helmetName": "Sapphire Helmet",

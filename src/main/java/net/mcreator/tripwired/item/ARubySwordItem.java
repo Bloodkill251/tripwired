@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.tripwired.itemgroup.ModdedArmorAndToolsItemGroup;
 import net.mcreator.tripwired.TripwiredModElements;
 
 @TripwiredModElements.ModElement.Tag
@@ -17,7 +17,7 @@ public class ARubySwordItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:a_ruby_sword")
 	public static final Item block = null;
 	public ARubySwordItem(TripwiredModElements instance) {
-		super(instance, 122);
+		super(instance, 51);
 	}
 
 	@Override
@@ -46,7 +46,7 @@ public class ARubySwordItem extends TripwiredModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(RubyItem.block, (int) (1)));
 			}
-		}, 3, -2.3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -2.3f, new Item.Properties().group(ModdedArmorAndToolsItemGroup.tab)) {
 		}.setRegistryName("a_ruby_sword"));
 	}
 }

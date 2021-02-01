@@ -11,7 +11,7 @@
       "Grants Acid Immunity for 5 minutes."
     ],
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:ModdedApples"
     },
     "stackSize": 64,
     "nutritionalValue": 0,

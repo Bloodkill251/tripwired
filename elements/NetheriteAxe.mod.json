@@ -8,7 +8,7 @@
     "name": "Netherite Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:A116To115"
     },
     "toolType": "Axe",
     "harvestLevel": 3,

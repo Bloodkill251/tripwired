@@ -8,7 +8,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -18,6 +17,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.tripwired.itemgroup.DimensionalItemsItemGroup;
 import net.mcreator.tripwired.TripwiredModElements;
 
 @TripwiredModElements.ModElement.Tag
@@ -32,7 +32,7 @@ public class DeathLeaveBlock extends TripwiredModElements.ModElement {
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(DimensionalItemsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

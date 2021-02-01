@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.tripwired.itemgroup.A116To115ItemGroup;
 import net.mcreator.tripwired.TripwiredModElements;
 
 @TripwiredModElements.ModElement.Tag
@@ -25,7 +25,7 @@ public class NetheriteIngotItem extends TripwiredModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64).rarity(Rarity.UNCOMMON));
+			super(new Item.Properties().group(A116To115ItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("netherite_ingot");
 		}
 

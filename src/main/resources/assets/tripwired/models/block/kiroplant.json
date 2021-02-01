@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "tripwired:blocks/kiroplant",
+    "particle": "tripwired:blocks/kiroplant"
+  }
+}

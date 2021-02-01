@@ -5,11 +5,11 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 
+import net.mcreator.tripwired.itemgroup.A116To115ItemGroup;
 import net.mcreator.tripwired.TripwiredModElements;
 
 @TripwiredModElements.ModElement.Tag
@@ -46,7 +46,7 @@ public class NetheriteAxeItem extends TripwiredModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(NetheriteIngotItem.block, (int) (1)));
 			}
-		}, 1, -2.9f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -2.9f, new Item.Properties().group(A116To115ItemGroup.tab)) {
 		}.setRegistryName("netherite_axe"));
 	}
 }

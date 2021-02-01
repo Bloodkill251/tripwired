@@ -22,7 +22,6 @@ import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.client.util.ITooltipFlag;
@@ -31,6 +30,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.Block;
 
+import net.mcreator.tripwired.itemgroup.A116To115ItemGroup;
 import net.mcreator.tripwired.TripwiredModElements;
 
 import java.util.Random;
@@ -47,8 +47,7 @@ public class NetherGoldOreBlock extends TripwiredModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(A116To115ItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

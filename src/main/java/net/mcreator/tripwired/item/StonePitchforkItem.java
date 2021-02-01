@@ -9,7 +9,6 @@ import net.minecraft.util.Direction;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.PlayerEntity;
@@ -19,6 +18,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.tripwired.procedures.PitchforkRightClickedOnBlockProcedure;
+import net.mcreator.tripwired.itemgroup.ModdedArmorAndToolsItemGroup;
 import net.mcreator.tripwired.TripwiredModElements;
 
 import java.util.Map;
@@ -31,7 +31,7 @@ public class StonePitchforkItem extends TripwiredModElements.ModElement {
 	@ObjectHolder("tripwired:stone_pitchfork")
 	public static final Item block = null;
 	public StonePitchforkItem(TripwiredModElements instance) {
-		super(instance, 158);
+		super(instance, 44);
 	}
 
 	@Override
@@ -71,7 +71,7 @@ public class StonePitchforkItem extends TripwiredModElements.ModElement {
 	}
 	private static class ItemToolCustom extends Item {
 		protected ItemToolCustom() {
-			super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(50));
+			super(new Item.Properties().group(ModdedArmorAndToolsItemGroup.tab).maxDamage(50));
 		}
 
 		@Override

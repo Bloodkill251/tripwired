@@ -3133,6 +3133,117 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "kirograss_2loottable"
+    },
+    {
+      "name": "EdibleKiroSeeds",
+      "type": "food",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "edible_kiro_seeds"
+    },
+    {
+      "name": "KiroSeedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kiro_seeds_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KiroSeeds",
+      "type": "item",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kiro_seeds"
+    },
+    {
+      "name": "Kiroplant",
+      "type": "block",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kiroplant"
+    },
+    {
+      "name": "BegginingKiroPlant",
+      "type": "block",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beggining_kiro_plant"
+    },
+    {
+      "name": "ModdedOres",
+      "type": "tab",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "modded_ores"
+    },
+    {
+      "name": "ModdedArmorAndTools",
+      "type": "tab",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "modded_armor_and_tools"
+    },
+    {
+      "name": "A116To115",
+      "type": "tab",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_116_to_115"
+    },
+    {
+      "name": "ModdedApples",
+      "type": "tab",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "modded_apples"
+    },
+    {
+      "name": "ModdedOreResults",
+      "type": "tab",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "modded_ore_results"
+    },
+    {
+      "name": "DimensionalItems",
+      "type": "tab",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dimensional_items"
     }
   ],
   "variable_elements": [],
@@ -3164,6 +3275,7 @@
       "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
       "block.tripwired.dead_grass": "Dead Grass",
       "item.tripwired.stone_pitchfork": "Pitchfork",
+      "itemGroup.tabmodded_ores": "Modded Ores",
       "block.tripwired.mini_sapphire_block": "Mini Sapphire Block",
       "item.minecraft.splash_potion.effect.acid_immunity": "Splash Acid Immunity",
       "subtitles.nyan_cat": "Meow",
@@ -3196,10 +3308,12 @@
       "block.tripwired.custom_explosive": "Custom Explosive",
       "block.tripwired.quintuple_compressed_cobblestone": "Quinruple Compressed Cobblestone",
       "item.tripwired.book_1": "Random Enchanted Book",
+      "itemGroup.tabdimensional_items": "Dimensional Items",
       "item.tripwired.acidic_apple": "Acidic Apple",
       "item.tripwired.guitar_one": "Music Disc",
       "item.tripwired.sapphirea_pickaxe": "Sapphire Pickaxe",
       "item.tripwired.wither_skeleton_skull_apple": "Wither Skeleton Skull Apple",
+      "itemGroup.tabmodded_apples": "Modded Apples",
       "item.tripwired.lapis_apple": "Lapis Apple",
       "block.tripwired.death_log": "Death Log",
       "item.tripwired.ignore": "Placeholder",
@@ -3208,6 +3322,7 @@
       "item.tripwired.sapphire_armor_armor_leggings": "Sapphire Leggings",
       "item.tripwired.ruby_1_armor_boots": "Ruby Boots",
       "item.tripwired.ignore_1": "Placeholder",
+      "itemGroup.taba_116_to_115": "1.16 To 1.15",
       "item.tripwired.netherite_apple": "Netherite Apple",
       "block.tripwired.triple_compressed_cobblestone": "Triple Compressed Cobblestone",
       "item.tripwired.netherite_ingot": "Netherite Ingot",
@@ -3215,6 +3330,7 @@
       "block.tripwired.crystal": "Crystal",
       "block.tripwired.sextuple_compressed_cobblestone": "Sextuple Compressed Cobblestone",
       "block.tripwired.kiro_leave": "Death Leave",
+      "itemGroup.tabmodded_armor_and_tools": "Modded Armor And Tools",
       "biome.tripwired.voided": "Voided",
       "item.tripwired.a_ruby_axe": "Ruby Axe",
       "item.tripwired.iron_dagger": "Iron Dagger",
@@ -3247,6 +3363,8 @@
       "block.tripwired.kiro_grass": "Kiro Grass",
       "block.tripwired.quadruple_compressed_cobblestone": "Quadruple Compressed Cobblestone",
       "block.tripwired.kiro_copper_ore": "Copper Ore",
+      "item.tripwired.edible_kiro_seeds": "Edible Kiro Seeds",
+      "itemGroup.tabmodded_ore_results": "Modded Ore Results",
       "block.tripwired.blood_fire_spawn": "Blood Fire Spawn",
       "item.tripwired.blood_bucket": "Blood Bucket",
       "block.tripwired.waypoint": "Waypoint",
@@ -3301,6 +3419,7 @@
       "item.tripwired.sapphirea_hoe": "Sapphirea Hoe",
       "block.tripwired.strong_unusable_uranium_ore": "Strong Unusable Uranium Ore",
       "block.tripwired.weak_uranium_ore": "Weak Uranium Ore",
+      "block.tripwired.kiroplant": "Kiroplant",
       "item.tripwired.a_ruby_shovel": "ARuby Shovel",
       "item.tripwired.netherite_helmet": "Netherite Helmet",
       "block.tripwired.weak_unusable_uranium_ore": "Weak Unusable Uranium Ore",
@@ -3309,7 +3428,9 @@
       "item.tripwired.a_ruby_pickaxe": "Ruby Pickaxe",
       "item.tripwired.malk_bucket": "Malk Bucket",
       "block.tripwired.double_compressed_cobblestone": "Double Compressed Cobblestone",
+      "block.tripwired.beggining_kiro_plant": "Kiroplant",
       "item.tripwired.ruby": "Ruby",
+      "item.tripwired.kiro_seeds": "Kiro Seeds",
       "advancements.advancement_1.title": "A new beginning"
     }
   },

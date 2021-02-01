@@ -8,7 +8,7 @@
     "name": "Sapphire",
     "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:ModdedOreResults"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -8,7 +8,7 @@
     "name": "Sapphire Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:ModdedArmorAndTools"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 4,

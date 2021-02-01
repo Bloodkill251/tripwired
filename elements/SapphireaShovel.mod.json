@@ -8,7 +8,7 @@
     "name": "Sapphirea Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:ModdedArmorAndTools"
     },
     "toolType": "Spade",
     "harvestLevel": 4,
