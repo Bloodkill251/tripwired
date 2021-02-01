@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "CUSTOM:Ruby"
+      },
+      {
+        "value": "CUSTOM:Tier1Frame"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Tier1UnraniumPurifier"
+    },
+    "name": "tier_1_uranium_purifier_recipe",
+    "namespace": "mod"
+  }
+}

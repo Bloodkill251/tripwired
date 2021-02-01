@@ -3106,6 +3106,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "Tier1UraniumPurifierRecipe",
+      "type": "recipe",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tier_1_uranium_purifier_recipe"
     }
   ],
   "variable_elements": [],
@@ -3131,8 +3140,8 @@
     "en_us": {
       "block.tripwired.ruby_block": "Ruby Block",
       "item.tripwired.emerald_apple": "Emerald Apple",
-      "item.tripwired.a_ruby_hoe": "ARuby Hoe",
       "item.tripwired.acid_bucket_2": "Acid Bucket",
+      "item.tripwired.a_ruby_hoe": "ARuby Hoe",
       "item.tripwired.diamond_apple": "Diamond Apple",
       "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
       "block.tripwired.dead_grass": "Dead Grass",
