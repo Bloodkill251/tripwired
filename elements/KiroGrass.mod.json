@@ -3,7 +3,7 @@
   "_type": "block",
   "definition": {
     "texture": "dirt",
-    "textureTop": "kiro_grass_texture",
+    "textureTop": "kirograssblocktop",
     "textureLeft": "dirt",
     "textureFront": "dirt",
     "textureRight": "dirt",

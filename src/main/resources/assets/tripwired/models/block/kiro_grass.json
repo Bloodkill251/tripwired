@@ -2,7 +2,7 @@
   "parent": "block/cube",
   "textures": {
     "down": "tripwired:blocks/dirt",
-    "up": "tripwired:blocks/kiro_grass_texture",
+    "up": "tripwired:blocks/kirograssblocktop",
     "north": "tripwired:blocks/dirt",
     "east": "tripwired:blocks/dirt",
     "south": "tripwired:blocks/dirt",

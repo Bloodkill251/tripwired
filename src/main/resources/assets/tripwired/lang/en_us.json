@@ -1,8 +1,8 @@
 {
   "block.tripwired.ruby_block": "Ruby Block",
   "item.tripwired.emerald_apple": "Emerald Apple",
-  "item.tripwired.a_ruby_hoe": "ARuby Hoe",
   "item.tripwired.acid_bucket_2": "Acid Bucket",
+  "item.tripwired.a_ruby_hoe": "ARuby Hoe",
   "item.tripwired.diamond_apple": "Diamond Apple",
   "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
   "block.tripwired.dead_grass": "Dead Grass",
@@ -10,6 +10,7 @@
   "block.tripwired.mini_sapphire_block": "Mini Sapphire Block",
   "item.minecraft.splash_potion.effect.acid_immunity": "Splash Acid Immunity",
   "subtitles.nyan_cat": "Meow",
+  "block.tripwired.kiro_grass_2": "Kiro Grass",
   "item.tripwired.sapphirea_axe": "Sapphire Axe",
   "item.tripwired.pitchfork": "Pitchfork",
   "block.tripwired.steel_ore": "Steel Ore",

@@ -4,6 +4,7 @@ import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.block.Blocks;
 
+import net.mcreator.tripwired.world.dimension.SilentDimensionDimension;
 import net.mcreator.tripwired.TripwiredModElements;
 
 import java.util.Map;
@@ -21,6 +22,9 @@ public class SteelOreAdditionalGenerationConditionProcedure extends TripwiredMod
 			return false;
 		}
 		IWorld world = (IWorld) dependencies.get("world");
+		if (((world.getDimension().getType().getId()) == (SilentDimensionDimension.type.getId()))) {
+			return (true);
+		}
 		return (Blocks.NETHERRACK.getDefaultState().getBlock() == (world.getBlockState(new BlockPos((int) 0, (int) 100, (int) 0))).getBlock());
 	}
 }
