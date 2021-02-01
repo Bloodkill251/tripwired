@@ -1,8 +1,8 @@
 {
   "block.tripwired.ruby_block": "Ruby Block",
   "item.tripwired.emerald_apple": "Emerald Apple",
-  "item.tripwired.a_ruby_hoe": "ARuby Hoe",
   "item.tripwired.acid_bucket_2": "Acid Bucket",
+  "item.tripwired.a_ruby_hoe": "ARuby Hoe",
   "item.tripwired.diamond_apple": "Diamond Apple",
   "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
   "block.tripwired.dead_grass": "Dead Grass",
@@ -147,7 +147,6 @@
   "item.tripwired.netherite_helmet": "Netherite Helmet",
   "block.tripwired.weak_unusable_uranium_ore": "Weak Unusable Uranium Ore",
   "item.tripwired.netherite_axe": "Netherite Pickaxe",
-  "item.tripwired.iron_bowa": "Iron Bow",
   "effect.allowed_explosive": "Allowed Explosive",
   "item.tripwired.a_ruby_pickaxe": "Ruby Pickaxe",
   "item.tripwired.malk_bucket": "Malk Bucket",
