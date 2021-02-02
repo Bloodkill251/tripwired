@@ -3284,13 +3284,13 @@
       "registry_name": "beggining_kiro_plant_loot_table"
     },
     {
-      "name": "KiorPlantLootTable",
+      "name": "KiroplantLootTable",
       "type": "loottable",
-      "sortid": 283,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "kior_plant_loot_table"
+      "registry_name": "kiroplant_loot_table"
     }
   ],
   "variable_elements": [],

@@ -65,7 +65,7 @@
         ]
       }
     ],
-    "name": "blocks/kiro_plant",
+    "name": "blocks/kiroplant",
     "namespace": "mod"
   }
 }
