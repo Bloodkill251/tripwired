@@ -3244,6 +3244,53 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dimensional_items"
+    },
+    {
+      "name": "BegginingKiroPlantUpdateTick",
+      "type": "procedure",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beggining_kiro_plant_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BegginingKiroPlantLootTable",
+      "type": "loottable",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beggining_kiro_plant_loot_table"
+    },
+    {
+      "name": "KiorPlantLootTable",
+      "type": "loottable",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kior_plant_loot_table"
     }
   ],
   "variable_elements": [],

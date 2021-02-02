@@ -2,7 +2,7 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "kiroplant",
+    "texture": "kiroplantdeadstage",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -48,11 +48,11 @@
       "value": "PLANTS"
     },
     "tickRate": 10,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "colorOnMap": "AIR",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:KiroSeeds"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -92,6 +92,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "BegginingKiroPlantUpdateTick"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

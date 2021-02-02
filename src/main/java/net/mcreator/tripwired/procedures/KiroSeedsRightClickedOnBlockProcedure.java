@@ -8,6 +8,9 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
+import net.mcreator.tripwired.item.KiroSeedsItem;
+import net.mcreator.tripwired.block.KiroGrassBlock;
+import net.mcreator.tripwired.block.BegginingKiroPlantBlock;
 import net.mcreator.tripwired.TripwiredModElements;
 
 import java.util.Map;
@@ -31,7 +34,7 @@ public class KiroSeedsRightClickedOnBlockProcedure extends TripwiredModElements.
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		IWorld world = (IWorld) dependencies.get("world");
-		if ((Blocks.FARMLAND.getDefaultState()
+		if ((KiroGrassBlock.block.getDefaultState()
 				.getBlock() == (world
 						.getBlockState(
 								new BlockPos(
@@ -66,7 +69,7 @@ public class KiroSeedsRightClickedOnBlockProcedure extends TripwiredModElements.
 											RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getPos().getZ()))))
 													.getBlock())) {
 				if (entity instanceof PlayerEntity) {
-					ItemStack _stktoremove = new ItemStack(Blocks.AIR, (int) (1));
+					ItemStack _stktoremove = new ItemStack(KiroSeedsItem.block, (int) (1));
 					((PlayerEntity) entity).inventory.clearMatchingItems(p -> _stktoremove.getItem() == p.getItem(), (int) 1);
 				}
 				world.setBlockState(
@@ -80,7 +83,7 @@ public class KiroSeedsRightClickedOnBlockProcedure extends TripwiredModElements.
 								(int) (entity.world.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
 										entity.getEyePosition(1f).add(entity.getLook(1f).x * 4, entity.getLook(1f).y * 4, entity.getLook(1f).z * 4),
 										RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getPos().getZ())),
-						Blocks.AIR.getDefaultState(), 3);
+						BegginingKiroPlantBlock.block.getDefaultState(), 3);
 			}
 		}
 	}

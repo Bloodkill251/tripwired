@@ -105,9 +105,6 @@
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 5,
-    "maxGenerateHeight": 40,
-    "generateCondition": {
-      "name": "SteelOreAdditionalGenerationCondition"
-    }
+    "maxGenerateHeight": 40
   }
 }

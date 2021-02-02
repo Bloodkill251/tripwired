@@ -27,15 +27,12 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.tripwired.world.dimension.SilentDimensionDimension;
-import net.mcreator.tripwired.procedures.SteelOreAdditionalGenerationConditionProcedure;
 import net.mcreator.tripwired.itemgroup.ModdedOresItemGroup;
 import net.mcreator.tripwired.TripwiredModElements;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
-
-import com.google.common.collect.ImmutableMap;
 
 @TripwiredModElements.ModElement.Tag
 public class SteelOreBlock extends TripwiredModElements.ModElement {
@@ -78,11 +75,6 @@ public class SteelOreBlock extends TripwiredModElements.ModElement {
 					if (dimensionType == DimensionType.OVERWORLD)
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
-						return false;
-					int x = pos.getX();
-					int y = pos.getY();
-					int z = pos.getZ();
-					if (!SteelOreAdditionalGenerationConditionProcedure.executeProcedure(ImmutableMap.of("world", world)))
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
