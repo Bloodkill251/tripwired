@@ -50,7 +50,7 @@ public class BonusHealthEnchantmentOnArmorProcedure extends TripwiredModElements
 			if ((((entity.getPersistentData().getDouble("counter1")) % 2000) == 0)) {
 				ee = (double) ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1);
 				if (entity instanceof LivingEntity)
-					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HEALTH_BOOST, (int) 2020,
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HEALTH_BOOST, (int) 2200,
 							(int) ((((EnchantmentHelper.getEnchantmentLevel(BonusHealthEnchantment.enchantment,
 									((entity instanceof PlayerEntity)
 											? ((PlayerEntity) entity).inventory.armorInventory.get((int) 3)

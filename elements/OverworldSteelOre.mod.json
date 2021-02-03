@@ -2,12 +2,12 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "ancient_debris_top",
-    "textureTop": "ancient_debris_top",
-    "textureLeft": "ancient_debris_side",
-    "textureFront": "ancient_debris_side",
-    "textureRight": "ancient_debris_side",
-    "textureBack": "ancient_debris_side",
+    "texture": "steel_ore",
+    "textureTop": "steel_ore",
+    "textureLeft": "steel_ore",
+    "textureFront": "steel_ore",
+    "textureRight": "steel_ore",
+    "textureBack": "steel_ore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -24,18 +24,18 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Ancient Debris",
+    "name": "Steel Ore",
     "specialInfo": [],
-    "hardness": 30.0,
-    "resistance": 1200.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:A116To115"
+      "value": "No creative tab entry"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:SteelOre"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -52,7 +52,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:SteelOre"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -93,23 +93,17 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Nether"
+      "Surface"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.NETHERRACK"
-      },
-      {
-        "value": "Blocks.MAGMA"
-      },
-      {
-        "value": "CUSTOM:NetherGoldOre"
+        "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 1,
+    "frequencyPerChunks": 2,
     "frequencyOnChunk": 3,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "minGenerateHeight": 5,
+    "maxGenerateHeight": 40
   }
 }

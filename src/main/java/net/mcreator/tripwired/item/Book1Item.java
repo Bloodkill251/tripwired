@@ -8,13 +8,13 @@ import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.tripwired.procedures.Book1ItemInHandTickProcedure;
+import net.mcreator.tripwired.itemgroup.OtherModItemsItemGroup;
 import net.mcreator.tripwired.TripwiredModElements;
 
 import java.util.Map;
@@ -35,7 +35,7 @@ public class Book1Item extends TripwiredModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(OtherModItemsItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
 			setRegistryName("book_1");
 		}
 

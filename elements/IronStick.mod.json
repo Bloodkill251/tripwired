@@ -8,7 +8,7 @@
     "name": "Iron Stick",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:OtherModItems"
     },
     "stackSize": 64,
     "enchantability": 0,

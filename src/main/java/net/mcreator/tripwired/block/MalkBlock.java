@@ -2,9 +2,7 @@
 package net.mcreator.tripwired.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fluids.ForgeFlowingFluid;
 import net.minecraftforge.fluids.FluidAttributes;
@@ -13,20 +11,10 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.gen.placement.Placement;
-import net.minecraft.world.gen.placement.ChanceConfig;
-import net.minecraft.world.gen.feature.LakesFeature;
-import net.minecraft.world.gen.feature.BlockStateFeatureConfig;
-import net.minecraft.world.gen.GenerationStage;
-import net.minecraft.world.gen.ChunkGenerator;
-import net.minecraft.world.dimension.DimensionType;
-import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
-import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.Items;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BucketItem;
 import net.minecraft.fluid.Fluid;
@@ -40,9 +28,9 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.tripwired.procedures.MalkMobplayerCollidesBlockProcedure;
+import net.mcreator.tripwired.itemgroup.OtherModItemsItemGroup;
 import net.mcreator.tripwired.TripwiredModElements;
 
-import java.util.Random;
 import java.util.Map;
 import java.util.HashMap;
 
@@ -94,33 +82,8 @@ public class MalkBlock extends TripwiredModElements.ModElement {
 				}
 			}
 		}.setRegistryName("malk"));
-		elements.items.add(() -> new BucketItem(still, new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ItemGroup.MISC))
-				.setRegistryName("malk_bucket"));
-	}
-
-	@Override
-	public void init(FMLCommonSetupEvent event) {
-		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
-			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("desert")))
-				biomeCriteria = true;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("plains")))
-				biomeCriteria = true;
-			if (!biomeCriteria)
-				continue;
-			biome.addFeature(GenerationStage.Decoration.LOCAL_MODIFICATIONS, new LakesFeature(BlockStateFeatureConfig::deserialize) {
-				@Override
-				public boolean place(IWorld world, ChunkGenerator generator, Random rand, BlockPos pos, BlockStateFeatureConfig config) {
-					DimensionType dimensionType = world.getDimension().getType();
-					boolean dimensionCriteria = false;
-					if (dimensionType == DimensionType.OVERWORLD)
-						dimensionCriteria = true;
-					if (!dimensionCriteria)
-						return false;
-					return super.place(world, generator, rand, pos, config);
-				}
-			}.withConfiguration(new BlockStateFeatureConfig(block.getDefaultState()))
-					.withPlacement(Placement.WATER_LAKE.configure(new ChanceConfig(1))));
-		}
+		elements.items
+				.add(() -> new BucketItem(still, new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(OtherModItemsItemGroup.tab))
+						.setRegistryName("malk_bucket"));
 	}
 }

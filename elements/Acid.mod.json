@@ -15,9 +15,7 @@
       "value": "MISC"
     },
     "frequencyOnChunks": 1,
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "onEntityCollides": {
       "name": "AcidMobplayerCollidesBlock"

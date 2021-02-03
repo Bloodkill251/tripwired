@@ -8,7 +8,7 @@
     "name": "Random Enchanted Book",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:OtherModItems"
     },
     "stackSize": 1,
     "enchantability": 0,

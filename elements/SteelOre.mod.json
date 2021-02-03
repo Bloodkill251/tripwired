@@ -93,8 +93,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "CUSTOM:SilentDimension",
-      "Surface"
+      "CUSTOM:SilentDimension"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [

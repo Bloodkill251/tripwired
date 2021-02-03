@@ -72,8 +72,6 @@ public class SteelOreBlock extends TripwiredModElements.ModElement {
 					boolean dimensionCriteria = false;
 					if (dimensionType == SilentDimensionDimension.type)
 						dimensionCriteria = true;
-					if (dimensionType == DimensionType.OVERWORLD)
-						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
 					return super.place(world, generator, rand, pos, config);

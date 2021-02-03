@@ -7,7 +7,7 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
@@ -16,31 +16,31 @@
         "value": ""
       },
       {
-        "value": "Items.FLINT"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:SteelIngot"
-      },
-      {
         "value": ""
       },
       {
         "value": ""
       },
       {
+        "value": "Blocks.PLANKS"
+      },
+      {
         "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SilentDimension"
+      "value": "CUSTOM:Dagger"
     },
-    "name": "flint_and_iron_recipe",
+    "name": "wood_dagger_recipe",
     "namespace": "mod"
   }
 }

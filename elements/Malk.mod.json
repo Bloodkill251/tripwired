@@ -12,20 +12,11 @@
     "type": "WATER",
     "generateBucket": true,
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:OtherModItems"
     },
-    "frequencyOnChunks": 1,
-    "spawnWorldTypes": [
-      "Surface"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "desert"
-      },
-      {
-        "value": "plains"
-      }
-    ],
+    "frequencyOnChunks": 0,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
     "onEntityCollides": {
       "name": "MalkMobplayerCollidesBlock"
     }
