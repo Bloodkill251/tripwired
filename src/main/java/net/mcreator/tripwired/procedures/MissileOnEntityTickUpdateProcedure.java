@@ -66,7 +66,7 @@ public class MissileOnEntityTickUpdateProcedure extends TripwiredModElements.Mod
 				world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 400, Explosion.Mode.BREAK);
 			}
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).setHealth((float) (-1));
+				((LivingEntity) entity).setHealth((float) 0);
 		}
 	}
 }
