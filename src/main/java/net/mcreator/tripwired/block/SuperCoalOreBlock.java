@@ -23,13 +23,10 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.Block;
 
-import net.mcreator.tripwired.procedures.SuperCoalOreAdditionalGenerationConditionProcedure;
 import net.mcreator.tripwired.itemgroup.SuperOresItemGroup;
 import net.mcreator.tripwired.TripwiredModElements;
 
 import java.util.Random;
-
-import com.google.common.collect.ImmutableMap;
 
 @TripwiredModElements.ModElement.Tag
 public class SuperCoalOreBlock extends TripwiredModElements.ModElement {
@@ -63,16 +60,11 @@ public class SuperCoalOreBlock extends TripwiredModElements.ModElement {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					int x = pos.getX();
-					int y = pos.getY();
-					int z = pos.getZ();
-					if (!SuperCoalOreAdditionalGenerationConditionProcedure.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
-						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
 			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("super_coal_ore", "super_coal_ore", blockAt -> {
 				boolean blockCriteria = false;
-				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
+				if (blockAt.getBlock() == Blocks.COAL_ORE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
 			}), block.getDefaultState(), 3)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(10, 0, 0, 64))));

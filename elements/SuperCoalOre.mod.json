@@ -98,15 +98,12 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.COAL_ORE"
       }
     ],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 3,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64,
-    "generateCondition": {
-      "name": "SuperCoalOreAdditionalGenerationCondition"
-    }
+    "maxGenerateHeight": 64
   }
 }
