@@ -3,11 +3,11 @@ loaderVersion="[31,)"
 
 [[mods]]
 modId="tripwired"
-version="1.0.0"
+version="beta 0.1.0"
 displayName="Tripwired"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="Created using MCreator"
 displayURL="https://mcreator.net"
-authors="Blood, MCreator"
+authors="Sayne, Pheonix"
 
 [[dependencies.tripwired]]
     modId="minecraft"

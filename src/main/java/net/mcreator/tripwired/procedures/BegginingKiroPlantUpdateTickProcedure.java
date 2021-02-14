@@ -40,7 +40,7 @@ public class BegginingKiroPlantUpdateTickProcedure extends TripwiredModElements.
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if ((Math.round((Math.random() * 999)) == 7)) {
+		if ((Math.round((Math.random() * 99)) == 7)) {
 			{
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				BlockState _bs = KiroplantBlock.block.getDefaultState();

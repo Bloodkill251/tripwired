@@ -1,0 +1,23 @@
+{
+  "_fv": 13,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGHEST",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ggg.png",
+          "use1Xscale": false,
+          "name": "ggg.png",
+          "x": -155,
+          "y": -92
+        }
+      }
+    ],
+    "baseTexture": "",
+    "displayCondition": {
+      "name": "ExplosionAftermathOverlayDisplayOverlayIngame"
+    }
+  }
+}

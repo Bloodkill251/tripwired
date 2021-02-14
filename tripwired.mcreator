@@ -3327,6 +3327,99 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "tier_1_early_storage_block_gui"
+    },
+    {
+      "name": "SuperOres",
+      "type": "tab",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_ores"
+    },
+    {
+      "name": "SuperCoalOreAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_coal_ore_additional_generation_condition",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SuperCoalOre",
+      "type": "block",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_coal_ore"
+    },
+    {
+      "name": "SuperCoalOreLootTabke",
+      "type": "loottable",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_coal_ore_loot_tabke"
+    },
+    {
+      "name": "ExplosionAftermathOverlay",
+      "type": "overlay",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explosion_aftermath_overlay"
+    },
+    {
+      "name": "ExplosionAftermathOverlayDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explosion_aftermath_overlay_display_overlay_ingame",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExplosionAftermath",
+      "type": "potion",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explosion_aftermath"
     }
   ],
   "variable_elements": [],
@@ -3412,6 +3505,8 @@
       "advancements.dethroner_of_diamonds.descr": "Welcome the new best ore.",
       "block.tripwired.crystal": "Crystal",
       "block.tripwired.sextuple_compressed_cobblestone": "Sextuple Compressed Cobblestone",
+      "itemGroup.tabsuper_ores": "Super Ores",
+      "item.minecraft.tipped_arrow.effect.explosion_aftermath": "Arrow of Explosion Aftermath",
       "block.tripwired.kiro_leave": "Death Leave",
       "itemGroup.tabmodded_armor_and_tools": "Modded Armor And Tools",
       "biome.tripwired.voided": "Voided",
@@ -3454,6 +3549,7 @@
       "block.tripwired.waypoint": "Waypoint",
       "item.tripwired.sapphire_dagger": "Sapphire Dagger",
       "item.minecraft.lingering_potion.effect.allowed_explosive": "Lingering Allowed Explosive",
+      "item.minecraft.potion.effect.explosion_aftermath": "Explosion Aftermath",
       "block.tripwired.kiro_stone": "Kiro Stone",
       "block.tripwired.kiro_stairs": "Kiro Stairs",
       "entity.tripwired.fire_blood": "Fire Blood",
@@ -3461,6 +3557,7 @@
       "item.tripwired.ruby_1_armor_chestplate": "Ruby Chestplate",
       "item.minecraft.splash_potion.effect.milk": "Splash Milk",
       "block.tripwired.true_clear_glass": "Clear Glass",
+      "item.minecraft.splash_potion.effect.explosion_aftermath": "Splash Explosion Aftermath",
       "biome.tripwired.silent": "Silent",
       "block.tripwired.nether_gold_ore": "Nether Gold Ore",
       "item.tripwired.guitar_one.desc": "Sayne - Guitar One (Vocalless, Solo)",
@@ -3488,6 +3585,8 @@
       "item.minecraft.tipped_arrow.effect.acid_immunity": "Arrow of Acid Immunity",
       "advancements.a_dimensions_edge.title": "A Dimensions Edge",
       "biome.tripwired.kiro": "Kiro",
+      "block.tripwired.super_coal_ore": "Super Coal Ore",
+      "effect.explosion_aftermath": "Explosion Aftermath",
       "key.mcreator.explosive": "Explosive",
       "item.tripwired.steel_ingot": "Steel Ingot",
       "block.tripwired.normal_unusable_uranium_ore": "Normal Unusable Uranium Ore",
@@ -3509,6 +3608,7 @@
       "block.tripwired.weak_unusable_uranium_ore": "Weak Unusable Uranium Ore",
       "block.tripwired.overworld_steel_ore": "Steel Ore",
       "item.tripwired.netherite_axe": "Netherite Pickaxe",
+      "item.minecraft.lingering_potion.effect.explosion_aftermath": "Lingering Explosion Aftermath",
       "effect.allowed_explosive": "Allowed Explosive",
       "item.tripwired.a_ruby_pickaxe": "Ruby Pickaxe",
       "item.tripwired.malk_bucket": "Malk Bucket",
@@ -3522,8 +3622,8 @@
   "workspaceSettings": {
     "modid": "tripwired",
     "modName": "Tripwired",
-    "version": "1.0.0",
-    "author": "Blood, MCreator",
+    "version": "beta 0.1.0",
+    "author": "Sayne, Pheonix",
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -3532,7 +3632,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.15.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Created using MCreator",
     "modElementsPackage": "net.mcreator.tripwired",
     "lockBaseModFiles": false
   },
