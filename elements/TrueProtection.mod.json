@@ -1,0 +1,60 @@
+{
+  "_fv": 13,
+  "_type": "enchantment",
+  "definition": {
+    "name": "True Protection",
+    "type": "ARMOR",
+    "rarity": "VERY_RARE",
+    "minLevel": 1,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "CUSTOM:InstaBreak"
+      },
+      {
+        "value": "CUSTOM:InfiniteRegeneration"
+      },
+      {
+        "value": "CUSTOM:BonusHealth"
+      },
+      {
+        "value": "FEATHER_FALLING"
+      },
+      {
+        "value": "RESPIRATION"
+      },
+      {
+        "value": "AQUA_AFFINITY"
+      },
+      {
+        "value": "AQUA_AFFINITY"
+      },
+      {
+        "value": "THORNS"
+      },
+      {
+        "value": "DEPTH_STRIDER"
+      },
+      {
+        "value": "FROST_WALKER"
+      },
+      {
+        "value": "BINDING_CURSE"
+      },
+      {
+        "value": "VANISHING_CURSE"
+      },
+      {
+        "value": "UNBREAKING"
+      },
+      {
+        "value": "MENDING"
+      }
+    ],
+    "compatibleItems": [],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true
+  }
+}

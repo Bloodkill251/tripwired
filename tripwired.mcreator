@@ -2510,6 +2510,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -3420,6 +3436,78 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "explosion_aftermath"
+    },
+    {
+      "name": "TrueProtection",
+      "type": "enchantment",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "true_protection"
+    },
+    {
+      "name": "TrueProtectionProcedure",
+      "type": "procedure",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "true_protection_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shattering",
+      "type": "enchantment",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shattering"
+    },
+    {
+      "name": "ShatteringProcedure",
+      "type": "procedure",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shattering_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -3460,6 +3548,7 @@
       "item.tripwired.pitchfork": "Pitchfork",
       "block.tripwired.steel_ore": "Steel Ore",
       "fluid.blood": "Blood",
+      "enchantment.tripwired.shattering": "Shattering",
       "block.tripwired.tenxttn": "Tenxttn",
       "item.tripwired.sapphire": "Sapphire",
       "effect.milk": "Milk",
@@ -3544,6 +3633,7 @@
       "block.tripwired.kiro_copper_ore": "Copper Ore",
       "item.tripwired.edible_kiro_seeds": "Edible Kiro Seeds",
       "itemGroup.tabmodded_ore_results": "Modded Ore Results",
+      "enchantment.tripwired.true_protection": "True Protection",
       "block.tripwired.blood_fire_spawn": "Blood Fire Spawn",
       "item.tripwired.blood_bucket": "Blood Bucket",
       "block.tripwired.waypoint": "Waypoint",

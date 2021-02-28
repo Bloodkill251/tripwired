@@ -1,0 +1,42 @@
+{
+  "_fv": 13,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Shattering",
+    "type": "WEAPON",
+    "rarity": "RARE",
+    "minLevel": 1,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "FIRE_ASPECT"
+      },
+      {
+        "value": "LOOTING"
+      },
+      {
+        "value": "BINDING_CURSE"
+      },
+      {
+        "value": "FIRE_ASPECT"
+      },
+      {
+        "value": "KNOCKBACK"
+      },
+      {
+        "value": "UNBREAKING"
+      },
+      {
+        "value": "VANISHING_CURSE"
+      },
+      {
+        "value": "MENDING"
+      }
+    ],
+    "compatibleItems": [],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true
+  }
+}
