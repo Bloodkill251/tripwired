@@ -3508,6 +3508,21 @@
           }
         ]
       }
+    },
+    {
+      "name": "Tier1Electricified",
+      "type": "armor",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tier_1_electricified",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
@@ -3575,6 +3590,7 @@
       "item.tripwired.book_1": "Random Enchanted Book",
       "itemGroup.tabdimensional_items": "Dimensional Items",
       "item.tripwired.acidic_apple": "Acidic Apple",
+      "item.tripwired.tier_1_electricified_helmet": "Tier 1 Electricified Helmet (Chargeless)",
       "item.tripwired.guitar_one": "Music Disc",
       "item.tripwired.sapphirea_pickaxe": "Sapphire Pickaxe",
       "item.tripwired.wither_skeleton_skull_apple": "Wither Skeleton Skull Apple",
@@ -3612,9 +3628,11 @@
       "itemGroup.tabother_mod_items": "Other Mod Items",
       "item.tripwired.coal_apple": "Coal Apple",
       "block.tripwired.sapphire_ore": "Sapphire Ore",
+      "item.tripwired.tier_1_electricified_boots": "Tier 1 Electricified Boots (Chargelesss)",
       "fluid.malk": "Malk",
       "enchantment.tripwired.insta_break": "Insta Break",
       "item.minecraft.potion.effect.acid_immunity": "Acid Immunity",
+      "item.tripwired.tier_1_electricified_leggings": "Tier 1 Electricified Leggings (Chargeless)",
       "block.tripwired.single_compressed_cobblestone": "Single Compressed Cobblestone",
       "item.tripwired.missile_spawn_egg": "Missile Spawn Egg",
       "advancements.welcome_to_the_silence.descr": "Where Ores Better Then Diamond Lie.",
@@ -3624,6 +3642,7 @@
       "block.tripwired.ancient_debris": "Ancient Debris",
       "item.tripwired.sapphire_apple": "Sapphire Apple",
       "item.minecraft.potion.effect.allowed_explosive": "Allowed Explosive",
+      "item.tripwired.tier_1_electricified_chestplate": "Tier 1 Electricified Chestplate (Chargeless)",
       "item.tripwired.nether_star_apple": "Nether Star Apple",
       "item.tripwired.iron_apple": "Iron Apple",
       "item.tripwired.emerald_armor_helmet": "Emerald Helmet",
