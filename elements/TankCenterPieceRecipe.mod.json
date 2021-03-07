@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TrueClearGlass"
+      },
+      {
+        "value": "CUSTOM:SteelNugget"
+      },
+      {
+        "value": "CUSTOM:TrueClearGlass"
+      },
+      {
+        "value": "CUSTOM:TrueClearGlass"
+      },
+      {
+        "value": "CUSTOM:SteelNugget"
+      },
+      {
+        "value": "CUSTOM:TrueClearGlass"
+      },
+      {
+        "value": "CUSTOM:TrueClearGlass"
+      },
+      {
+        "value": "CUSTOM:SteelNugget"
+      },
+      {
+        "value": "CUSTOM:TrueClearGlass"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TankCenterPiece"
+    },
+    "name": "tank_center_piece_recipe",
+    "namespace": "mod"
+  }
+}

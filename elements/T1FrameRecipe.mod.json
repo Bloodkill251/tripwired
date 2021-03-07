@@ -13,28 +13,28 @@
         "value": "CUSTOM:CopperIngot"
       },
       {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "CUSTOM:CopperIngot"
-      },
-      {
-        "value": "Items.IRON_INGOT"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": ""
       },
       {
-        "value": "CUSTOM:CopperIngot"
+        "value": "CUSTOM:TripleCompressedCobblestone"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": ""
       },
       {
-        "value": "CUSTOM:CopperIngot"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {

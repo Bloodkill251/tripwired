@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "tripwired:blocks/frametier1",
-    "up": "tripwired:blocks/frametier1",
-    "north": "tripwired:blocks/frametier1",
-    "east": "tripwired:blocks/frametier1",
-    "south": "tripwired:blocks/frametier1",
-    "west": "tripwired:blocks/frametier1",
-    "particle": "tripwired:blocks/frametier1"
+    "down": "tripwired:blocks/tier1normalmachineoutside",
+    "up": "tripwired:blocks/tier1normalmachineoutside",
+    "north": "tripwired:blocks/tier1normalmachineoutside",
+    "east": "tripwired:blocks/tier1normalmachineoutside",
+    "south": "tripwired:blocks/tier1normalmachineoutside",
+    "west": "tripwired:blocks/tier1normalmachineoutside",
+    "particle": "tripwired:blocks/tier1normalmachineoutside"
   }
 }

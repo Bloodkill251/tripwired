@@ -88,7 +88,7 @@ public class OverworldSteelOreBlock extends TripwiredModElements.ModElement {
 						if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 							blockCriteria = true;
 						return blockCriteria;
-					}), block.getDefaultState(), 3)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(2, 5, 5, 40))));
+					}), block.getDefaultState(), 3)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(2, 5, 5, 30))));
 		}
 	}
 }

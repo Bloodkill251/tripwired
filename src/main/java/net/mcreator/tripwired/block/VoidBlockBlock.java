@@ -29,7 +29,7 @@ public class VoidBlockBlock extends TripwiredModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(6f, 10f).lightValue(0).harvestLevel(14)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(6f, 10f).lightValue(0).harvestLevel(8)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("void_block");
 		}

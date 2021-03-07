@@ -10,31 +10,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Ruby"
+        "value": "CUSTOM:Tank"
       },
       {
         "value": "CUSTOM:Tier1Frame"
       },
       {
-        "value": "Items.IRON_NUGGET"
+        "value": ""
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": ""
       }
     ],
     "recipeReturnStack": {

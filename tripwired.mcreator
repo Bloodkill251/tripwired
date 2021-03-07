@@ -1007,15 +1007,6 @@
       "registry_name": "flint_and_iron_recipe"
     },
     {
-      "name": "IronOreLootTable",
-      "type": "loottable",
-      "sortid": 126,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "iron_ore_loot_table"
-    },
-    {
       "name": "DeathLeaveLootTable",
       "type": "loottable",
       "sortid": 127,
@@ -3106,24 +3097,6 @@
       "registry_name": "dagger_fuel"
     },
     {
-      "name": "SteelOreAdditionalGenerationCondition",
-      "type": "procedure",
-      "sortid": 267,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "steel_ore_additional_generation_condition",
-      "metadata": {
-        "return_type": "LOGIC",
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Tier1UraniumPurifierRecipe",
       "type": "recipe",
       "sortid": 268,
@@ -3523,9 +3496,248 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "Tier1ElectifiedActive",
+      "type": "armor",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tier_1_electified_active",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ElectrifiedArmorWornTest",
+      "type": "procedure",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electrified_armor_worn_test",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tier1ElectrifiedAbilities",
+      "type": "procedure",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tier_1_electrified_abilities",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperPiece",
+      "type": "item",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_piece"
+    },
+    {
+      "name": "CopperIngotToCopperPiece",
+      "type": "recipe",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ingot_to_copper_piece"
+    },
+    {
+      "name": "Tank",
+      "type": "item",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tank"
+    },
+    {
+      "name": "Machinery",
+      "type": "tab",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "machinery"
+    },
+    {
+      "name": "TankCenterPiece",
+      "type": "item",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tank_center_piece"
+    },
+    {
+      "name": "SteelNugget",
+      "type": "item",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_nugget"
+    },
+    {
+      "name": "TankCenterPieceRecipe",
+      "type": "recipe",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tank_center_piece_recipe"
+    },
+    {
+      "name": "TankCenter",
+      "type": "item",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tank_center"
+    },
+    {
+      "name": "TankCenterRecipe",
+      "type": "recipe",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tank_center_recipe"
+    },
+    {
+      "name": "MiniSapphireBlockBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mini_sapphire_block_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TankEdgePieces",
+      "type": "item",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tank_edge_pieces"
+    },
+    {
+      "name": "TankEdgePiecesRecipe",
+      "type": "recipe",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tank_edge_pieces_recipe"
+    },
+    {
+      "name": "TankRecipe",
+      "type": "recipe",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tank_recipe"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "ElectrifiedT1HelmetWorn",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "ElectrifiedT1ChestplateWorn",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "ElectrifiedT1LeggingsWorn",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "ElectrifiedT1BootsWorn",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "ET1HCharge",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "ET1CCharge",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "ET1LCharge",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "ET1BCharge",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "firebloodentitysound",
@@ -3540,7 +3752,7 @@
       "files": [
         "untitled_song"
       ],
-      "category": "record",
+      "category": "music",
       "subtitle": "A guitar song"
     }
   ],
@@ -3567,7 +3779,9 @@
       "block.tripwired.tenxttn": "Tenxttn",
       "item.tripwired.sapphire": "Sapphire",
       "effect.milk": "Milk",
+      "item.tripwired.tank": "Tank",
       "item.tripwired.sapphire_armor_armor_boots": "Sapphire Boots",
+      "item.tripwired.tier_1_electified_active_helmet": "Tier 1 Electricified Helmet (Charged)",
       "item.tripwired.void_dimension": "Void Igniter",
       "item.minecraft.potion.effect.milk": "Milk",
       "item.tripwired.ruby_dagger": "Ruby Dagger",
@@ -3586,6 +3800,8 @@
       "enchantment.tripwired.bonus_health": "Bonus Health",
       "item.tripwired.ruby_1_armor_leggings": "Ruby Leggings",
       "block.tripwired.custom_explosive": "Custom Explosive",
+      "item.tripwired.tank_center_piece": "Tank Center Piece",
+      "item.tripwired.tank_center": "Tank Center",
       "block.tripwired.quintuple_compressed_cobblestone": "Quinruple Compressed Cobblestone",
       "item.tripwired.book_1": "Random Enchanted Book",
       "itemGroup.tabdimensional_items": "Dimensional Items",
@@ -3598,6 +3814,7 @@
       "item.tripwired.lapis_apple": "Lapis Apple",
       "block.tripwired.death_log": "Death Log",
       "item.tripwired.ignore": "Placeholder",
+      "item.tripwired.tank_edge_pieces": "Tank Edge Piece",
       "item.minecraft.tipped_arrow.effect.milk": "Arrow of Milk",
       "advancements.advancement_1.descr": "Obtain a steel ore, a 1/100 drop from iron ore.",
       "item.tripwired.sapphire_armor_armor_leggings": "Sapphire Leggings",
@@ -3621,6 +3838,7 @@
       "block.tripwired.kiro_planks": "Kiro Planks",
       "subtitles.death_tone_1": "Sound Of A Deadly Entity",
       "item.tripwired.sapphire_armor_armor_chestplate": "Sapphire Chestplate",
+      "item.tripwired.tier_1_electified_active_leggings": "Tier 1 Electricified Leggings (Charged)",
       "item.tripwired.emerald_armor_leggings": "Emerald Leggings",
       "item.tripwired.copper_ingot": "Copper Ingot",
       "item.tripwired.dagger": "Dagger",
@@ -3628,7 +3846,7 @@
       "itemGroup.tabother_mod_items": "Other Mod Items",
       "item.tripwired.coal_apple": "Coal Apple",
       "block.tripwired.sapphire_ore": "Sapphire Ore",
-      "item.tripwired.tier_1_electricified_boots": "Tier 1 Electricified Boots (Chargelesss)",
+      "item.tripwired.tier_1_electricified_boots": "Tier 1 Electricified Boots (Chargeless)",
       "fluid.malk": "Malk",
       "enchantment.tripwired.insta_break": "Insta Break",
       "item.minecraft.potion.effect.acid_immunity": "Acid Immunity",
@@ -3646,17 +3864,20 @@
       "item.tripwired.nether_star_apple": "Nether Star Apple",
       "item.tripwired.iron_apple": "Iron Apple",
       "item.tripwired.emerald_armor_helmet": "Emerald Helmet",
+      "item.tripwired.tier_1_electified_active_boots": "Tier 1 Electricified Boots (Charged)",
       "subtitles.firebloodentitysound": "Oh guh guh",
       "block.tripwired.kiro_grass": "Kiro Grass",
       "block.tripwired.quadruple_compressed_cobblestone": "Quadruple Compressed Cobblestone",
       "block.tripwired.kiro_copper_ore": "Copper Ore",
       "item.tripwired.edible_kiro_seeds": "Edible Kiro Seeds",
+      "item.tripwired.copper_piece": "Copper Piece",
       "itemGroup.tabmodded_ore_results": "Modded Ore Results",
       "enchantment.tripwired.true_protection": "True Protection",
       "block.tripwired.blood_fire_spawn": "Blood Fire Spawn",
       "item.tripwired.blood_bucket": "Blood Bucket",
       "block.tripwired.waypoint": "Waypoint",
       "item.tripwired.sapphire_dagger": "Sapphire Dagger",
+      "item.tripwired.tier_1_electified_active_chestplate": "Tier 1 Electricified Chestplate (Charged)",
       "item.minecraft.lingering_potion.effect.allowed_explosive": "Lingering Allowed Explosive",
       "item.minecraft.potion.effect.explosion_aftermath": "Explosion Aftermath",
       "block.tripwired.kiro_stone": "Kiro Stone",
@@ -3664,12 +3885,14 @@
       "entity.tripwired.fire_blood": "Fire Blood",
       "item.tripwired.stone_dagger": "Stone Dagger",
       "item.tripwired.ruby_1_armor_chestplate": "Ruby Chestplate",
+      "item.tripwired.steel_nugget": "Steel Nugget",
       "item.minecraft.splash_potion.effect.milk": "Splash Milk",
       "block.tripwired.true_clear_glass": "Clear Glass",
       "item.minecraft.splash_potion.effect.explosion_aftermath": "Splash Explosion Aftermath",
+      "itemGroup.tabmachinery": "Machinery",
       "biome.tripwired.silent": "Silent",
       "block.tripwired.nether_gold_ore": "Nether Gold Ore",
-      "item.tripwired.guitar_one.desc": "Sayne - Guitar One (Vocalless, Solo)",
+      "item.tripwired.guitar_one.desc": "Sayne - Guitar1",
       "block.tripwired.silent_copper_ore": "Copper Ore",
       "fluid.void_liquid": "VoidLiquid",
       "item.tripwired.blood_fire_spawn_egg": "Fire Blood Spawn Egg",

@@ -14,20 +14,6 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Book1"
-            },
-            "weight": 1,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
               "value": "Items.GOLDEN_APPLE#1"
             },
             "weight": 1,
@@ -52,6 +38,20 @@
             "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Ruby"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
           }
         ]
       },
@@ -62,20 +62,6 @@
         "maxbonusrolls": 1,
         "hasbonusrolls": false,
         "entries": [
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:Book1"
-            },
-            "weight": 1,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
           {
             "type": "item",
             "item": {
@@ -144,20 +130,6 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Book1"
-            },
-            "weight": 1,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
               "value": "CUSTOM:Ignore"
             },
             "weight": 1,
@@ -200,7 +172,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:NetherStarApple"
+              "value": "CUSTOM:IronApple"
             },
             "weight": 1,
             "minCount": 1,
