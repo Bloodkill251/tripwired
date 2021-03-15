@@ -1,0 +1,22 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tripwired:copper_piece"
+    },
+    {
+      "item": "tripwired:copper_piece"
+    },
+    {
+      "item": "tripwired:copper_piece"
+    },
+    {
+      "item": "tripwired:copper_piece"
+    }
+  ],
+  "result": {
+    "item": "tripwired:copper_ingot",
+    "count": 1
+  }
+}

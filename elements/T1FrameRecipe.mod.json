@@ -10,31 +10,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:CopperIngot"
+        "value": "CUSTOM:CopperPiece"
       },
       {
-        "value": ""
+        "value": "CUSTOM:IronRod"
       },
       {
-        "value": ""
+        "value": "CUSTOM:CopperPiece"
       },
       {
-        "value": ""
+        "value": "CUSTOM:IronRod"
       },
       {
-        "value": "CUSTOM:TripleCompressedCobblestone"
+        "value": "CUSTOM:Tier1FrameCenter"
       },
       {
-        "value": ""
+        "value": "CUSTOM:IronRod"
       },
       {
-        "value": ""
+        "value": "CUSTOM:CopperPiece"
       },
       {
-        "value": ""
+        "value": "CUSTOM:IronRod"
       },
       {
-        "value": ""
+        "value": "CUSTOM:CopperPiece"
       }
     ],
     "recipeReturnStack": {

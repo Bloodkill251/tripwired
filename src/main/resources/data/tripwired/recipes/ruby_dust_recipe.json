@@ -1,0 +1,9 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "tripwired:ruby"
+  },
+  "result": "tripwired:ruby_dust"
+}

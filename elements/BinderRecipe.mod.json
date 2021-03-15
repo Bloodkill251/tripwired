@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Silk"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "CUSTOM:RubyDust"
+      },
+      {
+        "value": "CUSTOM:FireBloodDust"
+      },
+      {
+        "value": "Blocks.REEDS"
+      },
+      {
+        "value": "Items.SLIME_BALL"
+      },
+      {
+        "value": "CUSTOM:RedGlowstoneDust"
+      },
+      {
+        "value": "Blocks.BAMBOO"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Binder"
+    },
+    "name": "binder_recipe",
+    "namespace": "mod"
+  }
+}

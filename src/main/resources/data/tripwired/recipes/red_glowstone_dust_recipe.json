@@ -1,0 +1,19 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "tripwired:red_glowstone_dust",
+    "count": 2
+  }
+}

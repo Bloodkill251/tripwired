@@ -329,6 +329,8 @@ public class UraniumPurifierProcedureProcedure extends TripwiredModElements.ModE
 			}
 		} else {
 			four = (double) Math.random();
+			if (entity instanceof PlayerEntity)
+				((PlayerEntity) entity).closeScreen();
 			if ((Math.random() <= 0.5)) {
 				{
 					Entity _ent = entity;

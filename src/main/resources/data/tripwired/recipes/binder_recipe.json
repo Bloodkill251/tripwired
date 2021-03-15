@@ -1,0 +1,37 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tripwired:silk"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "tripwired:ruby_dust"
+    },
+    {
+      "item": "tripwired:fire_blood_dust"
+    },
+    {
+      "item": "minecraft:sugar_cane"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "tripwired:red_glowstone_dust"
+    },
+    {
+      "item": "minecraft:bamboo"
+    }
+  ],
+  "result": {
+    "item": "tripwired:binder",
+    "count": 3
+  }
+}

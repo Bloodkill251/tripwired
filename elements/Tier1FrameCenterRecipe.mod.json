@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CopperPiece"
+      },
+      {
+        "value": "CUSTOM:SingleCompressedCobblestone"
+      },
+      {
+        "value": "CUSTOM:SteelNugget"
+      },
+      {
+        "value": "CUSTOM:DoubleCompressedCobblestone"
+      },
+      {
+        "value": "CUSTOM:Binder"
+      },
+      {
+        "value": "CUSTOM:DoubleCompressedCobblestone"
+      },
+      {
+        "value": "CUSTOM:SteelNugget"
+      },
+      {
+        "value": "CUSTOM:SingleCompressedCobblestone"
+      },
+      {
+        "value": "CUSTOM:FireBloodDust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Tier1FrameCenter"
+    },
+    "name": "tier_1_frame_center_recipe",
+    "namespace": "mod"
+  }
+}

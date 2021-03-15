@@ -80,7 +80,7 @@ public class Tier1ElectifiedActiveItem extends TripwiredModElements.ModElement {
 
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "tripwired:textures/models/armor/tier1electrified_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "tripwired:textures/models/armor/tier1electifiedactive_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("tier_1_electified_active_helmet"));
 		elements.items
@@ -94,7 +94,7 @@ public class Tier1ElectifiedActiveItem extends TripwiredModElements.ModElement {
 
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "tripwired:textures/models/armor/tier1electrified_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+						return "tripwired:textures/models/armor/tier1electifiedactive_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 					}
 				}.setRegistryName("tier_1_electified_active_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ModdedArmorAndToolsItemGroup.tab)) {
@@ -107,7 +107,7 @@ public class Tier1ElectifiedActiveItem extends TripwiredModElements.ModElement {
 
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "tripwired:textures/models/armor/tier1electrified_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "tripwired:textures/models/armor/tier1electifiedactive_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("tier_1_electified_active_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ModdedArmorAndToolsItemGroup.tab)) {
@@ -120,7 +120,7 @@ public class Tier1ElectifiedActiveItem extends TripwiredModElements.ModElement {
 
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "tripwired:textures/models/armor/tier1electrified_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "tripwired:textures/models/armor/tier1electifiedactive_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("tier_1_electified_active_boots"));
 	}

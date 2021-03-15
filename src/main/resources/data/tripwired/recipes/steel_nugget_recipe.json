@@ -1,0 +1,16 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "tripwired:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "tripwired:steel_nugget",
+    "count": 9
+  }
+}

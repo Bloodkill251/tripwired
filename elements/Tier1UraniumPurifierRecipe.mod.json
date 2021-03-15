@@ -7,16 +7,16 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:LiquidInput"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Binder"
       },
       {
-        "value": ""
+        "value": "CUSTOM:ItemInput"
       },
       {
         "value": "CUSTOM:Tank"
@@ -25,16 +25,16 @@
         "value": "CUSTOM:Tier1Frame"
       },
       {
-        "value": ""
+        "value": "CUSTOM:TripleItemOutput"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Binder"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Binder"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Binder"
       }
     ],
     "recipeReturnStack": {

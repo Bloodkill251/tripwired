@@ -2,15 +2,37 @@
   "group": "tripwired",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0 ",
-    " 3"
+    "012",
+    "345",
+    "678"
   ],
   "key": {
     "0": {
-      "item": "tripwired:copper_ingot"
+      "item": "tripwired:copper_piece"
+    },
+    "1": {
+      "item": "tripwired:iron_rod"
+    },
+    "2": {
+      "item": "tripwired:copper_piece"
     },
     "3": {
-      "item": "tripwired:triple_compressed_cobblestone"
+      "item": "tripwired:iron_rod"
+    },
+    "4": {
+      "item": "tripwired:tier_1_frame_center"
+    },
+    "5": {
+      "item": "tripwired:iron_rod"
+    },
+    "6": {
+      "item": "tripwired:copper_piece"
+    },
+    "7": {
+      "item": "tripwired:iron_rod"
+    },
+    "8": {
+      "item": "tripwired:copper_piece"
     }
   },
   "result": {
