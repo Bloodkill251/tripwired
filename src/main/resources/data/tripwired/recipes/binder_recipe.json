@@ -12,10 +12,7 @@
       "item": "minecraft:water_bucket"
     },
     {
-      "item": "tripwired:ruby_dust"
-    },
-    {
-      "item": "tripwired:fire_blood_dust"
+      "item": "tripwired:rubber"
     },
     {
       "item": "minecraft:sugar_cane"
@@ -24,7 +21,7 @@
       "item": "minecraft:slime_ball"
     },
     {
-      "item": "tripwired:red_glowstone_dust"
+      "item": "tripwired:multi_dust_1"
     },
     {
       "item": "minecraft:bamboo"

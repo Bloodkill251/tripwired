@@ -11,16 +11,16 @@
       "value": "CUSTOM:ModdedArmorAndTools"
     },
     "toolType": "Sword",
-    "harvestLevel": 1,
-    "efficiency": 4.0,
+    "harvestLevel": 3,
+    "efficiency": 5.0,
     "attackSpeed": 3.4,
-    "enchantability": 2,
-    "damageVsEntity": 3.0,
-    "usageCount": 100,
+    "enchantability": 18,
+    "damageVsEntity": 5.0,
+    "usageCount": 1906,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
-    "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
   }
 }

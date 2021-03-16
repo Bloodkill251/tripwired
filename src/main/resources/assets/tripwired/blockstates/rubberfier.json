@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tripwired:block/rubberfier"
+    },
+    "facing=east": {
+      "model": "tripwired:block/rubberfier",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tripwired:block/rubberfier",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tripwired:block/rubberfier",
+      "y": 270
+    }
+  }
+}

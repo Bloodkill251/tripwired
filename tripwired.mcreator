@@ -4018,6 +4018,134 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "red_glowstone_dust_recipe"
+    },
+    {
+      "name": "MultiDust1",
+      "type": "item",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "multi_dust_1"
+    },
+    {
+      "name": "MultiDust",
+      "type": "recipe",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "multi_dust"
+    },
+    {
+      "name": "TreeSap",
+      "type": "item",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tree_sap"
+    },
+    {
+      "name": "TreeDust",
+      "type": "item",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tree_dust"
+    },
+    {
+      "name": "TreeSapRecipe",
+      "type": "recipe",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tree_sap_recipe"
+    },
+    {
+      "name": "TreedustRecipe",
+      "type": "recipe",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "treedust_recipe"
+    },
+    {
+      "name": "TreeDustRecipe2",
+      "type": "recipe",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tree_dust_recipe_2"
+    },
+    {
+      "name": "Rubber",
+      "type": "item",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubber"
+    },
+    {
+      "name": "Rubberfier",
+      "type": "block",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubberfier"
+    },
+    {
+      "name": "Fuel",
+      "type": "item",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fuel"
+    },
+    {
+      "name": "RubberfierGUI",
+      "type": "gui",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubberfier_gui"
+    },
+    {
+      "name": "RubberfierUpdateTick",
+      "type": "procedure",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubberfier_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -4091,8 +4219,8 @@
   "language_map": {
     "en_us": {
       "block.tripwired.ruby_block": "Ruby Block",
-      "item.tripwired.a_ruby_hoe": "Ruby Hoe",
       "item.tripwired.acid_bucket_2": "Acid Bucket",
+      "item.tripwired.a_ruby_hoe": "Ruby Hoe",
       "enchantment.tripwired.infinite_regeneration": "Infinite Regeneration",
       "item.tripwired.stone_pitchfork": "Pitchfork",
       "itemGroup.tabmodded_ores": "Modded Ores",
@@ -4100,32 +4228,34 @@
       "item.minecraft.splash_potion.effect.acid_immunity": "Splash Acid Immunity",
       "subtitles.nyan_cat": "Meow",
       "item.tripwired.pitchfork": "Pitchfork",
-      "block.tripwired.steel_ore": "Steel Ore",
       "item.tripwired.triple_item_output": "Triple Item Output",
+      "block.tripwired.steel_ore": "Steel Ore",
       "fluid.blood": "Blood",
       "enchantment.tripwired.shattering": "Shattering",
-      "effect.milk": "Milk",
       "item.tripwired.sapphire": "Sapphire",
-      "item.tripwired.tier_1_electified_active_helmet": "Tier 1 Electricified Helmet (Charged)",
+      "effect.milk": "Milk",
       "item.tripwired.sapphire_armor_armor_boots": "Sapphire Boots",
-      "item.minecraft.potion.effect.milk": "Milk",
+      "item.tripwired.tier_1_electified_active_helmet": "Tier 1 Electricified Helmet (Charged)",
+      "block.tripwired.rubberfier": "Rubberfier",
       "item.tripwired.void_dimension": "Void Igniter",
+      "item.minecraft.potion.effect.milk": "Milk",
+      "item.tripwired.fuel": "Fuel (Liquid)",
       "block.tripwired.sapphire_block": "Sapphire Block",
       "item.tripwired.iron_stick": "Iron Stick",
-      "block.tripwired.tier_1_frame": "Tier 1 Frame",
-      "item.tripwired.silent_dimension": "Flint and Iron",
       "item.tripwired.a_ruby_sword": "Ruby Sword",
+      "item.tripwired.silent_dimension": "Flint and Iron",
+      "block.tripwired.tier_1_frame": "Tier 1 Frame",
       "item.tripwired.netherite_pickaxe": "Netherite Pickaxe",
       "item.tripwired.tier_1_electricified_helmet": "Tier 1 Electricified Helmet (Chargeless)",
       "item.tripwired.sapphirea_pickaxe": "Sapphire Pickaxe",
       "item.tripwired.lapis_apple": "Lapis Apple",
-      "item.minecraft.tipped_arrow.effect.milk": "Arrow of Milk",
       "item.tripwired.ruby_dust": "Ruby Dust",
-      "item.tripwired.sapphire_armor_armor_leggings": "Sapphire Leggings",
+      "item.minecraft.tipped_arrow.effect.milk": "Arrow of Milk",
       "item.tripwired.ruby_1_armor_boots": "Ruby Boots",
+      "item.tripwired.sapphire_armor_armor_leggings": "Sapphire Leggings",
       "item.tripwired.netherite_ingot": "Netherite Ingot",
-      "item.minecraft.tipped_arrow.effect.explosion_aftermath": "Arrow of Explosion Aftermath",
       "itemGroup.tabsuper_ores": "Super Ores",
+      "item.minecraft.tipped_arrow.effect.explosion_aftermath": "Arrow of Explosion Aftermath",
       "itemGroup.tabmodded_armor_and_tools": "Modded Armor And Tools",
       "biome.tripwired.voided": "Voided",
       "block.tripwired.kiro_planks": "Kiro Planks",
@@ -4143,8 +4273,8 @@
       "item.tripwired.iron_rod": "Iron Rod",
       "item.minecraft.potion.effect.acid_immunity": "Acid Immunity",
       "advancements.welcome_to_the_silence.descr": "Where Ores Better Then Diamond Lie.",
-      "item.minecraft.tipped_arrow.effect.allowed_explosive": "Arrow of Allowed Explosive",
       "item.tripwired.red_glowstone_dust": "Relowstone Dust",
+      "item.minecraft.tipped_arrow.effect.allowed_explosive": "Arrow of Allowed Explosive",
       "block.tripwired.ancient_debris": "Ancient Debris",
       "item.minecraft.potion.effect.allowed_explosive": "Allowed Explosive",
       "item.tripwired.iron_apple": "Iron Apple",
@@ -4244,8 +4374,10 @@
       "item.tripwired.a_ruby_axe": "Ruby Axe",
       "item.tripwired.sapphire_armor_armor_chestplate": "Sapphire Chestplate",
       "item.tripwired.tier_1_electified_active_leggings": "Tier 1 Electricified Leggings (Charged)",
+      "item.tripwired.tree_sap": "Tree Sap",
       "item.tripwired.dagger": "Dagger",
       "item.tripwired.emerald_armor_chestplate": "Emerald Chestplate",
+      "item.tripwired.tree_dust": "Tree Dust",
       "item.tripwired.tier_1_electricified_leggings": "Tier 1 Electricified Leggings (Chargeless)",
       "block.tripwired.single_compressed_cobblestone": "Single Compressed Cobblestone",
       "item.tripwired.missile_spawn_egg": "Missile Spawn Egg",
@@ -4259,6 +4391,7 @@
       "subtitles.firebloodentitysound": "Oh guh guh",
       "block.tripwired.kiro_grass": "Kiro Grass",
       "block.tripwired.loom": "Loom",
+      "item.tripwired.rubber": "Rubber",
       "item.tripwired.blood_bucket": "Blood Bucket",
       "block.tripwired.blood_fire_spawn": "Blood Fire Spawn",
       "item.minecraft.lingering_potion.effect.allowed_explosive": "Lingering Allowed Explosive",
@@ -4269,6 +4402,7 @@
       "itemGroup.tabmachinery": "Machinery",
       "block.tripwired.nether_gold_ore": "Nether Gold Ore",
       "block.tripwired.silent_copper_ore": "Copper Ore",
+      "item.tripwired.multi_dust_1": "Multidust (red,glow,fb,ruby)",
       "fluid.acid": "Acid",
       "entity.tripwired.missile": "Missile",
       "item.tripwired.netherite_leggings": "Netherite Leggings",

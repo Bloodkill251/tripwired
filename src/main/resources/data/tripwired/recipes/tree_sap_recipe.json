@@ -1,0 +1,30 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "tripwired:tree_dust"
+    },
+    "3": {
+      "item": "minecraft:oak_log"
+    },
+    "4": {
+      "item": "minecraft:potion"
+    },
+    "5": {
+      "item": "minecraft:oak_log"
+    },
+    "7": {
+      "item": "tripwired:tree_dust"
+    }
+  },
+  "result": {
+    "item": "tripwired:tree_sap",
+    "count": 3
+  }
+}

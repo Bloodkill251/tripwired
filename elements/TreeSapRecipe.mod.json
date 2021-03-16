@@ -7,40 +7,40 @@
     "cookingTime": 200,
     "recipeRetstackSize": 3,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Silk"
+        "value": ""
       },
       {
-        "value": "Items.STRING"
-      },
-      {
-        "value": "Items.WATER_BUCKET"
-      },
-      {
-        "value": "CUSTOM:Rubber"
+        "value": "CUSTOM:TreeDust"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.REEDS"
+        "value": "Blocks.LOG"
       },
       {
-        "value": "Items.SLIME_BALL"
+        "value": "Items.POTIONITEM"
       },
       {
-        "value": "CUSTOM:MultiDust1"
+        "value": "Blocks.LOG"
       },
       {
-        "value": "Blocks.BAMBOO"
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TreeDust"
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Binder"
+      "value": "CUSTOM:TreeSap"
     },
-    "name": "binder_recipe",
+    "name": "tree_sap_recipe",
     "namespace": "mod"
   }
 }

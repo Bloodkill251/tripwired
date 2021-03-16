@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tripwired:blocks/loomsidesandbottom",
+    "up": "tripwired:blocks/loomsidesandbottom",
+    "north": "tripwired:blocks/saptorubbertop",
+    "east": "tripwired:blocks/loomsidesandbottom",
+    "south": "tripwired:blocks/loomsidesandbottom",
+    "west": "tripwired:blocks/loomsidesandbottom",
+    "particle": "tripwired:blocks/loomsidesandbottom"
+  }
+}

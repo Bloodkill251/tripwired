@@ -9,6 +9,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.tripwired.item.SilkItem;
+import net.mcreator.tripwired.item.AcidBucket2Item;
 import net.mcreator.tripwired.TripwiredModElements;
 
 import java.util.function.Supplier;
@@ -42,7 +43,7 @@ public class LoomGUIWhileThisGUIIsOpenTickProcedure extends TripwiredModElements
 				return ItemStack.EMPTY;
 			}
 		}.getItemStack((int) (0))).getItem())) {
-			if ((new ItemStack(Blocks.WHITE_WOOL, (int) (1)).getItem() == (new Object() {
+			if ((new ItemStack(AcidBucket2Item.block, (int) (1)).getItem() == (new Object() {
 				public ItemStack getItemStack(int sltid) {
 					Entity _ent = entity;
 					if (_ent instanceof ServerPlayerEntity) {
@@ -107,19 +108,6 @@ public class LoomGUIWhileThisGUIIsOpenTickProcedure extends TripwiredModElements
 								Object invobj = ((Supplier) _current).get();
 								if (invobj instanceof Map) {
 									((Slot) ((Map) invobj).get((int) (0))).decrStackSize((int) (1));
-									_current.detectAndSendChanges();
-								}
-							}
-						}
-					}
-					{
-						Entity _ent = entity;
-						if (_ent instanceof ServerPlayerEntity) {
-							Container _current = ((ServerPlayerEntity) _ent).openContainer;
-							if (_current instanceof Supplier) {
-								Object invobj = ((Supplier) _current).get();
-								if (invobj instanceof Map) {
-									((Slot) ((Map) invobj).get((int) (1))).decrStackSize((int) (1));
 									_current.detectAndSendChanges();
 								}
 							}

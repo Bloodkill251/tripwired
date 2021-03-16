@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 3,
+    "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Silk"
+        "value": "CUSTOM:RedGlowstoneDust"
       },
       {
-        "value": "Items.STRING"
-      },
-      {
-        "value": "Items.WATER_BUCKET"
-      },
-      {
-        "value": "CUSTOM:Rubber"
+        "value": "CUSTOM:RubyDust"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.REEDS"
+        "value": "CUSTOM:FireBloodDust"
       },
       {
-        "value": "Items.SLIME_BALL"
+        "value": ""
       },
       {
-        "value": "CUSTOM:MultiDust1"
+        "value": ""
       },
       {
-        "value": "Blocks.BAMBOO"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Binder"
+      "value": "CUSTOM:MultiDust1"
     },
-    "name": "binder_recipe",
+    "name": "multi_dust",
     "namespace": "mod"
   }
 }

@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
@@ -23,29 +24,43 @@ public class RubyDaggerItem extends TripwiredModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 1906;
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 5f;
 			}
 
 			public float getAttackDamage() {
-				return 1f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 3;
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 18;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -0.6f, new Item.Properties().group(ModdedArmorAndToolsItemGroup.tab)) {
+			@Override
+			public boolean hasContainerItem() {
+				return true;
+			}
+
+			@Override
+			public ItemStack getContainerItem(ItemStack itemstack) {
+				ItemStack retval = new ItemStack(this);
+				retval.setDamage(itemstack.getDamage() + 1);
+				if (retval.getDamage() >= retval.getMaxDamage()) {
+					return ItemStack.EMPTY;
+				}
+				return retval;
+			}
 		}.setRegistryName("ruby_dagger"));
 	}
 }

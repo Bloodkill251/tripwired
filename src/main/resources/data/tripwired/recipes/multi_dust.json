@@ -1,0 +1,23 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 "
+  ],
+  "key": {
+    "0": {
+      "item": "tripwired:red_glowstone_dust"
+    },
+    "1": {
+      "item": "tripwired:ruby_dust"
+    },
+    "2": {
+      "item": "tripwired:fire_blood_dust"
+    }
+  },
+  "result": {
+    "item": "tripwired:multi_dust_1",
+    "count": 1
+  }
+}

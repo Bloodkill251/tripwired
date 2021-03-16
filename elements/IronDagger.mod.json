@@ -16,11 +16,11 @@
     "attackSpeed": 3.2,
     "enchantability": 2,
     "damageVsEntity": 1.0,
-    "usageCount": 100,
+    "usageCount": 500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
-    "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
   }
 }
